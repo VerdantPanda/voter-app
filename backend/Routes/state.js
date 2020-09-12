@@ -16,7 +16,7 @@ router.get("/", (req, res) => {
   });
 });
 
-router.get("/byletters/:state", (req, res) => {
+router.get("/getstate/:state", (req, res) => {
   State.findOne({ letters: req.params.state }, (err, docs) => {
     if (err) {
       console.log("not-found");
