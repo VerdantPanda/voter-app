@@ -5,6 +5,7 @@ import {ListGroup, Col, Row, Form, Alert } from "react-bootstrap/";
 // import states_names from "../static_data/states_names";
 import axios from "axios";
 import Button from "@material-ui/core/Button";
+import states_names from "../static_data/states_names";
 import Axios from "axios";
 // import ResponsiveEmbed
 // import Iframe from "react-iframe";
@@ -12,9 +13,11 @@ let list = ["stea"]; //states_names.map((state) => <option key={state}>{state}</
 export default class News extends Component {
   constructor(props) {
     super(props);
+    
+    const stateList = states_names.map((state) => <option key={state}>{state}</option>);
     this.handleChange = this.handleChange.bind(this);
     this.handleChangeState = this.handleChangeState.bind(this);
-    this.state = { state: "Georgia", newsTitle: [""],newsLink: [""], result: "", alertVariant: "light" };
+    this.state = { state: "Alabama", newsTitle: [""],newsLink: [""], result: "", list: stateList};
   }
 
   handleChange(event) {
@@ -34,11 +37,13 @@ export default class News extends Component {
         {/*TODO: Consider replacing whith AutoComplete from Material UI instead(has already been imported via npm install.)  */}
         <Form>
 
-
-    <Form.Group controlId="formGridState">
-      <Form.Label>State</Form.Label>
-      <Form.Control placeHolder="Georgia" onChange={this.handleChangeState}/>
-    </Form.Group>
+        <Form.Group controlId="stateSelector">
+            <Form.Label>Example select</Form.Label>
+            <Form.Control as="select" size="lg" onChange={this.handleChangeState}>
+              {this.state.list}
+            </Form.Control>
+          </Form.Group>
+    
 
         <Button
           variant="contained"
