@@ -1,6 +1,8 @@
 const mongoose = require ("mongoose");
 
 const stateSchema = new mongoose.Schema({
+    name : String,
+    letters : String,
     registerlink: String,
     demographics : {
         ethnicity: [String],
