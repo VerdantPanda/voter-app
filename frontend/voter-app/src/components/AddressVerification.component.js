@@ -18,7 +18,7 @@ export default class AddressVerification extends Component {
     this.handleChangeCity = this.handleChangeCity.bind(this);
     this.handleChangeState = this.handleChangeState.bind(this);
     this.handleChangeZip = this.handleChangeZip.bind(this);
-    this.state = { add1: null, add2: null, city:null, state: null, zip: null, result: "" };
+    this.state = { add1: null, add2: null, city:null, state: null, zip: null, result: "", alertVariant: "light" };
   }
 
   handleChange(event) {
@@ -84,7 +84,14 @@ export default class AddressVerification extends Component {
               var curr = resp.data.toString()
               curr = curr.replace(/<[^>]*>/g, ' ');
               this.setState({ result: curr });
+
+              this.setState({alertVariant: "success"});
+              if (curr.includes("Address Not Found")){
+                this.setState({alertVariant: "danger"});
+                this.setState({result: "The address you entered could not be found. Kindly correct and try again."})  
+              }
               console.log(resp.data);
+              
 });
             
             return null;
@@ -95,15 +102,13 @@ export default class AddressVerification extends Component {
           Verify your address in {this.state.state ?? "your state"}!
         </Button>
         </Form>
-        <Alert controlId="alert" variant="light">
+        <Alert controlId="alert" variant={this.state.alertVariant}>
   <Alert.Heading>Corrected Address:</Alert.Heading>
   <p>
     {this.state.result}
   </p>
   <hr />
-  <p className="mb-0">
-    a
-  </p>
+  
 </Alert>
       </div>
     );
