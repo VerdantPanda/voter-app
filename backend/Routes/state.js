@@ -4,6 +4,9 @@ const VisionAPI = require("../visionapi.js");
 const router = express.Router();
 const multer = require("multer");
 var upload = multer({ dest: "uploads/" });
+const cors = require('cors');
+const axios = require('axios');
+router.use(cors({ origin: true }));
 
 router.get("/", (req, res) => {
   State.find((err, docs) => {
@@ -88,6 +91,19 @@ router.post("/", (req, res) => {
 router.put("/:id", (req, res) => {
   const oldState = State.findByIdAndUpdate(req.params.id, req.body);
 });
+
+router.use("/news", (req, res) => {
+  
+    axios.get('https://news.google.com/rss/search?q=Voter%20Suppression%20'+req.query.state+'&hl=en-PK&gl=PK&ceid=PK:en')
+    .then(response => {
+      console.log(response.data);
+      res.json(response.data);
+    })
+    .catch(error => {
+      console.log(error);
+    });
+  });
+
 
 router.post("/detectState", upload.single("avatar"), async (req, res, next) => {
   console.log("_________");
