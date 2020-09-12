@@ -1,11 +1,19 @@
-import React, { Component } from "react";
+import React  from "react";
+import  GoogleApiWrapper  from "./GoogleApiWrapper" ;
 
-export default class LocationsToVote extends Component {
-  render() {
-    return (
-      <div>
+//AIzaSyAEq-OyHRzCJ1pvQKV9Qwq0INafDci8G3A
+
+const LocationsToVote  = () => {
+
+
+  return ( 
+    <div>
         <p>You are on the LocationsToVote component!</p>
+        <GoogleApiWrapper />
+       
       </div>
-    );
-  }
+   );
 }
+ 
+export default LocationsToVote ;
+
