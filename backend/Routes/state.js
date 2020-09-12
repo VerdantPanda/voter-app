@@ -1,5 +1,5 @@
 const express = require ("express");
-const State = require ("./Schemas/state");
+const State = require ("../Schemas/state")
 const router = express.Router();
 
 router.get ("/", async (req, res) => {

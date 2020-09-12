@@ -2,8 +2,8 @@ const http = require ("http");
 const express = require ("express");
 const mongoose = require("mongoose");
 const bodyPareser = require ("body-parser");
-const cors = require ("cors")
-const State = require ("Routes/state");
+const cors = require ("cors");
+const State = require ("./Routes/state");
 
 
 
