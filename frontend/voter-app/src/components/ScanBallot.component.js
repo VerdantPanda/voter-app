@@ -15,12 +15,29 @@ export default class ScanBallot extends Component {
   }
 
   onDrop(picture) {
-    this.setState({
-      pictures: this.state.pictures.concat(picture),
-    });
-    // axios.get();
+    console.log("pic taken");
+    console.log(picture);
+
+    // this.setState({
+    //   pictures: this.state.pictures.concat(picture),
+    // });
+    const data = new FormData();
+    data.append("file", picture);
+    axios
+      .post("https://localhost:3001/api/state/detectState", data, {
+        headers: {
+          "Content-Type": "multipart/form-data",
+        },
+      })
+      .then((res) => {
+        console.log(res);
+      })
+      .catch((err) => {
+        console.log(err);
+      });
     // make request POST to backend.
   }
+
   render() {
     return (
       <div>
