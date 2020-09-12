@@ -15,7 +15,7 @@ export default class ScanBallot extends Component {
   }
 
   onDrop(picture) {
-    console.log("pic taken");
+    console.log("This is picture:");
     console.log(picture);
 
     // this.setState({
@@ -23,14 +23,18 @@ export default class ScanBallot extends Component {
     // });
     const data = new FormData();
     data.append("file", picture);
+    console.log("formData.get('file') post append:");
+    console.log(data.get("file"));
+
     axios
-      .post("https://localhost:3001/api/state/detectState", data, {
-        headers: {
-          "Content-Type": "multipart/form-data",
-        },
+      .post("http://localhost:3001/api/state/detectState", data, {
+        headers: { "Content-Type": "multipart/form-data" },
       })
       .then((res) => {
+        console.log("This is Res:");
         console.log(res);
+        console.log("res.body.file");
+        console.log(res.body.file);
       })
       .catch((err) => {
         console.log(err);
