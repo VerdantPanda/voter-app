@@ -21,21 +21,20 @@ export default class ScanBallot extends Component {
     // this.setState({
     //   pictures: this.state.pictures.concat(picture),
     // });
-    const data = new FormData();
-    data.append("file", picture);
-    axios
-      .post("https://localhost:3001/api/state/detectState", data, {
+    
+    const formData = new FormData();
+    formData.append("image", picture);
+      axios.post('https://localhost:3001/api/state/detectState', formData, {
         headers: {
-          "Content-Type": "multipart/form-data",
-        },
+          'Content-Type': 'multipart/form-data'
+        }
       })
       .then((res) => {
         console.log(res);
       })
       .catch((err) => {
         console.log(err);
-      });
-    // make request POST to backend.
+      })
   }
 
   render() {
