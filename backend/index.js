@@ -12,7 +12,7 @@ mongoose.connect (dbConnectionString, {useNewUrlParser:true, useFindAndModify: f
         console.log("database connection failed");
     }
     else {
-        console.log("connected to the database :)");
+        console.log("connected to the database :)  ...");
     }
 }  )
 
