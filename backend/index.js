@@ -5,8 +5,6 @@ const bodyPareser = require ("body-parser");
 const cors = require ("cors");
 const State = require ("./Routes/state");
 
-<<<<<<< HEAD
-=======
 mongoose.set("useCreateIndex", true);
 const dbConnectionString = "mongodb+srv://2020fpennapps:VoterApp2020@voter-2020.nsemj.gcp.mongodb.net/State_Info?retryWrites=true&w=majority"
 mongoose.connect (dbConnectionString, {useNewUrlParser:true, useFindAndModify: false, useUnifiedTopology:true}, (err)=> {
@@ -18,7 +16,6 @@ mongoose.connect (dbConnectionString, {useNewUrlParser:true, useFindAndModify: f
     }
 }  )
 
->>>>>>> bf9f71a90ac20030e99c637d743facaf06f3fc10
 const app = express();
 
 app.use (bodyPareser.json());
