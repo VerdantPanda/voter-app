@@ -5,10 +5,13 @@ const bodyPareser = require ("body-parser");
 const cors = require ("cors");
 const config = require ("config");
 const State = require ("./Routes/state");
+require('dotenv').config()
 
-const dbConnectionString = config.get("dbConnectionString")
+//const dbConnectionString = config.get("dbConnectionString")
+
+
 mongoose.set("useCreateIndex", true);
-mongoose.connect (dbConnectionString, {useNewUrlParser:true, useFindAndModify: false, useUnifiedTopology:true}, (err)=> {
+mongoose.connect (process.env.dbConnectionString, {useNewUrlParser:true, useFindAndModify: false, useUnifiedTopology:true}, (err)=> {
     if (err) {
         console.log("database connection failed");
     }
