@@ -10,7 +10,7 @@ import  GoogleApiWrapper  from "./GoogleApiWrapper" ;
 
 const LocationsToVote  = () => {
   const list = states_names.map((state) => <option key={state}>{state}</option>);
-  const [state, changeState] = useState (""); 
+  const [state, changeState] = useState (null); 
   const getState = async () => {
     try {
     const {data} = await axios.get("https://voterapppennapps.herokuapp.com/api/state/getstate/" + state) ;
