@@ -10,6 +10,9 @@ require('dotenv').config()
 //const dbConnectionString = config.get("dbConnectionString")
 
 
+console.log(process.env.dbConnectionString);
+
+
 mongoose.set("useCreateIndex", true);
 mongoose.connect (process.env.dbConnectionString, {useNewUrlParser:true, useFindAndModify: false, useUnifiedTopology:true}, (err)=> {
     if (err) {
