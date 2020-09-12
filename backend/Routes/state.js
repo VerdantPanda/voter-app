@@ -3,7 +3,7 @@ const State = require("../Schemas/state");
 const VisionAPI = require("../visionapi.js");
 const router = express.Router();
 const multer = require("multer");
-var upload = multer({ dest: "./uploads/" });
+var upload = multer({ dest: "uploads/" });
 
 router.get("/", (req, res) => {
   State.find((err, docs) => {
@@ -16,7 +16,7 @@ router.get("/", (req, res) => {
   });
 });
 
-router.get("/byletters/:state", (req, res) => {
+router.get("/getstate/:state", (req, res) => {
   State.findOne({ letters: req.params.state }, (err, docs) => {
     if (err) {
       console.log("not-found");
@@ -74,26 +74,29 @@ router.put("/:id", (req, res) => {
   const oldState = State.findByIdAndUpdate(req.params.id, req.body);
 });
 
-router.post("/detectState", upload.single("state_upload"), (req, res) => {
-  const state = VisionAPI(req.body.file);
-  //   const state = "CALIFORNIA";
-  //   console.log("req.body: ");
-  //   console.log(req.body);
+router.post("/detectState", upload.single("avatar"), async (req, res, next) => {
+  console.log("_________");
+  console.log("_________");
+  const state = await VisionAPI(req.file);
+  //   console.log("req.file.originalname:");
+  //   console.log(req.file.originalname);
 
-  console.log("req.body.file:");
-  console.log(req.body.file);
+  console.log("state:");
+  console.log(state);
+  console.log("_________");
+  console.log("_________");
 
-  if (state == "No state found!" || state == "Image error!!!") {
+  if (state === "No State Found!" || state === "Image Error, No state.") {
     res.send("Error occurred!").status(400).end();
   } else {
     res
       .send({
-        TestResponseParam: state,
-        TestString: "test-string",
+        TestStateResponse: state,
+        fileName: req.file.originalname,
+        TestStringResponse: "test-string",
       })
       .status(200)
       .end();
   }
-  console.log("_________");
 });
 module.exports = router;
