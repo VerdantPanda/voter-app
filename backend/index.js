@@ -5,9 +5,6 @@ const bodyPareser = require ("body-parser");
 const cors = require ("cors");
 const State = require ("./Routes/state");
 
-
-
-
 const app = express();
 
 app.use (bodyPareser.json());
