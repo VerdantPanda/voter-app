@@ -74,15 +74,19 @@ router.put("/:id", (req, res) => {
   const oldState = State.findByIdAndUpdate(req.params.id, req.body);
 });
 
-router.post("/detectState", upload.single("avatar"), (req, res, next) => {
-  const state = VisionAPI(req.file);
-  console.log("req.file.originalname:");
-  console.log(req.file.originalname);
+router.post("/detectState", upload.single("avatar"), async (req, res, next) => {
+  console.log("_________");
+  console.log("_________");
+  const state = await VisionAPI(req.file);
+  //   console.log("req.file.originalname:");
+  //   console.log(req.file.originalname);
 
   console.log("state:");
   console.log(state);
+  console.log("_________");
+  console.log("_________");
 
-  if (state == "No state found!" || state == "Image error!!!") {
+  if (state === "No State Found!" || state === "Image Error, No state.") {
     res.send("Error occurred!").status(400).end();
   } else {
     res
@@ -94,6 +98,5 @@ router.post("/detectState", upload.single("avatar"), (req, res, next) => {
       .status(200)
       .end();
   }
-  console.log("_________");
 });
 module.exports = router;
