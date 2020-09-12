@@ -2,6 +2,8 @@ const express = require("express");
 const State = require("../Schemas/state");
 const VisionAPI = require("../visionapi.js");
 const router = express.Router();
+const multer = require("multer");
+var upload = multer({ dest: "./uploads/" });
 
 router.get("/", (req, res) => {
   State.find((err, docs) => {
@@ -72,16 +74,26 @@ router.put("/:id", (req, res) => {
   const oldState = State.findByIdAndUpdate(req.params.id, req.body);
 });
 
-router.post("/detectState", (req, res) => {
-  const state = VisionAPI(req.body);
-  console.log(req.body);
-  console.log(req.file);
-  console.log(state);
-  //   console.log(req);
+router.post("/detectState", upload.single("state_upload"), (req, res) => {
+  const state = VisionAPI(req.body.file);
+  //   const state = "CALIFORNIA";
+  //   console.log("req.body: ");
+  //   console.log(req.body);
+
+  console.log("req.body.file:");
+  console.log(req.body.file);
+
   if (state == "No state found!" || state == "Image error!!!") {
     res.send("Error occurred!").status(400).end();
   } else {
-    res.send(state).status(200).end();
+    res
+      .send({
+        TestResponseParam: state,
+        TestString: "test-string",
+      })
+      .status(200)
+      .end();
   }
+  console.log("_________");
 });
 module.exports = router;
