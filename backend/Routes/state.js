@@ -15,6 +15,19 @@ router.get ("/", (req, res) => {
     })
 })
 
+router.get("/byletters/:state", (req, res) => {
+    State.findOne({"letters" : req.params.state}, (err, docs) => {
+        if (err) {
+            console.log("not-found");
+            res.status(404).send(err);
+        }
+        else{
+           
+            res.status(200).send(docs);
+        }
+    } )
+})
+
 router.post ("/", (req,res) => {
     const newState = Object.assign(new State(), req.body);
     newState.save((err, docs) => {
