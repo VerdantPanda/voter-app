@@ -2,6 +2,7 @@ import React ,{useState} from "react";
 import { Form } from "react-bootstrap/";
 import states_names from "../static_data/states_names";
 import Button from "@material-ui/core/Button";
+import axios from "axios";
 import  GoogleApiWrapper  from "./GoogleApiWrapper" ;
 
 
@@ -10,11 +11,11 @@ import  GoogleApiWrapper  from "./GoogleApiWrapper" ;
 const LocationsToVote  = () => {
   const list = states_names.map((state) => <option key={state}>{state}</option>);
   const [state, changeState] = useState (""); 
-  const getState = () => {
+  const getState = async () => {
     try {
-    const {data} = await axios.get("https://voterapppennapps.herokuapp.com/api/state/" + state) ;
+    const {data} = await axios.get("https://voterapppennapps.herokuapp.com/api/state/getstate/" + state) ;
     window.location.href = data.locationLink;
-    changeState
+    
       } catch (error) {
         console.log(error);
       }
@@ -37,12 +38,12 @@ const LocationsToVote  = () => {
         <Button
         variant="contained"
         onClick={() => {
-          getState
+          getState();
         }}
         target="_blank"
         color="primary"
       >
-        Register to Vote in {this.state.currState ?? "your state"}!
+        Register to Vote in {state ?? "your state"}!
       </Button>
 
       </div>

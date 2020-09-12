@@ -15,6 +15,7 @@ const stateSchema = new mongoose.Schema({
     localVolunterrLinks : [String],
     trackingLink : String,
     requiredBallotFields : [String],
+    locationLink : String,
 
 
 })

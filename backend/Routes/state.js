@@ -17,7 +17,7 @@ router.get("/", (req, res) => {
 });
 
 router.get("/getstate/:state", (req, res) => {
-  State.findOne({ letters: req.params.state }, (err, docs) => {
+  State.findOne({ name: req.params.state }, (err, docs) => {
     if (err) {
       console.log("not-found");
       res.status(404).send(err);
@@ -41,6 +41,21 @@ router.get("/registerlink/:state", (req, res) => {
     }
   });
 });
+
+router.get("/linkregister/:state", (req, res) => {
+    State.findOne({ name: req.params.state }, (err, docs) => {
+      if (err) {
+        console.log("not-found");
+        res.status(404).send(err);
+      } else {
+        if (docs) {
+          res.status(200).send(docs.registerlink);
+        } else {
+          res.status(400).end();
+        }
+      }
+    });
+  });
 
 router.post("/", (req, res) => {
   const newState = Object.assign(new State(), req.body);
