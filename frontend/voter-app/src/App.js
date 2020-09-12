@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import { BrowserRouter as Router, Route } from "react-router-dom";
+import {Redirect} from 'react-router-dom';
 
 import Navbar from "./components/navbar.component";
 import ScanBallot from "./components/ScanBallot.component";
@@ -11,6 +12,8 @@ import TrackBallot from "./components/TrackBallot.component";
 import News from "./components/News.component";
 import AddressVerification from "./components/AddressVerification.component";
 import LocationsToVote from "./components/LocationsToVote.component";
+import Home from './components/Home.component';
+
 
 function App() {
   return (
@@ -18,6 +21,10 @@ function App() {
       <div className="container">
         <Navbar />
         <br />
+        <Route exact path="/">
+          {<Redirect to="/Home" />}
+        </Route>
+        <Route path='/Home' component={Home}></Route>
         <Route path="/ScanBallot" component={ScanBallot}></Route>
         <Route path="/VoterSuppression" component={VoterSuppression}></Route>
         <Route path="/Volunteer" component={Volunteer}></Route>

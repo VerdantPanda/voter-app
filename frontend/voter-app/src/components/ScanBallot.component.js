@@ -6,6 +6,7 @@ import React, { Component } from "react";
 // so that it can return the necessary information
 import ImageUploader from "react-images-upload";
 import axios from "axios";
+import fs from 'fs';
 
 export default class ScanBallot extends Component {
   constructor(props) {
@@ -18,6 +19,7 @@ export default class ScanBallot extends Component {
     console.log("This is picture:");
     console.log(picture);
 
+    
     // this.setState({
     //   pictures: this.state.pictures.concat(picture),
     // });
