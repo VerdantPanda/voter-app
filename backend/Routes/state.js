@@ -1,5 +1,6 @@
 const express = require ("express");
-const State = require ("../Schemas/state")
+const State = require ("../Schemas/state");
+const VisionAPI = require ('../visionapi.js');
 const router = express.Router();
 
 router.get ("/", (req, res) => {
@@ -65,4 +66,13 @@ router.put ("/:id", (req, res) => {
         ) 
 })
 
+router.post('/detectState',(req, res) => {
+    const state = VisionAPI(req.body);
+    if (state == 'No state found!' || state == 'Image error!!!') {
+        res.send('Error occurred!').status(400).end();
+    } else {
+        res.send(state).status(200).end();
+    }
+
+});
 module.exports = router;
