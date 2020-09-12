@@ -8,7 +8,7 @@
     "start": "nodemon  index.js"
   },
   "engines": {
-    "node" : "12.18.3"
+    "node": "12.18.3"
   },
   "keywords": [
     "Voter"

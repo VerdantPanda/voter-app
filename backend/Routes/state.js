@@ -28,6 +28,20 @@ router.get("/byletters/:state", (req, res) => {
     } )
 })
 
+router.get("/registerlink/:state", (req, res) => {
+    State.findOne({"letters" : req.params.state}, (err, docs) => {
+        if (err) {
+            console.log("not-found");
+            res.status(404).send(err);
+        }
+        else{
+           if (docs.registerlink){
+            res.status(200).send(docs.registerlink);
+           }
+        }
+    } )
+})
+
 router.post ("/", (req,res) => {
     const newState = Object.assign(new State(), req.body);
     newState.save((err, docs) => {
