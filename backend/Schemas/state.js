@@ -2,6 +2,10 @@ const mongoose = require ("mongoose");
 
 const stateSchema = new mongoose.Schema({
     registerlink: String,
+    demographics : {
+        ethnicity: [String],
+        gender : [String],
+    },
     supressionHistory : [String],
     acceptedIdForms : [String],
     changeLocation : Boolean,
