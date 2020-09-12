@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import { Col, Row, Form } from "react-bootstrap/";
+import { Col, Row, Form, Alert } from "react-bootstrap/";
 
 // import states_names from "../static_data/states_names";
 import axios from "axios";
@@ -18,7 +18,7 @@ export default class AddressVerification extends Component {
     this.handleChangeCity = this.handleChangeCity.bind(this);
     this.handleChangeState = this.handleChangeState.bind(this);
     this.handleChangeZip = this.handleChangeZip.bind(this);
-    this.state = { add1: null, add2: null, city:null, state: null, zip: null };
+    this.state = { add1: null, add2: null, city:null, state: null, zip: null, result: "" };
   }
 
   handleChange(event) {
@@ -81,7 +81,9 @@ export default class AddressVerification extends Component {
             var url1 = "https://secure.shippingapis.com/ShippingAPI.dll?API=Verify&XML="+xml1;
             //console.log(url2);   
             axios.get(url1).then(resp => {
-              
+              var curr = resp.data.toString()
+              curr = curr.replace(/<[^>]*>/g, ' ');
+              this.setState({ result: curr });
               console.log(resp.data);
 });
             
@@ -90,9 +92,19 @@ export default class AddressVerification extends Component {
           target="_blank"
           color="primary"
         >
-          Register to Vote in {this.state.state ?? "your state"}!
+          Verify your address in {this.state.state ?? "your state"}!
         </Button>
         </Form>
+        <Alert controlId="alert" variant="light">
+  <Alert.Heading>Corrected Address:</Alert.Heading>
+  <p>
+    {this.state.result}
+  </p>
+  <hr />
+  <p className="mb-0">
+    a
+  </p>
+</Alert>
       </div>
     );
   }
@@ -116,5 +128,6 @@ export default class AddressVerification extends Component {
     console.log(event.target.value);
     this.setState({ zip: event.target.value });
   }
+ 
 }
 
