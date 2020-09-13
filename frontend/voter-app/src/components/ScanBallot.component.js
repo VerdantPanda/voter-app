@@ -7,7 +7,9 @@ import React, { Component } from "react";
 
 // import ImageUploader from "react-images-upload";
 import axios from "axios";
-import { Form, Button } from "react-bootstrap";
+import { Form, Button, Spinner, ListGroup } from "react-bootstrap";
+import ScanBallotDisplay from "./ScanBallotDisplay";
+import { Roll } from "react-reveal";
 // import bsCustomFileInput from "bs-custom-file-input";
 
 export default class ScanBallot extends Component {
@@ -16,6 +18,14 @@ export default class ScanBallot extends Component {
     // this.state = { pictures: [] };
     this.onDrop = this.onDrop.bind(this);
     this.onSubmit = this.onSubmit.bind(this);
+    this.state = {
+      idForms: [],
+      ballotErrors: [],
+      deadlines: [],
+      formHidden: false,
+      spinnerHidden: true,
+      ballotDisplayHidden: true,
+    };
   }
 
   onDrop(picture) {
@@ -49,10 +59,7 @@ export default class ScanBallot extends Component {
     const form = document.querySelector("#myform");
     const formData = new FormData(form);
     // form.submit();
-
-    
-
-
+    this.setState({ spinnerHidden: false, formHidden: true });
     axios
       .post("http://localhost:3001/api/state/detectState", formData, {
         headers: {
@@ -60,11 +67,18 @@ export default class ScanBallot extends Component {
         },
       })
       .then((res) => {
-        const {idForms, ballotErrors, deadlines} = res.data;
+        this.setState({ spinnerHidden: true });
+        const { idForms, ballotErrors, deadlines } = res.data;
         console.log("deadlines");
         console.log(deadlines);
+        this.setState({ deadlines: deadlines });
         console.log("idForms");
         console.log(idForms);
+        this.setState({ idForms: idForms });
+        this.setState({ ballotErrors: ballotErrors });
+        console.log("ballot errors:");
+        console.log(ballotErrors);
+        this.setState({ ballotDisplayHidden: false });
       })
       .catch((err) => {
         console.log(err);
@@ -86,6 +100,7 @@ export default class ScanBallot extends Component {
           singleImage={true}
         /> */}
         <form
+          hidden={this.state.formHidden}
           id="myform"
           action="http://localhost:3001/api/state/detectState"
           method="post"
@@ -95,6 +110,69 @@ export default class ScanBallot extends Component {
           <input type="file" name="avatar" />
           <button type="submit">Submit</button>
         </form>
+        <br></br>
+        <br></br>
+        <Spinner
+          animation="border"
+          role="status"
+          hidden={this.state.spinnerHidden}
+        >
+          <span className="sr-only">Loading...</span>
+        </Spinner>
+
+        <div hidden={this.state.ballotDisplayHidden}>
+          <Roll left>
+            <h3>Common Ballot Errors:</h3>
+            <ListGroup style={{ overflow: "scroll", maxHeight: 300 }}>
+              {Array.from(Array(this.state.ballotErrors.length).keys()).map(
+                (num) => {
+                  console.log();
+                  return (
+                    <ListGroup.Item action>
+                      {this.state.ballotErrors[num]}
+                    </ListGroup.Item>
+                  );
+                }
+              )}
+            </ListGroup>
+          </Roll>
+          <br></br>
+          <br></br>
+          <Roll right>
+            <h3>Deadlines:</h3>
+            <ListGroup style={{ overflow: "scroll", maxHeight: 300 }}>
+              {Array.from(Array(this.state.deadlines.length).keys()).map(
+                (num) => {
+                  console.log();
+                  return (
+                    <ListGroup.Item action>
+                      {this.state.deadlines[num]}
+                    </ListGroup.Item>
+                  );
+                }
+              )}
+            </ListGroup>
+          </Roll>
+          <br></br>
+          <br></br>
+          <Roll left>
+            <h3>Suffcient Voter ID:</h3>
+            <ListGroup style={{ overflow: "scroll", maxHeight: 300 }}>
+              {Array.from(Array(this.state.idForms.length).keys()).map(
+                (num) => {
+                  console.log();
+                  return (
+                    <ListGroup.Item action>
+                      {this.state.idForms[num]}
+                    </ListGroup.Item>
+                  );
+                }
+              )}
+            </ListGroup>
+          </Roll>
+          <br></br>
+          <br></br>
+        </div>
       </div>
     );
   }
