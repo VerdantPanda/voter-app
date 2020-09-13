@@ -88,7 +88,17 @@ export default class VoterSuppression extends Component {
           ).valueOf()}{" "}
           Days left.
         </h1>
-        <p>Get news about voter suppression in your state below.</p>
+        <h5>
+          {Math.ceil(
+            (this.state.voteDay.getTime() - this.state.today.getTime()) /
+              this.state.one_day
+          ).valueOf()}{" "}
+          Days between <i>your voice</i> and <i>your nation</i>.
+        </h5>
+        <small>Get news about voter suppression in your state below.</small>
+        <br></br>
+        <br></br>
+        <br></br>
 
         {/*TODO: Consider replacing whith AutoComplete from Material UI instead(has already been imported via npm install.)  */}
         <Form>
@@ -130,6 +140,7 @@ export default class VoterSuppression extends Component {
         </ListGroup>
         <br></br>
         <br></br>
+        <h3>Census Demographics </h3>
         <Iframe
           url="https://data.census.gov/cedsci/profile?g=0400000US42"
           width="100%"

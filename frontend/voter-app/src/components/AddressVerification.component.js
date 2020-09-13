@@ -18,7 +18,15 @@ export default class AddressVerification extends Component {
     this.handleChangeCity = this.handleChangeCity.bind(this);
     this.handleChangeState = this.handleChangeState.bind(this);
     this.handleChangeZip = this.handleChangeZip.bind(this);
-    this.state = { add1: null, add2: null, city:null, state: null, zip: null, result: "", alertVariant: "light" };
+    this.state = {
+      add1: null,
+      add2: null,
+      city: null,
+      state: null,
+      zip: null,
+      result: "",
+      alertVariant: "light",
+    };
   }
 
   handleChange(event) {
@@ -26,7 +34,7 @@ export default class AddressVerification extends Component {
     console.log(event.target.value);
     this.setState({ currState: event.target.value });
     // TODO: request info from backend.
-    
+
     // axios.get();
     this.setState({ link: "https://www.google.com/" });
   }
@@ -34,89 +42,108 @@ export default class AddressVerification extends Component {
   render() {
     return (
       <div>
+        <p>
+          Incorrectly formatted address information on voter registration is one
+          of the most common grounds for appication rejection.{" "}
+        </p>
         <p>Enter Your Address</p>
-        {/*TODO: Consider replacing whith AutoComplete from Material UI instead(has already been imported via npm install.)  */}
+
         <Form>
-        <Form.Group controlId="formGridAddress1">
-    <Form.Label>Address Line 1</Form.Label>
-    <Form.Control placeholder="1234 Main St" onChange={this.handleChangeAddress1}/>
-  </Form.Group>
+          <Form.Group controlId="formGridAddress1">
+            <Form.Label>Address Line 1</Form.Label>
+            <Form.Control
+              placeholder="1234 Main St"
+              onChange={this.handleChangeAddress1}
+            />
+          </Form.Group>
 
-  <Form.Group controlId="formGridAddress2">
-    <Form.Label>Address Line 2</Form.Label>
-    <Form.Control placeholder="Apartment, studio, or floor" onChange={this.handleChangeAddress2}/>
-  </Form.Group>
+          <Form.Group controlId="formGridAddress2">
+            <Form.Label>Address Line 2</Form.Label>
+            <Form.Control
+              placeholder="Apartment, studio, or floor"
+              onChange={this.handleChangeAddress2}
+            />
+          </Form.Group>
 
-  <Form.Row>
-    <Form.Group as={Col} controlId="formGridCity">
-      <Form.Label>City</Form.Label>
-      <Form.Control onChange={this.handleChangeCity}/>
-    </Form.Group>
+          <Form.Row>
+            <Form.Group as={Col} controlId="formGridCity">
+              <Form.Label>City</Form.Label>
+              <Form.Control onChange={this.handleChangeCity} />
+            </Form.Group>
 
-    <Form.Group as={Col} controlId="formGridState">
-      <Form.Label>State</Form.Label>
-      <Form.Control onChange={this.handleChangeState}/>
-    </Form.Group>
+            <Form.Group as={Col} controlId="formGridState">
+              <Form.Label>State</Form.Label>
+              <Form.Control onChange={this.handleChangeState} />
+            </Form.Group>
 
-    <Form.Group as={Col} controlId="formGridZip">
-      <Form.Label>Zip</Form.Label>
-      <Form.Control onChange={this.handleChangeZip}/>
-    </Form.Group>
-  </Form.Row>
-        <Button
-          variant="contained"
-          onClick = {
-              () => {
-            console.log("here");
-            var xml1 = "<AddressValidateRequest USERID='450VOTER4281'>"+
-            "<Revision>1</Revision>"+
-            "<Address ID='0'><Address1>"+this.state.add2+"</Address1><Address2>"+
-            this.state.add1+"</Address2>"+
-            "<City>"+this.state.city+"</City><State>"+this.state.state+"</State><Zip5>"+this.state.zip+"</Zip5><Zip4/></Address></AddressValidateRequest>";
-            xml1 = xml1.replace(" ", "%20");
-            xml1 = xml1.replace("<", "%3C");
-            xml1 = xml1.replace(">", "%3E");
-            console.log(xml1);
-            //var url2 = "https://secure.shippingapis.com/ShippingAPI.dll?API=Verify&XML=%3CAddressValidateRequest%20USERID=%22450VOTER4281%22%3E%20%3CRevision%3E1%3C/Revision%3E%20%3CAddress%20ID=%220%22%3E%20%3CAddress1%3ESUITE%20K%3C/Address1%3E%20%3CAddress2%3E29851%20Aventura%3C/Address2%3E%20%3CCity/%3E%20%3CState%3ECA%3C/State%3E%20%3CZip5%3E92688%3C/Zip5%3E%20%3CZip4/%3E%20%3C/Address%3E%20%3C/AddressValidateRequest%3E"
-            var url1 = "https://secure.shippingapis.com/ShippingAPI.dll?API=Verify&XML="+xml1;
-            //console.log(url2);   
-            axios.get(url1).then(resp => {
-              var curr = resp.data.toString()
-              
-              
+            <Form.Group as={Col} controlId="formGridZip">
+              <Form.Label>Zip</Form.Label>
+              <Form.Control onChange={this.handleChangeZip} />
+            </Form.Group>
+          </Form.Row>
+          <Button
+            variant="contained"
+            onClick={() => {
+              console.log("here");
+              var xml1 =
+                "<AddressValidateRequest USERID='450VOTER4281'>" +
+                "<Revision>1</Revision>" +
+                "<Address ID='0'><Address1>" +
+                this.state.add2 +
+                "</Address1><Address2>" +
+                this.state.add1 +
+                "</Address2>" +
+                "<City>" +
+                this.state.city +
+                "</City><State>" +
+                this.state.state +
+                "</State><Zip5>" +
+                this.state.zip +
+                "</Zip5><Zip4/></Address></AddressValidateRequest>";
+              xml1 = xml1.replace(" ", "%20");
+              xml1 = xml1.replace("<", "%3C");
+              xml1 = xml1.replace(">", "%3E");
+              console.log(xml1);
+              //var url2 = "https://secure.shippingapis.com/ShippingAPI.dll?API=Verify&XML=%3CAddressValidateRequest%20USERID=%22450VOTER4281%22%3E%20%3CRevision%3E1%3C/Revision%3E%20%3CAddress%20ID=%220%22%3E%20%3CAddress1%3ESUITE%20K%3C/Address1%3E%20%3CAddress2%3E29851%20Aventura%3C/Address2%3E%20%3CCity/%3E%20%3CState%3ECA%3C/State%3E%20%3CZip5%3E92688%3C/Zip5%3E%20%3CZip4/%3E%20%3C/Address%3E%20%3C/AddressValidateRequest%3E"
+              var url1 =
+                "https://secure.shippingapis.com/ShippingAPI.dll?API=Verify&XML=" +
+                xml1;
+              //console.log(url2);
+              axios.get(url1).then((resp) => {
+                var curr = resp.data.toString();
 
-              this.setState({alertVariant: "success"});
-              if (curr.includes("Address Not Found")){
-                this.setState({alertVariant: "danger"});
-                this.setState({result: "The address you entered could not be found. Kindly correct and try again."})  
-              } else {
-              curr = curr.substring(
-                curr.lastIndexOf("<Address1>") , 
-                curr.lastIndexOf("</Zip4>")
-            );
-              curr = curr.replace(/<[^>]*>/g, ' ');
-              curr = curr.replace('NULL', ' ');
-              this.setState({ result: curr });}
-              console.log(resp.data);
-              
-});
-            
-            return null;
-          }}
-          target="_blank"
-          color="primary"
-        >
-          Verify your address in {this.state.state ?? "your state"}!
-        </Button>
+                this.setState({ alertVariant: "success" });
+                if (curr.includes("Address Not Found")) {
+                  this.setState({ alertVariant: "danger" });
+                  this.setState({
+                    result:
+                      "The address you entered could not be found. Kindly correct and try again.",
+                  });
+                } else {
+                  curr = curr.substring(
+                    curr.lastIndexOf("<Address1>"),
+                    curr.lastIndexOf("</Zip4>")
+                  );
+                  curr = curr.replace(/<[^>]*>/g, " ");
+                  curr = curr.replace("NULL", " ");
+                  this.setState({ result: curr });
+                }
+                console.log(resp.data);
+              });
+
+              return null;
+            }}
+            target="_blank"
+            color="primary"
+          >
+            Verify your address in {this.state.state ?? "your state"}!
+          </Button>
         </Form>
         <Alert variant={this.state.alertVariant}>
-  <Alert.Heading>Corrected Address:</Alert.Heading>
-  <p>
-    {this.state.result}
-  </p>
-  <hr />
-  
-</Alert>
+          <Alert.Heading>Corrected Address:</Alert.Heading>
+          <p>{this.state.result}</p>
+          <hr />
+        </Alert>
       </div>
     );
   }
@@ -140,6 +167,4 @@ export default class AddressVerification extends Component {
     console.log(event.target.value);
     this.setState({ zip: event.target.value });
   }
- 
 }
-
