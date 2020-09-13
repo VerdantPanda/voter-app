@@ -65,6 +65,14 @@ export default class ScanBallot extends Component {
       });
   }
 
+  balletInfo() {
+    return(
+      <div>
+        
+      </div>
+    )
+  }
+
   render() {
     return (
       <div>
@@ -87,6 +95,7 @@ export default class ScanBallot extends Component {
           onSubmit={this.onSubmit}
         >
           <input type="file" name="avatar" />
+
           <button type="submit">Submit</button>
         </form>
       </div>
