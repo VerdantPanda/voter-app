@@ -79,6 +79,12 @@ router.put("/:id", async (req, res) => {
   res.send(state).status(200)
 });
 
+router.delete("/:id", async (req, res) => {
+    
+    const result = await State.findByIdAndDelete(req.params.id);
+    res.send(result).status(200)
+  });
+
 router.post("/", (req, res) => {
   const newState = Object.assign(new State(), req.body);
   newState.save((err, docs) => {
