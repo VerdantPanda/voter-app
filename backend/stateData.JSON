@@ -6,6 +6,9 @@
       "ballotErrors": ["not sealing affidavit in secrecy envelope","failing to mark affidavit properly","For mail-in ballots, missing additional witness signatures (ONE REQUIRED) or public notary", "Missing self-signatures", "Arriving late to ballot counting center"],
       "deadlines": ["Online registration: Monday, October 19, 2020 by 11:59 pm", "Mail-in registration: POSTMARKED by Monday, October 19, 2020", "In-person registration: Monday, October 19, 2020", "Mail-in ballot request: Thursday, October 29, 2020 by closing time of Election Manager office"],
       "trackingLink": "",
+      "ballotErrors": "",
+      "deadlines": ["Online registration: Monday, October 19, 2020 by 11:59 pm", "Mail-in registration: postmarked by Monday, October 19, 2020", "In-person registration: Monday, October 19, 2020", "Absentee ballot request: Thursday, October 29, 2020 by closing time of Election Manager office"],
+      "trackingLink": "https://myinfo.alabamavotes.gov/VoterView/AbsenteeBallotSearch.do",
       "pollingLocation": "https://myinfo.alabamavotes.gov/VoterView/PollingPlaceSearch.do"
     },
     {
@@ -15,6 +18,9 @@
       "ballotErrors": ["voter not registered", "ballot cast in wrong district", "POSTMARKED after election day","For mail-in ballots, missing additional witness signatures (ONE REQUIRED) or public notary", "Missing self-signatures"],
       "deadlines": ["Online registration: Sunday, October 4, 2020", "Mail-in registration: POSTMARKED by Sunday, October 4, 2020", "In-person registration: Sunday, October 4, 2020", "Mail-in ballot request: RECEIVED by Saturday, October 24, 2020", "Early voting period: Monday, October 19, 2020 to Monday, November 2, 2020"],
       "trackingLink": "",
+      "ballotErrors": "",
+      "deadlines": ["Online registration: Sunday, October 4, 2020", "Mail-in registration: postmarked by Sunday, October 4, 2020", "In-person registration: Sunday, October 4, 2020", "Absentee ballot request: received by Saturday, October 24, 2020", "Early voting period: Monday, October 19, 2020 to Monday, November 2, 2020"],
+      "trackingLink": "https://myvoterinformation.alaska.gov/",
       "pollingLocation": "https://myvoterinformation.alaska.gov/"
     },
     {
@@ -33,6 +39,9 @@
       "ballotErrors": ["Missing voter ID", "Sending in mail-in ballots too late"],
       "deadlines": ["Online registration: Monday, October 5, 2020", "Mail-in registration: POSTMARKED by Monday, October 5, 2020", "In-person registration: Monday, October 5, 2020", "Mail-in ballot request: RECEIVED by Friday, October 23, 2020", "Early voting period: Wednesday, October 7, 2020 to Friday, October 30, 2020"],
       "trackingLink": "",
+      "ballotErrors": "",
+      "deadlines": ["Online registration: Monday, October 5, 2020", "Mail-in registration: postmarked by Monday, October 5, 2020", "In-person registration: Monday, October 5, 2020", "Absentee ballot request: received by Friday, October 23, 2020", "Early voting period: Wednesday, October 7, 2020 to Friday, October 30, 2020"],
+      "trackingLink": "https://www.vote.org/absentee-ballot/arkansas/",
       "pollingLocation": "https://www.voterview.ar-nova.org/voterview"
     },
     {
@@ -51,6 +60,9 @@
       "ballotErrors": ["missing signature","improper photo ID", "Mismatched signatures"],
       "deadlines": ["Online registration: Monday, October 26, 2020", "Mail-in registration: POSTMARKED by Monday, October 26, 2020", "In-person registration: Tuesday, November 3, 2020 at 7:00pm", "All registered voters receive mail-in ballot for General Election", "Early voting period: Monday, October 19, 2020 to Monday, November 2, 2020", "In-person registration available on Election Day"],
       "trackingLink": "",
+      "ballotErrors": "",
+      "deadlines": ["Online registration: Monday, October 26, 2020", "Mail-in registration: postmarked by Monday, October 26, 2020", "In-person registration: Tuesday, November 3, 2020 at 7:00pm", "All registered voters receive mail-in ballot for General Election", "Early voting period: Monday, October 19, 2020 to Monday, November 2, 2020", "In-person registration available on Election Day"],
+      "trackingLink": "https://colorado.ballottrax.net/voter/",
       "pollingLocation": "https://www.sos.state.co.us/pubs/elections/Resources/CountyElectionOffices.html"
     },
     {
@@ -60,6 +72,9 @@
       "ballotErrors": ["inner envelope was not returned or signed"],
       "deadlines": ["Online registration: Tuesday, October 27, 2020", "Mail-in registration: POSTMARKED by Monday, October 5, 2020", "In-person registration: Tuesday, October 27, 2020", "Mail-in ballot request: RECEIVED by Monday, November 2, 2020", "In-person registration available on Election Day"],
       "trackingLink": "",
+      "ballotErrors": "",
+      "deadlines": ["Online registration: Tuesday, October 27, 2020", "Mail-in registration: postmarked by Monday, October 5, 2020", "In-person registration: Tuesday, October 27, 2020", "Absentee ballot request: received by Monday, November 2, 2020", "In-person registration available on Election Day"],
+      "trackingLink": "https://www.fvap.gov/guide/chapter2/connecticut",
       "pollingLocation": "https://portaldir.ct.gov/sots/LookUp.aspx"
     },
     {
@@ -69,6 +84,9 @@
       "ballotErrors": ["No particular errors. Happy voting!"],
       "deadlines": ["Online registration: Saturday, October 10, 2020", "Mail-in registration: POSTMARKED by Saturday, October 10, 2020", "In-person registration: Saturday, October 10, 2020", "Mail-in ballot request: RECEIVED by Friday, October 30, 2020"],
       "trackingLink": "",
+      "ballotErrors": "",
+      "deadlines": ["Online registration: Saturday, October 10, 2020", "Mail-in registration: postmarked by Saturday, October 10, 2020", "In-person registration: Saturday, October 10, 2020", "Absentee ballot request: received by Friday, October 30, 2020"],
+      "trackingLink": "https://ivote.de.gov/VoterView",
       "pollingLocation": "https://ivote.de.gov/VoterView"
     },
     {
@@ -78,6 +96,9 @@
       "ballotErrors": ["ballots must be received by Election Day 7pm", "differences between ID signature and ballot signature", "no signature on envelopes", "postage not paid"],
       "deadlines": ["Online registration: Monday, October 5, 2020", "Mail-in registration: POSTMARKED by Monday, October 5, 2020", "In-person registration: Monday, October 5, 2020", "Mail-in ballot request: RECEIVED by Saturday, October 24, 2020", "Early voting: Saturday October 24, 2020 to Saturday, October 31, 2020"],
       "trackingLink": "",
+      "ballotErrors": "",
+      "deadlines": ["Online registration: Monday, October 5, 2020", "Mail-in registration: postmarked by Monday, October 5, 2020", "In-person registration: Monday, October 5, 2020", "Absentee ballot request: received by Saturday, October 24, 2020", "Early voting: Saturday October 24, 2020 to Saturday, October 31, 2020"],
+      "trackingLink": "https://registration.elections.myflorida.com/en/CheckVoterStatus/Index",
       "pollingLocation": "https://registration.elections.myflorida.com/CheckVoterStatus"
     },
     {
@@ -87,6 +108,9 @@
       "ballotErrors": ["Arrived too late (must arrive by 7pm Election Day)","incorrect completion", "Mismatched signatures"],
       "deadlines": ["Online registration: Monday, October 5, 2020", "Mail-in registration: POSTMARKED by Monday, October 5, 2020", "In-person registration: Monday, October 5, 2020", "Mail-in ballot request: RECEIVED by Friday, October 30, 2020", "Early voting: Monday, October 12, 2020 to Friday, October 30, 2020"],
       "trackingLink": "",
+      "ballotErrors": "",
+      "deadlines": ["Online registration: Monday, October 5, 2020", "Mail-in registration: postmarked by Monday, October 5, 2020", "In-person registration: Monday, October 5, 2020", "Absentee ballot request: received by Friday, October 30, 2020", "Early voting: Monday, October 12, 2020 to Friday, October 30, 2020"],
+      "trackingLink": "https://www.mvp.sos.ga.gov/MVP/mvp.do",
       "pollingLocation": "https://www.mvp.sos.ga.gov/MVP/mvp.do"
     },
     {
@@ -96,6 +120,9 @@
       "ballotErrors": ["No particular errors. Happy voting!"],
       "deadlines": ["Online registration: Monday, October 5, 2020", "Mail-in registration: POSTMARKED by Monday, October 5, 2020", "In-person registration: Monday, October 5, 2020", "All registered voters receive mail-in ballot for November 3 election" ,"Early voting: Tuesday, October 20, 2020 to Monday, November 2, 2020", "In-person registration available on Election Day" , "Same-day registration available during early voting through Election day"],
       "trackingLink": "",
+      "ballotErrors": "",
+      "deadlines": ["Online registration: Monday, October 5, 2020", "Mail-in registration: postmarked by Monday, October 5, 2020", "In-person registration: Monday, October 5, 2020", "All registered voters receive mail-in ballot for November 3 election" ,"Early voting: Tuesday, October 20, 2020 to Monday, November 2, 2020", "In-person registration available on Election Day" , "Same-day registration available during early voting through Election day"],
+      "trackingLink": "https://elections.hawaii.gov/",
       "pollingLocation": "https://olvr.hawaii.gov/altpollingplacesearch.aspx"
     },
     {
@@ -105,6 +132,9 @@
       "ballotErrors": ["confusion between ballots and election postcards"],
       "deadlines": ["Online registration: Friday, October 9, 2020", "Mail-in registration: POSTMARKED by Friday, October 9, 2020", "In-person registration: Friday, October 9, 2020", "Mail-in ballot request: RECEIVED by Friday, October 23, 2020", "Early voting: Monday, October 19, 2020 to Friday, October 30, 2020", "In-person registration available on Election Day"],
       "trackingLink": "",
+      "ballotErrors": "",
+      "deadlines": ["Online registration: Friday, October 9, 2020", "Mail-in registration: postmarked by Friday, October 9, 2020", "In-person registration: Friday, October 9, 2020", "Absentee ballot request: received by Friday, October 23, 2020", "Early voting: Monday, October 19, 2020 to Friday, October 30, 2020", "In-person registration available on Election Day"],
+      "trackingLink": "https://adacounty.id.gov/elections/view-my-ballot/",
       "pollingLocation": "https://elections.sos.idaho.gov/ElectionLink/ElectionLink/ViewPollingLocation.aspx"
     },
     {
@@ -114,6 +144,9 @@
       "ballotErrors": ["must postmark before deadline"],
       "deadlines": ["Mail-in registration: RECEIVED by Tuesday, October 13, 2020", "In-person registration: Tuesday, November 3, 2020", "All registered voters receive mail-in ballot for November 3 election", "Early voting: Tuesday, October 27, 2020 to Monday, November 2, 2020", "In-person registration available on Election Day"],
       "trackingLink": "",
+      "ballotErrors": "",
+      "deadlines": ["Mail-in registration: received by Tuesday, October 13, 2020", "In-person registration: Tuesday, November 3, 2020", "All registered voters receive mail-in ballot for November 3 election", "Early voting: Tuesday, October 27, 2020 to Monday, November 2, 2020", "In-person registration available on Election Day"],
+      "trackingLink": "https://www.dcboe.org/Voters/Absentee-Voting/Track-Absentee-Ballot",
       "pollingLocation": "https://www.dcboe.org/Voters/Where-to-Vote/Polling-Places"
     },
     {
@@ -123,6 +156,10 @@
       "ballotErrors": ["No particular errors. Happy voting!"],
       "deadlines": ["Online registration: Sunday, October 18, 2020", "Mail-in registration: POSTMARKED by Tuesday, October 6, 2020", "In-person registration: Tuesday, November 3, 2020; grace period after October 6, 2020", "Mail-in ballot request: RECEIVED by Thursday, October 29, 2020", "Early voting: Thursday, September 24, 2020 to Monday, November 2, 2020", "In-person registration available on Election Day"],
       "trackingLink": "",
+      "idForms": ["NO ID REQUIRED IF VOTED BEFORE!","First time voters: if registered by mail, and didn't provide your driver's license number, state ID number, last 4 digits of your Social Security number, or a copy of a current ID or government document that shows your name and address when you registered, you'll need to provide one of these when you vote. Examples: (i) a copy of a current and valid photo identification, (ii) a copy of a lease or contract for residence, student ID & mail addressed to your residence, or (iii) a copy of a current utility bill, bank statement, government check, paycheck, or other government document that shows your name and address.", "Voters without ID: If you are unable to provide ID, you will be able to vote a provisional ballot. After voting provisionally, you will be told how to submit additional proof of registration to the election authority. The additional information must be received by the election authority no later than the close of business on the Tuesday following the election."],
+      "ballotErrors": "",
+      "deadlines": ["Online registration: Sunday, October 18, 2020", "Mail-in registration: postmarked by Tuesday, October 6, 2020", "In-person registration: Tuesday, November 3, 2020; grace period after October 6, 2020", "Absentee ballot request: received by Thursday, October 29, 2020", "Early voting: Thursday, September 24, 2020 to Monday, November 2, 2020", "In-person registration available on Election Day"],
+      "trackingLink": "https://www.vote.org/absentee-ballot/illinois/",
       "pollingLocation": "https://ova.elections.il.gov/PollingPlaceLookup.aspx"
     },
     {
@@ -132,6 +169,9 @@
       "ballotErrors": ["affidavit is insufficient", "mismatched signatures", "absentee voter has voted in person"],
       "deadlines": ["Online registration: Monday, October 5, 2020", "Mail-in registration: POSTMARKED by Monday, October 5, 2020", "In-person registration: Monday, October 5, 2020", "Mail-in ballot request: RECEIVED by Thursday, October 22, 2020", "Early voting: Tuesday, October 6, 2020 to Monday, November 2, 2020"],
       "trackingLink": "",
+      "ballotErrors": "",
+      "deadlines": ["Online registration: Monday, October 5, 2020", "Mail-in registration: postmarked by Monday, October 5, 2020", "In-person registration: Monday, October 5, 2020", "Absentee ballot request: received by Thursday, October 22, 2020", "Early voting: Tuesday, October 6, 2020 to Monday, November 2, 2020"],
+      "trackingLink": "https://indianavoters.in.gov/",
       "pollingLocation": "https://indianavoters.in.gov/"
     },
     {
@@ -141,6 +181,9 @@
       "ballotErrors": ["not postmarked", "ballot received too late"],
       "deadlines": ["Online registration: Saturday, October 24, 2020 by 5:00pm", "Mail-in registration: RECEIVED by Saturday, October 24, 2020", "In-person registration: Saturday, October 24, 2020 by 5:00pm", "Mail-in ballot request: Saturday, October 24, 2020 by 5:00pm", "Early voting: Monday, October 5, 2020 to Monday, November 2, 2020", "In-person registration available on Election Day"],
       "trackingLink": "",
+      "ballotErrors": "",
+      "deadlines": ["Online registration: Saturday, October 24, 2020 by 5:00pm", "Mail-in registration: received by Saturday, October 24, 2020", "In-person registration: Saturday, October 24, 2020 by 5:00pm", "Absentee ballot request: Saturday, October 24, 2020 by 5:00pm", "Early voting: Monday, October 5, 2020 to Monday, November 2, 2020", "In-person registration available on Election Day"],
+      "trackingLink": "https://sos.iowa.gov/elections/absenteeballotstatus/absentee/search",
       "pollingLocation": "https://sos.iowa.gov/elections/voterreg/pollingplace/search.aspx"
     },
     {
@@ -150,6 +193,9 @@
       "ballotErrors": ["Voting out of county", "not registered in the state"],
       "deadlines": ["Online registration: Tuesday, October 13, 2020", "Mail-in registration: POSTMARKED by Tuesday, October 13, 2020", "In-person registration: Tuesday, October 13, 2020", "Mail-in ballot request: RECEIVED by Tuesday, October 27, 2020", "Early voting: Wednesday, October 14, 2020 to Monday, November 2, 2020 by 12:00pm"],
       "trackingLink": "",
+      "ballotErrors": "",
+      "deadlines": ["Online registration: Tuesday, October 13, 2020", "Mail-in registration: postmarked by Tuesday, October 13, 2020", "In-person registration: Tuesday, October 13, 2020", "Absentee ballot request: received by Tuesday, October 27, 2020", "Early voting: Wednesday, October 14, 2020 to Monday, November 2, 2020 by 12:00pm"],
+      "trackingLink": "https://myvoteinfo.voteks.org/VoterView/Home.do",
       "pollingLocation": "https://myvoteinfo.voteks.org/VoterView/PollingPlaceSearch.do"
     },
     {
@@ -159,6 +205,9 @@
       "ballotErrors": ["voter signature missing", "postmarked after deadline", "inner flap not signed"],
       "deadlines": ["Online registration: Monday, October 5, 2020", "Mail-in registration: POSTMARKED by Monday, October 5, 2020", "In-person registration: Monday, October 5, 2020", "Mail-in ballot request: RECEIVED by Friday, October 9, 2020", "Early voting: Tuesday, October 13, 2020 to Monday, November 2, 2020"],
       "trackingLink": "",
+      "ballotErrors": "",
+      "deadlines": ["Online registration: Monday, October 5, 2020", "Mail-in registration: postmarked by Monday, October 5, 2020", "In-person registration: Monday, October 5, 2020", "Absentee ballot request: received by Friday, October 9, 2020", "Early voting: Tuesday, October 13, 2020 to Monday, November 2, 2020"],
+      "trackingLink": "https://vrsws.sos.ky.gov/vic/",
       "pollingLocation": "https://vrsws.sos.ky.gov/vic/"
     },
     {
@@ -168,6 +217,9 @@
       "ballotErrors": ["Must have ONE witness signature on ballot envelopes"],
       "deadlines": ["Online registration: Tuesday, October 13, 2020", "Mail-in registration: POSTMARKED by Monday, October 5, 2020", "In-person registration: Monday, October 5, 2020", "Mail-in ballot request: RECEIVED by Friday, October 30, 2020", "Early voting: Tuesday, October 20, 2020 to Tuesday, October 27, 2020"],
       "trackingLink": "",
+      "ballotErrors": "",
+      "deadlines": ["Online registration: Tuesday, October 13, 2020", "Mail-in registration: postmarked by Monday, October 5, 2020", "In-person registration: Monday, October 5, 2020", "Absentee ballot request: received by Friday, October 30, 2020", "Early voting: Tuesday, October 20, 2020 to Tuesday, October 27, 2020"],
+      "trackingLink": "https://voterportal.sos.la.gov/",
       "pollingLocation": "https://voterportal.sos.la.gov/"
     },
     {
@@ -177,6 +229,9 @@
       "ballotErrors": ["No particular errors. Happy voting!"],
       "deadlines": ["Mail-in registration: RECEIVED by Monday, October 19, 2020", "In-person registration: Tuesday, November 3, 2020", "Mail-in ballot request: RECEIVED by Thursday, October 29, 2020", "Early voting: Monday, October 5, 2020 to Friday, October 30, 2020", "In-person registration available on Election Day"],
       "trackingLink": "",
+      "ballotErrors": "",
+      "deadlines": ["Mail-in registration: received by Monday, October 19, 2020", "In-person registration: Tuesday, November 3, 2020", "Absentee ballot request: received by Thursday, October 29, 2020", "Early voting: Monday, October 5, 2020 to Friday, October 30, 2020", "In-person registration available on Election Day"],
+      "trackingLink": "https://apps.web.maine.gov/cgi-bin/online/AbsenteeBallot/ballot-status.pl",
       "pollingLocation": "https://www1.maine.gov/portal/government/edemocracy/voter_lookup.php"
     },
     {
@@ -186,6 +241,9 @@
       "ballotErrors": ["postmarked too late", "missing signature", "unsealed envelope"],
       "deadlines": ["Online registration: Tuesday, October 13, 2020", "Mail-in registration: POSTMARKED by Tuesday, October 13, 2020", "In-person registration: Tuesday, October 13, 2020", "Mail-in ballot request: RECEIVED by Tuesday, October 20, 2020", "Early voting: Monday, October 26, 2020 to Monday, November 2, 2020", "In-person registration available on Election Day"],
       "trackingLink": "",
+      "ballotErrors": "",
+      "deadlines": ["Online registration: Tuesday, October 13, 2020", "Mail-in registration: postmarked by Tuesday, October 13, 2020", "In-person registration: Tuesday, October 13, 2020", "Absentee ballot request: received by Tuesday, October 20, 2020", "Early voting: Monday, October 26, 2020 to Monday, November 2, 2020", "In-person registration available on Election Day"],
+      "trackingLink": "https://voterservices.elections.maryland.gov/VoterSearch",
       "pollingLocation": "https://elections.maryland.gov/voting/where.html"
     },
     {
@@ -195,6 +253,9 @@
       "ballotErrors": ["No particular errors. Happy voting!"],
       "deadlines": ["Online registration: Saturday, October 24, 2020", "Mail-in registration: POSTMARKED by Saturday, October 24, 2020", "In-person registration: Saturday, October 24, 2020", "Mail-in ballot request: Wednesday, October 28, 2020 by 5:00pm", "Early voting: Saturday, October 17, 2020 to Friday, October 30, 2020"],
       "trackingLink": "",
+      "ballotErrors": "",
+      "deadlines": ["Online registration: Saturday, October 24, 2020", "Mail-in registration: postmarked by Saturday, October 24, 2020", "In-person registration: Saturday, October 24, 2020", "Absentee ballot request: Wednesday, October 28, 2020 by 5:00pm", "Early voting: Saturday, October 17, 2020 to Friday, October 30, 2020"],
+      "trackingLink": "https://www.sec.state.ma.us/wheredoivotema//track/trackmyballot.aspx",
       "pollingLocation": "https://www.sec.state.ma.us/wheredoivotema/bal/MyElectionInfo.aspx"
     },
     {
@@ -204,6 +265,9 @@
       "ballotErrors": ["wrong address","mismatched signatures","inner envelope was not returned or signed","unconfirmed ID", "Arriving late to ballot counting center"],
       "deadlines": ["Online registration: Monday, October 19, 2020", "Mail-in registration: POSTMARKED by Monday, October 19, 2020", "In-person registration: Tuesday, November 3, 2020", "Mail-in ballot request: RECEIVED by Friday, October 30, 2020 at 5:00pm", "Early voting period: Thursday, September 24, 2020 to Monday, November 2, 2020", "In-person registration available on Election Day at designated locations"],
       "trackingLink": "",
+      "ballotErrors": "",
+      "deadlines": ["Online registration: Monday, October 19, 2020", "Mail-in registration: postmarked by Monday, October 19, 2020", "In-person registration: Tuesday, November 3, 2020", "Mail-in ballot request: received by Friday, October 30, 2020 at 5:00pm", "Early voting period: Thursday, September 24, 2020 to Monday, November 2, 2020", "In-person registration available on Election Day at designated locations"],
+      "trackingLink": "https://vote.michigan.gov/mvic/",
       "pollingLocation": "https://mvic.sos.state.mi.us/"
     },
     {
@@ -213,6 +277,9 @@
       "ballotErrors": ["No particular errors. Happy voting!"],
       "deadlines": ["Online registration: Tuesday, October 13, 2020", "Mail-in registration: RECEIVED by Tuesday, October 13, 2020", "In-person registration: Tuesday, November 3, 2020", "Mail-in ballot request: RECEIVED by Monday, November 2, 2020", "Early voting: Friday, September 18, 2020 to Monday, November 2, 2020", "In-person registration available on Election Day"],
       "trackingLink": "",
+      "ballotErrors": "",
+      "deadlines": ["Online registration: Tuesday, October 13, 2020", "Mail-in registration: received by Tuesday, October 13, 2020", "In-person registration: Tuesday, November 3, 2020", "Absentee ballot request: received by Monday, November 2, 2020", "Early voting: Friday, September 18, 2020 to Monday, November 2, 2020", "In-person registration available on Election Day"],
+      "trackingLink": "https://mnvotes.sos.state.mn.us/AbsenteeBallotStatus.aspx",
       "pollingLocation": "https://pollfinder.sos.state.mn.us/"
     },
     {
@@ -231,6 +298,9 @@
       "ballotErrors": ["Arriving late to ballot counting center","envelopes must be notarized"],
       "deadlines": ["Mail-in registration: POSTMARKED by Monday, October 5, 2020", "In-person registration: Monday, October 5, 2020", "Mail-in ballot request: No deadline"],
       "trackingLink": "",
+      "ballotErrors": "",
+      "deadlines": ["Mail-in registration: postmarked by Monday, October 5, 2020", "In-person registration: Monday, October 5, 2020", "Mail-in ballot request: No deadline"],
+      "trackingLink": "https://www.momilitaryvote.com/",
       "pollingLocation": "https://voteroutreach.sos.mo.gov/PRD/VoterOutreach/VOSearch.aspx"
     },
     {
@@ -240,6 +310,10 @@
       "ballotErrors": ["No particular errors. Happy voting!"],
       "deadlines": ["Online registration: Monday, October 26, 2020", "Mail-in registration: POSTMARKED by Tuesday, November 3, 2020", "In-person registration: Monday, November 2, 2020", "Mail-in ballot request: RECEIVED by Monday, November 2, 2020", "Early voting: Monday, October 5, 2020 to Monday, November 2, 2020"],
       "trackingLink": "",
+      "idForms": ["ID NECESSARY!", "Acceptable forms include: a current photo ID showing name; or a current utility bill, bank statement, paycheck, voter registration confirmation, government check or other government document showing your current name and address.", "Voters without ID: If you are unable to provide ID, you can still vote by requesting and filling out a ‘Polling Place Elector ID’ form. Or, you can vote a provisional ballot. Your provisional ballot will be counted if you provide one of the items on the list to the county election office by 5:00 p.m. the day after the election, or mail it to the county election office postmarked by the day after the election."],
+      "ballotErrors": "",
+      "deadlines": ["Online registration: Monday, October 26, 2020", "Mail-in registration: postmarked by Tuesday, November 3, 2020", "In-person registration: Monday, November 2, 2020", "Absentee ballot request: received by Monday, November 2, 2020", "Early voting: Monday, October 5, 2020 to Monday, November 2, 2020"],
+      "trackingLink": "https://app.mt.gov/voterinfo/",
       "pollingLocation": "https://app.mt.gov/voterinfo/"
     },
     {
@@ -249,6 +323,9 @@
       "ballotErrors": ["missing signature on envelopes","missing signature on voters' oath"],
       "deadlines": ["Online registration: Friday, October 16, 2020", "Mail-in registration: POSTMARKED by Friday, October 16, 2020", "In-person registration: Friday, October 16, 2020", "Mail-in ballot request: RECEIVED by Friday, October 23, 2020", "Early voting: Monday, October 5, 2020 to Monday, November 2, 2020", "EXCEPTION: The deadline to return a voter registration form with an early voting ballot in person is Election Day."],
       "trackingLink": "",
+      "ballotErrors": "",
+      "deadlines": ["Online registration: Friday, October 16, 2020", "Mail-in registration: postmarked by Friday, October 16, 2020", "In-person registration: Friday, October 16, 2020", "Absentee ballot request: received by Friday, October 23, 2020", "Early voting: Monday, October 5, 2020 to Monday, November 2, 2020", "EXCEPTION: The deadline to return a voter registration form with an early voting ballot in person is Election Day."],
+      "trackingLink": "https://www.votercheck.necvr.ne.gov/VoterView",
       "pollingLocation": "https://www.votercheck.necvr.ne.gov/VoterView/PollingPlaceSearch.do"
     },
     {
@@ -258,6 +335,9 @@
       "ballotErrors": ["Mismatched signatures","missing signature"],
       "deadlines": ["Online registration: Thursday, October 29, 2020", "Mail-in registration: POSTMARKED by Tuesday, October 6, 2020", "In-person registration: Tuesday, October 6, 2020", "All registered voters receive mail-in ballot before Election Day", "Early voting: Sunday, October 17, 2020 to Friday, October 30, 2020", "In-person registration available on Election Day"],
       "trackingLink": "",
+      "ballotErrors": "",
+      "deadlines": ["Online registration: Thursday, October 29, 2020", "Mail-in registration: postmarked by Tuesday, October 6, 2020", "In-person registration: Tuesday, October 6, 2020", "All registered voters receive mail-in ballot before Election Day", "Early voting: Sunday, October 17, 2020 to Friday, October 30, 2020", "In-person registration available on Election Day"],
+      "trackingLink": "https://nvsos.gov/votersearch/",
       "pollingLocation": "https://www.nvsos.gov/votersearch/"
     },
     {
@@ -276,6 +356,9 @@
       "ballotErrors": ["Mismatched signatures","ballot received too late","certificate missing","voter registration ID missing"],
       "deadlines": ["Online registration: Tuesday, October 13, 2020", "Mail-in registration: POSTMARKED by Tuesday, October 13, 2020", "In-person registration: Tuesday, October 13, 2020", "All registered voters receive mail-in ballot for General Election", "Early voting: Saturday, September 19, 2020 to Monday, November 2, 2020"],
       "trackingLink": "",
+      "ballotErrors": "",
+      "deadlines": ["Online registration: Tuesday, October 13, 2020", "Mail-in registration: postmarked by Tuesday, October 13, 2020", "In-person registration: Tuesday, October 13, 2020", "All registered voters receive mail-in ballot for General Election", "Early voting: Saturday, September 19, 2020 to Monday, November 2, 2020"],
+      "trackingLink": "https://voter.svrs.nj.gov/auth/sign-in",
       "pollingLocation": "https://voter.svrs.nj.gov/polling-place-search"
     },
     {
@@ -285,6 +368,9 @@
       "ballotErrors": ["No particular errors. Happy voting!"],
       "deadlines": ["Online registration: Tuesday, October 6, 2020", "Mail-in registration: POSTMARKED by Tuesday, October 6, 2020", "In-person registration: Tuesday, October 13, 2020", "Mail-in ballot request: RECEIVED by Tuesday, October 20, 2020 at 5:00pm", "Early voting: Saturday, October 17, 2020 to Saturday, October 31, 2020"],
       "trackingLink": "",
+      "ballotErrors": "",
+      "deadlines": ["Online registration: Tuesday, October 6, 2020", "Mail-in registration: postmarked by Tuesday, October 6, 2020", "In-person registration: Tuesday, October 13, 2020", "Absentee ballot request: received by Tuesday, October 20, 2020 at 5:00pm", "Early voting: Saturday, October 17, 2020 to Saturday, October 31, 2020"],
+      "trackingLink": "https://www.sos.state.nm.us/voting-and-elections/voter-information-portal/",
       "pollingLocation": "https://voterportal.servis.sos.state.nm.us/WhereToVoteAddress.aspx"
     },
     {
@@ -294,6 +380,9 @@
       "ballotErrors": ["ballot received too late","postmark missing","missing signature"],
       "deadlines": ["Online registration: Friday, October 9, 2020", "Mail-in registration: POSTMARKED by Friday, October 9, 2020", "In-person registration: Friday, October 9, 2020", "Mail-in ballot request: RECEIVED by Tuesday, October 27, 2020", "Early voting: Saturday, October 24, 2020 to Sunday, November 1, 2020"],
       "trackingLink": "",
+      "ballotErrors": "",
+      "deadlines": ["Online registration: Friday, October 9, 2020", "Mail-in registration: postmarked by Friday, October 9, 2020", "In-person registration: Friday, October 9, 2020", "Absentee ballot request: received by Tuesday, October 27, 2020", "Early voting: Saturday, October 24, 2020 to Sunday, November 1, 2020"],
+      "trackingLink": "https://nysballot.elections.ny.gov/TrackMyBallot/Search",
       "pollingLocation": "https://voterlookup.elections.ny.gov/"
     },
     {
@@ -303,6 +392,9 @@
       "ballotErrors": ["must have ONE witness signature on ballot envelopes"],
       "deadlines": ["Online registration: Friday, October 9, 2020", "Mail-in registration: POSTMARKED by Friday, October 9, 2020", "In-person registration: Friday, October 9, 2020", "Mail-in ballot request: RECEIVED by Tuesday, October 27, 2020", "Early voting: Thursday, October 15, 2020 to Saturday, October 31, 2020", "One-stop registration/voting available during early voting period"],
       "trackingLink": "",
+      "ballotErrors": "",
+      "deadlines": ["Online registration: Friday, October 9, 2020", "Mail-in registration: postmarked by Friday, October 9, 2020", "In-person registration: Friday, October 9, 2020", "Absentee ballot request: received by Tuesday, October 27, 2020", "Early voting: Thursday, October 15, 2020 to Saturday, October 31, 2020", "One-stop registration/voting available during early voting period"],
+      "trackingLink": "https://vt.ncsbe.gov/RegLkup/",
       "pollingLocation": "https://vt.ncsbe.gov/PPLkup/"
     },
     {
@@ -312,6 +404,9 @@
       "ballotErrors": ["mismatched signatures", "ballot received too late"],
       "deadlines": ["Mail-in ballot request: RECEIVED by Monday, November 2, 2020", "early voting: Monday, October 19, 2020 to Monday, November 2, 2020"],
       "trackingLink": "",
+      "ballotErrors": "",
+      "deadlines": ["Mail-in ballot request: received by Monday, November 2, 2020", "early voting: Monday, October 19, 2020 to Monday, November 2, 2020"],
+      "trackingLink": "https://vip.sos.nd.gov/AbsenteeTracker.aspx",
       "pollingLocation": "https://vip.sos.nd.gov/wheretovote.aspx"
     },
     {
@@ -321,6 +416,9 @@
       "ballotErrors": ["Not requesting mail-in ballot in time"],
       "deadlines": ["Online registration: Monday, October 5, 2020", "Mail-in registration: POSTMARKED by Monday, October 5, 2020", "In-person registration: Monday, October 5, 2020", "Mail-in ballot request: RECEIVED by Saturday, October 31, 2020", "Early voting: Tuesday, October 6, 2020 to Monday, November 2, 2020"],
       "trackingLink": "",
+      "ballotErrors": "",
+      "deadlines": ["Online registration: Monday, October 5, 2020", "Mail-in registration: postmarked by Monday, October 5, 2020", "In-person registration: Monday, October 5, 2020", "Absentee ballot request: received by Saturday, October 31, 2020", "Early voting: Tuesday, October 6, 2020 to Monday, November 2, 2020"],
+      "trackingLink": "https://www.sos.state.oh.us/elections/voters/toolkit/ballot-tracking/",
       "pollingLocation": "https://voterlookup.ohiosos.gov/VoterLookup.aspx"
     },
     {
@@ -330,6 +428,9 @@
       "ballotErrors": ["Ballot must be notarized", "ballot received too late", "not verified by witnesses"],
       "deadlines": ["Mail-in registration: POSTMARKED by Friday, October 9, 2020", "In-person registration: Friday, October 9, 2020", "Mail-in ballot request: RECEIVED by Tuesday, October 27, 2020 at 5:00pm", "Early voting: Thursday, October 29, 2020 to Saturday, October 31, 2020"],
       "trackingLink": "",
+      "ballotErrors": "",
+      "deadlines": ["Mail-in registration: postmarked by Friday, October 9, 2020", "In-person registration: Friday, October 9, 2020", "Absentee ballot request: received by Tuesday, October 27, 2020 at 5:00pm", "Early voting: Thursday, October 29, 2020 to Saturday, October 31, 2020"],
+      "trackingLink": "https://okvoterportal.okelections.us/",
       "pollingLocation": "https://okvoterportal.okelections.us/"
     },
     {
@@ -339,6 +440,9 @@
       "ballotErrors": ["mismatched signatures", "postmarked after deadline"],
       "deadlines": ["Online registration: Tuesday, October 13, 2020", "Mail-in registration: POSTMARKED by Tuesday, October 13, 2020", "In-person registration: Tuesday, October 13, 2020", "All registered voters receive a ballot a few weeks before the General Election", "Early voting: by mail only; Ballot drop box sites are open 18-20 days before Election Day, depending on your area. Wednesday, October 28, 2020 is the last day ballots can be mailed. After this date, ballots must be put into a drop box."],
       "trackingLink": "",
+      "ballotErrors": "",
+      "deadlines": ["Online registration: Tuesday, October 13, 2020", "Mail-in registration: postmarked by Tuesday, October 13, 2020", "In-person registration: Tuesday, October 13, 2020", "All registered voters receive a ballot a few weeks before the General Election", "Early voting: by mail only; Ballot drop box sites are open 18-20 days before Election Day, depending on your area. Wednesday, October 28, 2020 is the last day ballots can be mailed. After this date, ballots must be put into a drop box."],
+      "trackingLink": "https://okvoterportal.okelections.us/",
       "pollingLocation": "https://sos.oregon.gov/voting/Pages/drop-box-locator.aspx"
     },
     {
@@ -348,6 +452,9 @@
       "ballotErrors": ["mismatched signatures","postmarked too late"],
       "deadlines": ["Online registration: Monday, October 19, 2020", "Mail-in registration: POSTMARKED by Monday, October 19, 2020", "In-person registration: Monday, October 19, 2020", "Mail-in ballot request: RECEIVED by Tuesday, October 27, 2020", "Early voting period: Monday, September 14, 2020 to Tuesday, October 27, 2020"],
       "trackingLink": "",
+      "ballotErrors": "",
+      "deadlines": ["Online registration: Monday, October 19, 2020", "Mail-in registration: postmarked by Monday, October 19, 2020", "In-person registration: Monday, October 19, 2020", "Mail-in ballot request: received by Tuesday, October 27, 2020", "Early voting period: Monday, September 14, 2020 to Tuesday, October 27, 2020"],
+      "trackingLink": "https://www.pavoterservices.pa.gov/pages/ballottracking.aspx",
       "pollingLocation": "https://www.pavoterservices.pa.gov/Pages/PollingPlaceInfo.aspx"
     },
     {
@@ -357,6 +464,9 @@
       "ballotErrors": ["No particular errors. Happy voting!"],
       "deadlines": ["Online registration: Sunday, October 4, 2020", "Mail-in registration: POSTMARKED by Sunday, October 4, 2020", "In-person registration: Sunday, October 4, 2020", "Mail-in ballot request: RECEIVED by Tuesday, October 13, 2020", "Early voting period: Wednesday, October 14, 2020 to Monday, November 2, 2020"],
       "trackingLink": "",
+      "ballotErrors": "",
+      "deadlines": ["Online registration: Sunday, October 4, 2020", "Mail-in registration: postmarked by Sunday, October 4, 2020", "In-person registration: Sunday, October 4, 2020", "Absentee ballot request: received by Tuesday, October 13, 2020", "Early voting period: Wednesday, October 14, 2020 to Monday, November 2, 2020"],
+      "trackingLink": "https://vote.sos.ri.gov/Home/UpdateVoterRecord?ActiveFlag=3",
       "pollingLocation": "https://vote.sos.ri.gov/Home/PollingPlaces?ActiveFlag=2"
     },
     {
@@ -366,6 +476,9 @@
       "ballotErrors": ["Must have ONE witness signature on ballot envelopes","mismatched signatures","ballot received too late"],
       "deadlines": ["Online registration: Sunday, October 4, 2020", "Mail-in registration: POSTMARKED by Monday, October 5, 2020", "In-person registration: Friday, October 2, 2020", "Mail-in ballot request: RECEIVED by Friday, October 30, 2020"],
       "trackingLink": "",
+      "ballotErrors": "",
+      "deadlines": ["Online registration: Sunday, October 4, 2020", "Mail-in registration: postmarked by Monday, October 5, 2020", "In-person registration: Friday, October 2, 2020", "Absentee ballot request: received by Friday, October 30, 2020"],
+      "trackingLink": "https://info.scvotes.sc.gov/Eng/candidate/selectelection.aspx",
       "pollingLocation": "https://info.scvotes.sc.gov/eng/voterinquiry/VoterInformationRequest.aspx?PageMode=VoterInfo"
     },
     {
@@ -375,6 +488,9 @@
       "ballotErrors": ["No particular errors. Happy voting!"],
       "deadlines": ["Mail-in registration: RECEIVED by Monday, October 19, 2020", "In-person registration: Monday, October 19, 2020", "Mail-in ballot request: RECEIVED by Monday, November 2, 2020","Early voting period: Monday, October 5, 2020 to Monday, November 2, 2020"],
       "trackingLink": "",
+      "ballotErrors": "",
+      "deadlines": ["Mail-in registration: received by Monday, October 19, 2020", "In-person registration: Monday, October 19, 2020", "Mail-in ballot request: received by Monday, November 2, 2020","Early voting period: Monday, October 5, 2020 to Monday, November 2, 2020"],
+      "trackingLink": "https://vip.sdsos.gov/VIPLogin.aspx",
       "pollingLocation": "https://vip.sdsos.gov/viplogin.aspx"
     },
     {
@@ -384,6 +500,9 @@
       "ballotErrors": ["No particular errors. Happy voting!"],
       "deadlines": ["Online registration: Monday, October 5, 2020", "Mail-in registration: POSTMARKED by Monday, October 5, 2020", "In-person registration: Monday, October 5, 2020", "Mail-in ballot request: RECEIVED by Tuesday, October 27, 2020", "Early voting period: Wednesday, October 14, 2020 to Thursday, October 29, 2020"],
       "trackingLink": "",
+      "ballotErrors": "",
+      "deadlines": ["Online registration: Monday, October 5, 2020", "Mail-in registration: postmarked by Monday, October 5, 2020", "In-person registration: Monday, October 5, 2020", "Absentee ballot request: received by Tuesday, October 27, 2020", "Early voting period: Wednesday, October 14, 2020 to Thursday, October 29, 2020"],
+      "trackingLink": "https://www.vote.org/absentee-ballot/tennessee/",
       "pollingLocation": "https://web.go-vote-tn.elections.tn.gov/"
     },
     {
@@ -393,6 +512,9 @@
       "ballotErrors": ["mismatched signatures","incorrect form of voter ID"],
       "deadlines": ["Mail-in registration: POSTMARKED by Monday, October 5, 2020", "In-person registration: Monday, October 5, 2020", "Mail-in ballot request: RECEIVED by Friday, October 23, 2020", "Early voting period: Tuesday, October 13, 2020 to Friday, October 30, 2020"],
       "trackingLink": "",
+      "ballotErrors": "",
+      "deadlines": ["Mail-in registration: postmarked by Monday, October 5, 2020", "In-person registration: Monday, October 5, 2020", "Absentee ballot request: received by Friday, October 23, 2020", "Early voting period: Tuesday, October 13, 2020 to Friday, October 30, 2020"],
+      "trackingLink": "https://www.tarrantcounty.com/en/elections/Early-Voting-Information/Military-and-Overseas-Voting/Tracking-your-Voted-Ballot.html",
       "pollingLocation": "https://teamrv-mvp.sos.texas.gov/MVP/mvp.do"
     },
     {
@@ -402,6 +524,9 @@
       "ballotErrors": ["postmarked after deadline","missing signatures","cast by dead people (?)"],
       "deadlines": ["Online registration: Friday, October 23, 2020 by 5:00pm", "Mail-in registration: RECEIVED by Friday, October 23, 2020", "All ACTIVE registered voters RECEIVED ballot for General Election", "In-person registration: Monday, October 5, 2020", "Early voting period: Tuesday, October 20, 2020 to Friday, October 30, 2020", "In-person registration available  on Election Day"],
       "trackingLink": "",
+      "ballotErrors": "",
+      "deadlines": ["Online registration: Friday, October 23, 2020 by 5:00pm", "Mail-in registration: received by Friday, October 23, 2020", "All ACTIVE registered voters received ballot for General Election", "In-person registration: Monday, October 5, 2020", "Early voting period: Tuesday, October 20, 2020 to Friday, October 30, 2020", "In-person registration available  on Election Day"],
+      "trackingLink": "https://votesearch.utah.gov/voter-search/search/search-by-voter/track-mail-ballot",
       "pollingLocation": "https://votesearch.utah.gov/voter-search/search/search-by-address/how-and-where-can-i-vote"
     },
     {
@@ -411,6 +536,9 @@
       "ballotErrors": ["Filling out more than one party ballot","failed to return unvoted ballots"],
       "deadlines": ["Mail-in registration: RECEIVED by Monday, November 2, 2020", "All ACTIVE registered voters receive ballot for General Election", "Early voting: Monday, September 21, 2020 to Monday, November 2, 2020", "You can also register and vote on Election Day", "No deadline to register online"],
       "trackingLink": "",
+      "ballotErrors": "",
+      "deadlines": ["Mail-in registration: received by Monday, November 2, 2020", "All ACTIVE registered voters receive ballot for General Election", "Early voting: Monday, September 21, 2020 to Monday, November 2, 2020", "You can also register and vote on Election Day", "No deadline to register online"],
+      "trackingLink": "https://www.vote.org/absentee-ballot/vermont/",
       "pollingLocation": "https://mvp.sec.state.vt.us/"
     },
     {
@@ -420,6 +548,9 @@
       "ballotErrors": ["Must have ONE witness signature on ballot envelopes","ballot received too late"],
       "deadlines": ["Online registration: Tuesday, October 13, 2020", "Mail-in registration: POSTMARKED by Tuesday, October 13, 2020", "In-person registration: Tuesday, October 13, 2020", "Mail-in ballot request: RECEIVED by Friday, October 23, 2020", "Early voting: Friday, September 18, 2020 to Saturday, October 31, 2020"],
       "trackingLink": "",
+      "ballotErrors": "",
+      "deadlines": ["Online registration: Tuesday, October 13, 2020", "Mail-in registration: postmarked by Tuesday, October 13, 2020", "In-person registration: Tuesday, October 13, 2020", "Absentee ballot request: received by Friday, October 23, 2020", "Early voting: Friday, September 18, 2020 to Saturday, October 31, 2020"],
+      "trackingLink": "https://vote.arlingtonva.us/track-your-ballot/",
       "pollingLocation": "https://www.elections.virginia.gov/citizen-portal/index.html"
     },
     {
@@ -429,6 +560,9 @@
       "ballotErrors": ["fail to select party", "must sign statement in envelope acknowledging that one party was voted for"],
       "deadlines": ["Online registration: Monday, October 26, 2020", "Mail-in registration: RECEIVED by Monday, October 26, 2020", "In-person registration: Tuesday, November 3, 2020", "Update existing voter registration with new name and address: Monday, October 26, 2020", "All registered voters receive mail-in ballot for General Election", "Early voting period: Monday, October 19, 2020 to Monday, November 2, 2020", "In person registration available on Election Day"],
       "trackingLink": "",
+      "ballotErrors": "",
+      "deadlines": ["Online registration: Monday, October 26, 2020", "Mail-in registration: received by Monday, October 26, 2020", "In-person registration: Tuesday, November 3, 2020", "Update existing voter registration with new name and address: Monday, October 26, 2020", "All registered voters receive mail-in ballot for General Election", "Early voting period: Monday, October 19, 2020 to Monday, November 2, 2020", "In person registration available on Election Day"],
+      "trackingLink": "https://voter.votewa.gov/WhereToVote.aspx#/login",
       "pollingLocation": "https://www.sos.wa.gov/elections/auditors/"
     },
     {
@@ -438,6 +572,9 @@
       "ballotErrors": ["ballot received too late","mismatched signatures"],
       "deadlines": ["Online registration: Tuesday, October 13, 2020", "Mail-in registration: POSTMARKED by Tuesday, October 13, 2020", "In-person registration: Tuesday, October 13, 2020", "Mail-in ballot request: RECEIVED by Wednesday, October 28, 2020", "Early voting: Wednesday, October 21, 2020 to Saturday, October 31, 2020", "EXCEPTION: authorized late voter registration from certain uniformed and overseas voters accepted from Wednesday, October 14, 2020 to Monday, November 2, 2020"],
       "trackingLink": "",
+      "ballotErrors": "",
+      "deadlines": ["Online registration: Tuesday, October 13, 2020", "Mail-in registration: postmarked by Tuesday, October 13, 2020", "In-person registration: Tuesday, October 13, 2020", "Absentee ballot request: received by Wednesday, October 28, 2020", "Early voting: Wednesday, October 21, 2020 to Saturday, October 31, 2020", "EXCEPTION: authorized late voter registration from certain uniformed and overseas voters accepted from Wednesday, October 14, 2020 to Monday, November 2, 2020"],
+      "trackingLink": "https://services.sos.wv.gov/Elections/Voter/AbsenteeBallotTracking",
       "pollingLocation": "https://services.sos.wv.gov/Elections/Voter/FindMyPollingPlace"
     },
     {
@@ -447,6 +584,9 @@
       "ballotErrors": ["Must have ONE witness signature on ballot envelopes","Missing self-signatures", "ballot received too late"],
       "deadlines": ["Online registration: Wednesday, October 14, 2020", "Mail-in registration: POSTMARKED by Wednesday, October 14, 2020", "In-person registration: Friday, October 30, 2020", "Mail-in ballot request: RECEIVED by Thursday, October 29, 2020", "Early voting: Tuesday, October 20, 2020 to Sunday, November 1, 2020", "In-person registration available on Election Day"],
       "trackingLink": "",
+      "ballotErrors": "",
+      "deadlines": ["Online registration: Wednesday, October 14, 2020", "Mail-in registration: postmarked by Wednesday, October 14, 2020", "In-person registration: Friday, October 30, 2020", "Absentee ballot request: received by Thursday, October 29, 2020", "Early voting: Tuesday, October 20, 2020 to Sunday, November 1, 2020", "In-person registration available on Election Day"],
+      "trackingLink": "https://myvote.wi.gov/en-US/MyVoterInfo",
       "pollingLocation": "https://myvote.wi.gov/en-US/FindMyPollingPlace"
     },
     {
@@ -456,6 +596,9 @@
       "ballotErrors": ["No particular errors. Happy voting!"],
       "deadlines": ["Mail-in registration: RECEIVED by Monday, October 19, 2020", "In-person registration: Monday, November 2, 2020", "Mail-in ballot request: RECEIVED by Monday, November 2, 2020", "Early voting: Friday, September 18, 2020 to Monday, November 2, 2020", "In-person registration available on Election Day"],
       "trackingLink": "",
+      "ballotErrors": "",
+      "deadlines": ["Mail-in registration: received by Monday, October 19, 2020", "In-person registration: Monday, November 2, 2020", "Absentee ballot request: received by Monday, November 2, 2020", "Early voting: Friday, September 18, 2020 to Monday, November 2, 2020", "In-person registration available on Election Day"],
+      "trackingLink": "https://sos.wyo.gov/Elections/Docs/2020/2020_Primary_MOVE.pdf",
       "pollingLocation": "https://soswy.state.wy.us/Elections/PollPlace/Default.aspx"
     }
   ]
