@@ -44,6 +44,12 @@ export default class Home extends Component {
         <br></br>
         <br></br>
         <br></br>
+        <h1>Election day is November 3rd.</h1>
+        <h1>
+          {Math.ceil((voteDay.getTime() - today.getTime()) / one_day).valueOf()}{" "}
+          Days left.
+        </h1>
+        <br></br>
         <br></br>
         {/* <p>You are on the Home component!</p> */}
         <h5>Vote like your life depends on it.</h5>
@@ -54,23 +60,22 @@ export default class Home extends Component {
           is important that everyone who is able to partakes in the democratic
           process at the heart of the American story.
         </p>
-        <p>This is where Liber Populus comes in.</p>
-        <p>Liber Populus – Latin for “free people”</p>
         <p>
-          Liber Populus provides an assortment of tools and information to equip
-          every voter with what they need to ensure they register and cast their
-          ballot while avoiding obstacles such as voter suppression, ballot
-          filing mistakes, and more!
+          This is where <b>Liber Populus</b> comes in.
+        </p>
+        <p>
+          <b>Liber Populus</b> – Latin for <i>“free people”</i>
+        </p>
+        <p>
+          <b>Liber Populus</b> provides an assortment of tools and information
+          to equip every voter with what they need to ensure they register and
+          cast their ballot while avoiding obstacles such as voter suppression,
+          ballot filing mistakes, and more!
         </p>
         <br></br>
         <br></br>
         <br></br>
-        <br></br>
-        <h1>Election day is November 3rd.</h1>
-        <h1>
-          {Math.ceil((voteDay.getTime() - today.getTime()) / one_day).valueOf()}{" "}
-          Days left.
-        </h1>
+        <small>Created with love for PennApps ♥️ </small>
       </div>
     );
   }
