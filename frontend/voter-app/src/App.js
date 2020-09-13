@@ -21,7 +21,7 @@ import VoterSuppression from "./components/VoterSuppression.component";
 import Volunteer from "./components/Volunteer.component";
 import RegisterToVote from "./components/RegisterToVote.component";
 import TrackBallot from "./components/TrackBallot.component";
-import News from "./components/News.component";
+//import News from "./components/News.component";
 import AddressVerification from "./components/AddressVerification.component";
 import LocationsToVote from "./components/LocationsToVote.component";
 import Home from "./components/Home.component";
@@ -45,7 +45,7 @@ const routes = [
     Component: RegisterToVote,
   },
   { path: "/TrackBallot", name: "Track Ballot", Component: TrackBallot },
-  { path: "/News", name: "News", Component: News },
+ // { path: "/News", name: "News", Component: News },
   {
     path: "/AddressVerification",
     name: "Verify Address",

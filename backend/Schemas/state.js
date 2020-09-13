@@ -2,20 +2,19 @@ const mongoose = require ("mongoose");
 
 const stateSchema = new mongoose.Schema({
     name : String,
-    letters : String,
+    abv : String,
     registerlink: String,
     demographics : {
         ethnicity: [String],
         gender : [String],
     },
     supressionHistory : [String],
-    acceptedIdForms : [String],
-    changeLocation : Boolean,
-    commonErrors : [String],
-    localVolunterrLinks : [String],
+    idForms : [String],
+    ballotErrors : [String],
+    volunteer : [String],
     trackingLink : String,
-    requiredBallotFields : [String],
-    locationLink : String,
+    deadlines : [String],
+    pollingLocation : String,
 
 
 })
