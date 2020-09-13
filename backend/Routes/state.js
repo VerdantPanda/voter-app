@@ -9,9 +9,6 @@ const axios = require('axios');
 router.use(cors({ origin: true }));
 
 
-
-
-
 router.get("/", (req, res) => {
   State.find((err, docs) => {
     if (err) {
@@ -56,7 +53,7 @@ router.get("/linkregister/:state", (req, res) => {
         res.status(404).send(err);
       } else {
         if (docs) {
-          res.status(200).send(docs.registerlink);
+          res.status(200).send(docs.registerLink);
         } else {
           res.status(400).end();
         }
@@ -130,14 +127,17 @@ router.post("/detectState", upload.single("avatar"), async (req, res, next) => {
   if (state === "No State Found!" || state === "Image Error, No state.") {
     res.send("Error occurred!").status(400).end();
   } else {
-    res
-      .send({
-        TestStateResponse: state,
-        fileName: req.file.originalname,
-        TestStringResponse: "test-string",
-      })
-      .status(200)
-      .end();
+    State.findOne({ name: state}, (err, docs) => {
+        if (err) {
+          console.log("not-found");
+          res.status(404).send(err);
+        } else {
+            const {idForms, ballotErrors, deadlines  } = docs;
+            const result = {idForms, ballotErrors, deadlines};
+           if(docs) res.status(200).send(result);    
+           else res.status(200).send("hola")   ; 
+        }
+      });
   }
 });
 module.exports = router;
