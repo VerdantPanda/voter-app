@@ -29,7 +29,7 @@ const TrackBallot  = () => {
        
         <Form>
           <Form.Group controlId="stateSelector">
-            <Form.Label>Example select</Form.Label>
+            <Form.Label>Select your state:</Form.Label>
             <Form.Control as="select" size="lg" onChange={handleChange}>
               {list}
             </Form.Control>
@@ -43,7 +43,7 @@ const TrackBallot  = () => {
         target="_blank"
         color="primary"
       >
-        Find your ballot tracking link in {state ?? "your state"}!
+        Track your {state ?? "state"} ballot!
       </Button>
 
       </div>

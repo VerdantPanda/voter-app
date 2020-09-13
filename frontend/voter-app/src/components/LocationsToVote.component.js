@@ -29,7 +29,7 @@ const LocationsToVote  = () => {
     <div>
         <Form>
           <Form.Group controlId="stateSelector">
-            <Form.Label>Example select</Form.Label>
+            <Form.Label>Select your state:</Form.Label>
             <Form.Control as="select" size="lg" onChange={handleChange}>
               {list}
             </Form.Control>
