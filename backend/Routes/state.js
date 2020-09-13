@@ -4,6 +4,9 @@ const VisionAPI = require("../visionapi.js");
 const router = express.Router();
 const multer = require("multer");
 var upload = multer({ dest: "uploads/" });
+const cors = require('cors');
+const axios = require('axios');
+router.use(cors({ origin: true }));
 
 router.get("/", (req, res) => {
   State.find((err, docs) => {
@@ -17,7 +20,7 @@ router.get("/", (req, res) => {
 });
 
 router.get("/getstate/:state", (req, res) => {
-  State.findOne({ letters: req.params.state }, (err, docs) => {
+  State.findOne({ name: req.params.state }, (err, docs) => {
     if (err) {
       console.log("not-found");
       res.status(404).send(err);
@@ -42,6 +45,40 @@ router.get("/registerlink/:state", (req, res) => {
   });
 });
 
+router.get("/linkregister/:state", (req, res) => {
+    State.findOne({ name: req.params.state }, (err, docs) => {
+      if (err) {
+        console.log("not-found");
+        res.status(404).send(err);
+      } else {
+        if (docs) {
+          res.status(200).send(docs.registerlink);
+        } else {
+          res.status(400).end();
+        }
+      }
+    });
+  });
+
+router.post("/", async (req, res) => {
+  const newState = await Object.assign(new State(), req.body);
+  newState.save((err, docs) => {
+    if (err) {
+      console.log("An error occured saving the new state data");
+      res.status(400).send(err);
+    } else {
+      res.send(docs).status(200);
+    }
+  });
+});
+
+router.put("/:id", async (req, res) => {
+    
+  const state = await State.findByIdAndUpdate(req.params.id, req.body, {new: true});
+  console.log(state);
+  res.send(state).status(200)
+});
+
 router.post("/", (req, res) => {
   const newState = Object.assign(new State(), req.body);
   newState.save((err, docs) => {
@@ -54,25 +91,19 @@ router.post("/", (req, res) => {
   });
 });
 
-router.put("/:id", (req, res) => {
-  const oldState = State.findByIdAndUpdate(req.params.id, req.body);
-});
 
-router.post("/", (req, res) => {
-  const newState = Object.assign(new State(), req.body);
-  newState.save((err, docs) => {
-    if (err) {
-      console.log("An error occured saving the new state data");
-      res.status(400).send(err);
-    } else {
-      res.send(docs).status(200);
-    }
+router.use("/news", (req, res) => {
+  
+    axios.get('https://news.google.com/rss/search?q=Voter%20Suppression%20'+req.query.state+'&hl=en-PK&gl=PK&ceid=PK:en')
+    .then(response => {
+      console.log(response.data);
+      res.json(response.data);
+    })
+    .catch(error => {
+      console.log(error);
+    });
   });
-});
 
-router.put("/:id", (req, res) => {
-  const oldState = State.findByIdAndUpdate(req.params.id, req.body);
-});
 
 router.post("/detectState", upload.single("avatar"), async (req, res, next) => {
   console.log("_________");

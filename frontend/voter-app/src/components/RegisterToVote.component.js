@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Form } from "react-bootstrap/";
 import states_names from "../static_data/states_names";
-// import axios from "axios";
+ import axios from "axios";
 import Button from "@material-ui/core/Button";
 // import ResponsiveEmbed
 // import Iframe from "react-iframe";
@@ -10,22 +10,31 @@ export default class RegisterToVote extends Component {
   constructor(props) {
     super(props);
     this.handleChange = this.handleChange.bind(this);
-    this.state = { currState: null, link: "#" };
+    this.state = { currState: null, link: "#", foundLink: false };
+  }
+
+  async getState () {
+    console.log(this.currState)
+    try {
+    const {data} = await axios.get("https://voterapppennapps.herokuapp.com/api/state/linkregister/" + this.state.currState) ;
+  
+  if (data) window.open(data, "_blank");
+  this.setState({ link: data, foundLink: true});
+    } catch (error) {
+      console.log(error);
+    }
+  
+  
   }
 
   handleChange(event) {
-    console.log("change occuredn in form");
-    console.log(event.target.value);
     this.setState({ currState: event.target.value });
-    // TODO: request info from backend.
-    // axios.get();
-    this.setState({ link: "https://www.google.com/" });
   }
 
   render() {
     return (
       <div>
-        <p>You are on the RegisterToVote component!</p>
+       
         {/*TODO: Consider replacing whith AutoComplete from Material UI instead(has already been imported via npm install.)  */}
         <Form>
           <Form.Group controlId="stateSelector">
@@ -38,7 +47,8 @@ export default class RegisterToVote extends Component {
         <Button
           variant="contained"
           onClick={() => {
-            window.location.href = this.state.link;
+            const stateLink = this.getState();
+            
             return null;
           }}
           target="_blank"

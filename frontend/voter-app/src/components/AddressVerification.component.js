@@ -70,8 +70,8 @@ export default class AddressVerification extends Component {
             console.log("here");
             var xml1 = "<AddressValidateRequest USERID='450VOTER4281'>"+
             "<Revision>1</Revision>"+
-            "<Address ID='0'><Address1>"+this.state.add1+"</Address1><Address2>"+
-            this.state.add2+"</Address2>"+
+            "<Address ID='0'><Address1>"+this.state.add2+"</Address1><Address2>"+
+            this.state.add1+"</Address2>"+
             "<City>"+this.state.city+"</City><State>"+this.state.state+"</State><Zip5>"+this.state.zip+"</Zip5><Zip4/></Address></AddressValidateRequest>";
             xml1 = xml1.replace(" ", "%20");
             xml1 = xml1.replace("<", "%3C");
@@ -82,14 +82,21 @@ export default class AddressVerification extends Component {
             //console.log(url2);   
             axios.get(url1).then(resp => {
               var curr = resp.data.toString()
-              curr = curr.replace(/<[^>]*>/g, ' ');
-              this.setState({ result: curr });
+              
+              
 
               this.setState({alertVariant: "success"});
               if (curr.includes("Address Not Found")){
                 this.setState({alertVariant: "danger"});
                 this.setState({result: "The address you entered could not be found. Kindly correct and try again."})  
-              }
+              } else {
+              curr = curr.substring(
+                curr.lastIndexOf("<Address1>") , 
+                curr.lastIndexOf("</Zip4>")
+            );
+              curr = curr.replace(/<[^>]*>/g, ' ');
+              curr = curr.replace('NULL', ' ');
+              this.setState({ result: curr });}
               console.log(resp.data);
               
 });
@@ -102,7 +109,7 @@ export default class AddressVerification extends Component {
           Verify your address in {this.state.state ?? "your state"}!
         </Button>
         </Form>
-        <Alert controlId="alert" variant={this.state.alertVariant}>
+        <Alert variant={this.state.alertVariant}>
   <Alert.Heading>Corrected Address:</Alert.Heading>
   <p>
     {this.state.result}
