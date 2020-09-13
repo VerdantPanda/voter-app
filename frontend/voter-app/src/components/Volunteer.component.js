@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import OrgCard from "./orgCard";
 import ObamaPic from "../static_data/obama.jpg";
 import AutoGrid from "./AutoGrid";
-import ApiKeyLink from "./ApiKeyLink";
 import Axios from "axios";
 
 const volunteerSitesList = [
