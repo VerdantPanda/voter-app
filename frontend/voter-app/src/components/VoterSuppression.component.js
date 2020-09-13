@@ -1,14 +1,11 @@
 import React, { Component } from "react";
-<<<<<<< HEAD
 import { CountdownCircleTimer } from "react-countdown-circle-timer";
 import Iframe from 'react-iframe';
-=======
 import {ListGroup, Col, Row, Form, Alert } from "react-bootstrap/";
 import axios from "axios";
 import Button from "@material-ui/core/Button";
 import states_names from "../static_data/states_names";
 import Axios from "axios";
->>>>>>> 96cf715063f03fc829b6e108070adea97cd4c33e
 
 
 
@@ -50,7 +47,15 @@ export default class VoterSuppression extends Component {
           Days left.
         </h1>
         <p>Get news about voter suppression in your state below.</p>
-      
+        <Iframe url="https://data.census.gov/cedsci/profile?g=0400000US42"
+        width="100%"
+        height="450px"
+        id="food"
+        className="yes"
+        display="initial"
+        position="relative"
+        sandbox="allow-forms allow-popups allow-pointer-lock allow-same-origin allow-scripts"/>
+        
         
         {/*TODO: Consider replacing whith AutoComplete from Material UI instead(has already been imported via npm install.)  */}
         <Form>
