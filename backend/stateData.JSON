@@ -4,9 +4,6 @@
       "registerLink": "https://www.alabamainteractive.org/sos/voter_registration/voterRegistrationWelcome.action",
       "idForms": ["ID NECESSARY!", "Acceptable forms of valid photo ID include: Alabama driver's license (may be expired up to 60 days); Alabama non-driver's ID card (may be expired up to 60 days); Alabama photo voter ID card; digital driver's license or non-driver ID issued by the Alabama Law Enforcement Agency; photo ID card issued by Alabama or any other state; federal government issued ID; US passport; employee ID card issued by the federal government, the State of Alabama, county, municipality, board or other entity in Alabama; student or employee ID issued by a public or private college or university in Alabama; US military ID; or a valid tribal ID.", "Voters without ID: If you are unable to provide ID, you will be able to vote a provisional ballot. In order for your ballot to be counted, you must provide your ID, including your address and your telephone number, to the board of registrars no later than 5:00 P.M. on the Friday following the election. If you fail to provide ID to the board of registrars by that time, your ballot will not be counted. In addition, voters who do not show valid photo ID at the polls can vote a regular ballot if they are positively identified by two election officials as a voter on the poll list who is eligible to vote and the election officials sign a sworn affidavit."],
       "ballotErrors": ["not sealing affidavit in secrecy envelope","failing to mark affidavit properly","For mail-in ballots, missing additional witness signatures (ONE REQUIRED) or public notary", "Missing self-signatures", "Arriving late to ballot counting center"],
-      "deadlines": ["Online registration: Monday, October 19, 2020 by 11:59 pm", "Mail-in registration: POSTMARKED by Monday, October 19, 2020", "In-person registration: Monday, October 19, 2020", "Mail-in ballot request: Thursday, October 29, 2020 by closing time of Election Manager office"],
-      "trackingLink": "",
-      "ballotErrors": "",
       "deadlines": ["Online registration: Monday, October 19, 2020 by 11:59 pm", "Mail-in registration: postmarked by Monday, October 19, 2020", "In-person registration: Monday, October 19, 2020", "Absentee ballot request: Thursday, October 29, 2020 by closing time of Election Manager office"],
       "trackingLink": "https://myinfo.alabamavotes.gov/VoterView/AbsenteeBallotSearch.do",
       "pollingLocation": "https://myinfo.alabamavotes.gov/VoterView/PollingPlaceSearch.do"
@@ -17,9 +14,6 @@
       "idForms": ["ID NECESSARY!", "Acceptable forms of ID include: voter ID card; driver's license; state ID card; military ID card; passport; hunting or fishing license; or other current or valid photo ID. If including name and current address: current utility bill, bank statement, paycheck, government check or other government issued document.", "Voters without ID: If you are unable to provide ID, you will be able to vote a questioned ballot."],
       "ballotErrors": ["voter not registered", "ballot cast in wrong district", "POSTMARKED after election day","For mail-in ballots, missing additional witness signatures (ONE REQUIRED) or public notary", "Missing self-signatures"],
       "deadlines": ["Online registration: Sunday, October 4, 2020", "Mail-in registration: POSTMARKED by Sunday, October 4, 2020", "In-person registration: Sunday, October 4, 2020", "Mail-in ballot request: RECEIVED by Saturday, October 24, 2020", "Early voting period: Monday, October 19, 2020 to Monday, November 2, 2020"],
-      "trackingLink": "",
-      "ballotErrors": "",
-      "deadlines": ["Online registration: Sunday, October 4, 2020", "Mail-in registration: postmarked by Sunday, October 4, 2020", "In-person registration: Sunday, October 4, 2020", "Absentee ballot request: received by Saturday, October 24, 2020", "Early voting period: Monday, October 19, 2020 to Monday, November 2, 2020"],
       "trackingLink": "https://myvoterinformation.alaska.gov/",
       "pollingLocation": "https://myvoterinformation.alaska.gov/"
     },
@@ -38,9 +32,6 @@
       "idForms": ["ID NECESSARY!", "Acceptable forms of ID include: an Arkansas driver's license; an Arkansas photo identification card; a concealed handgun carry license; a United States passport; an employee badge or identification document issued by college or university in Arkansas; a United States military identification document; a public assistance identification card if card contains voter portrait; a voter verification card.","First timers: Acceptable forms include: a driver's license or non-driver's license ID; or a current utility bill, bank statement, government check, paycheck, or other government document with your name and address.","Voters without ID: If you are unable to provide ID, you will be able to vote a provisional ballot."],
       "ballotErrors": ["Missing voter ID", "Sending in mail-in ballots too late"],
       "deadlines": ["Online registration: Monday, October 5, 2020", "Mail-in registration: POSTMARKED by Monday, October 5, 2020", "In-person registration: Monday, October 5, 2020", "Mail-in ballot request: RECEIVED by Friday, October 23, 2020", "Early voting period: Wednesday, October 7, 2020 to Friday, October 30, 2020"],
-      "trackingLink": "",
-      "ballotErrors": "",
-      "deadlines": ["Online registration: Monday, October 5, 2020", "Mail-in registration: postmarked by Monday, October 5, 2020", "In-person registration: Monday, October 5, 2020", "Absentee ballot request: received by Friday, October 23, 2020", "Early voting period: Wednesday, October 7, 2020 to Friday, October 30, 2020"],
       "trackingLink": "https://www.vote.org/absentee-ballot/arkansas/",
       "pollingLocation": "https://www.voterview.ar-nova.org/voterview"
     },
@@ -59,9 +50,6 @@
       "idForms": ["ID NECESSARY! Must show address!","Acceptable forms include: Colorado driver's license; valid ID card issued by the Department of Revenue; US passport; employee ID with photo issued by any entity of the US government or Colorado; pilot's license issued by the FAA or other authorized agency of the US; US military ID with photo; ID card issued by a federally recognized tribal government; Medicare or Medicaid card; certified copy of your US birth certificate; certificate of Degree of Indian or Alaskan Native Blood; certified documentation of naturalization; student ID with photo issued by a Colorado institute of higher education; veteran's ID with photo issued by the VA; or a current utility bill, bank statement, government check, paycheck, or other government document showing name and address (within last 60 days).","Voters without ID: If you are unable to provide ID, you will be able to vote a provisional ballot, or you may request a mail ballot to take home, sign, and return to your county clerk. Your signature is used to verify your identity on a mail ballot"],
       "ballotErrors": ["missing signature","improper photo ID", "Mismatched signatures"],
       "deadlines": ["Online registration: Monday, October 26, 2020", "Mail-in registration: POSTMARKED by Monday, October 26, 2020", "In-person registration: Tuesday, November 3, 2020 at 7:00pm", "All registered voters receive mail-in ballot for General Election", "Early voting period: Monday, October 19, 2020 to Monday, November 2, 2020", "In-person registration available on Election Day"],
-      "trackingLink": "",
-      "ballotErrors": "",
-      "deadlines": ["Online registration: Monday, October 26, 2020", "Mail-in registration: postmarked by Monday, October 26, 2020", "In-person registration: Tuesday, November 3, 2020 at 7:00pm", "All registered voters receive mail-in ballot for General Election", "Early voting period: Monday, October 19, 2020 to Monday, November 2, 2020", "In-person registration available on Election Day"],
       "trackingLink": "https://colorado.ballottrax.net/voter/",
       "pollingLocation": "https://www.sos.state.co.us/pubs/elections/Resources/CountyElectionOffices.html"
     },
@@ -70,9 +58,6 @@
       "registerLink": "https://voterregistration.ct.gov/OLVR/welcome.do",
       "idForms": ["MAY ASK FOR ID! Acceptable forms include: Social Security card; or any other pre-printed form of ID that shows your name and address or name and signature, or name and photograph.","First time mail-in-voters, you will need to show proof of residence as well. Acceptable forms include: a current and valid photo ID that shows your name and address; or a copy of a current utility bill, bank statement, government check, paycheck or government document that shows your name and address.","Voters without ID: If you are unable to provide ID, you will be able to sign an affidavit instead and then vote normally. If you're a first-time voter without ID, you may vote a provisional ballot."],
       "ballotErrors": ["inner envelope was not returned or signed"],
-      "deadlines": ["Online registration: Tuesday, October 27, 2020", "Mail-in registration: POSTMARKED by Monday, October 5, 2020", "In-person registration: Tuesday, October 27, 2020", "Mail-in ballot request: RECEIVED by Monday, November 2, 2020", "In-person registration available on Election Day"],
-      "trackingLink": "",
-      "ballotErrors": "",
       "deadlines": ["Online registration: Tuesday, October 27, 2020", "Mail-in registration: postmarked by Monday, October 5, 2020", "In-person registration: Tuesday, October 27, 2020", "Absentee ballot request: received by Monday, November 2, 2020", "In-person registration available on Election Day"],
       "trackingLink": "https://www.fvap.gov/guide/chapter2/connecticut",
       "pollingLocation": "https://portaldir.ct.gov/sots/LookUp.aspx"
@@ -82,9 +67,6 @@
       "registerLink": "https://ivote.de.gov/voterview/registrant/newregistrant",
       "idForms": ["ID NECESSARY!", "Acceptable forms include: Delaware driver's license or state ID, US passport, Social Security Card, polling place card, bank statement, utility bill; or mail addressed to the voter at the address where registered.","Voters without ID: If you are unable to provide ID, you will be asked to sign an affidavit of affirmation that you are the person listed in the pollbook."],
       "ballotErrors": ["No particular errors. Happy voting!"],
-      "deadlines": ["Online registration: Saturday, October 10, 2020", "Mail-in registration: POSTMARKED by Saturday, October 10, 2020", "In-person registration: Saturday, October 10, 2020", "Mail-in ballot request: RECEIVED by Friday, October 30, 2020"],
-      "trackingLink": "",
-      "ballotErrors": "",
       "deadlines": ["Online registration: Saturday, October 10, 2020", "Mail-in registration: postmarked by Saturday, October 10, 2020", "In-person registration: Saturday, October 10, 2020", "Absentee ballot request: received by Friday, October 30, 2020"],
       "trackingLink": "https://ivote.de.gov/VoterView",
       "pollingLocation": "https://ivote.de.gov/VoterView"
@@ -95,9 +77,6 @@
       "idForms": ["ID WITH SIGNATURE NECESSARY!", "Acceptable forms include: Florida driver's license or ID card issued by the Department of Highway Safety and Motor Vehicles; US passport; debit or credit card; military ID; student ID; retirement center ID; neighborhood association ID; public assistance ID; veteran health ID issued by the US Department of Veterans Affairs; license to carry a concealed weapon or firearm; or an employee ID card issued by the federal government, the state of Florida, or any county or municipality. If your photo ID does not include your signature, you will be asked to provide another ID that has your signature.","Voters without ID: If you are unable to provide ID, you will be able to vote a provisional ballot. Signatures must match!"],
       "ballotErrors": ["ballots must be received by Election Day 7pm", "differences between ID signature and ballot signature", "no signature on envelopes", "postage not paid"],
       "deadlines": ["Online registration: Monday, October 5, 2020", "Mail-in registration: POSTMARKED by Monday, October 5, 2020", "In-person registration: Monday, October 5, 2020", "Mail-in ballot request: RECEIVED by Saturday, October 24, 2020", "Early voting: Saturday October 24, 2020 to Saturday, October 31, 2020"],
-      "trackingLink": "",
-      "ballotErrors": "",
-      "deadlines": ["Online registration: Monday, October 5, 2020", "Mail-in registration: postmarked by Monday, October 5, 2020", "In-person registration: Monday, October 5, 2020", "Absentee ballot request: received by Saturday, October 24, 2020", "Early voting: Saturday October 24, 2020 to Saturday, October 31, 2020"],
       "trackingLink": "https://registration.elections.myflorida.com/en/CheckVoterStatus/Index",
       "pollingLocation": "https://registration.elections.myflorida.com/CheckVoterStatus"
     },
@@ -107,9 +86,6 @@
       "idForms": ["ID NECESSARY!", "Acceptable forms include: any valid state or federal government issued photo ID, including a free ID card issued by your county registrar's office or the Georgia Department of Driver Services (DDS); Georgia driver's license, even if expired; valid employee photo ID from any branch, department, agency, or entity of the US Government, Georgia, or any county, municipality, board, authority or other entity of this state; valid US passport ID; valid US military photo ID; student photo ID card issued by a Georgia public college, university, or technical school; or a valid tribal photo ID.","Voters without ID: If you are unable to provide ID, you will be able to vote a provisional ballot. If you are a first-time voter, you will need to provide a copy of your ID within three days after the election to your County Board of Elections and Registration. As long as you do so, your provisional ballot will be counted, as long as you are otherwise eligible to vote."],
       "ballotErrors": ["Arrived too late (must arrive by 7pm Election Day)","incorrect completion", "Mismatched signatures"],
       "deadlines": ["Online registration: Monday, October 5, 2020", "Mail-in registration: POSTMARKED by Monday, October 5, 2020", "In-person registration: Monday, October 5, 2020", "Mail-in ballot request: RECEIVED by Friday, October 30, 2020", "Early voting: Monday, October 12, 2020 to Friday, October 30, 2020"],
-      "trackingLink": "",
-      "ballotErrors": "",
-      "deadlines": ["Online registration: Monday, October 5, 2020", "Mail-in registration: postmarked by Monday, October 5, 2020", "In-person registration: Monday, October 5, 2020", "Absentee ballot request: received by Friday, October 30, 2020", "Early voting: Monday, October 12, 2020 to Friday, October 30, 2020"],
       "trackingLink": "https://www.mvp.sos.ga.gov/MVP/mvp.do",
       "pollingLocation": "https://www.mvp.sos.ga.gov/MVP/mvp.do"
     },
@@ -119,9 +95,6 @@
       "idForms": ["NO ID REQUIRED IF VOTED BEFORE!","First time voters: if registered by mail, and didn't provide a copy of your ID when you registered, you will need to show ID to vote. Acceptable forms include: current driver's license or state ID card; military ID; US passport; or a copy of a current utility bill, bank statement, paycheck, or other government issued document that shows your name and address.","Voters without ID: If you are unable to provide ID, you will be able to vote a provisional ballot. You must provide the clerk's office acceptable identification two days after the election for the ballot to be counted."],
       "ballotErrors": ["No particular errors. Happy voting!"],
       "deadlines": ["Online registration: Monday, October 5, 2020", "Mail-in registration: POSTMARKED by Monday, October 5, 2020", "In-person registration: Monday, October 5, 2020", "All registered voters receive mail-in ballot for November 3 election" ,"Early voting: Tuesday, October 20, 2020 to Monday, November 2, 2020", "In-person registration available on Election Day" , "Same-day registration available during early voting through Election day"],
-      "trackingLink": "",
-      "ballotErrors": "",
-      "deadlines": ["Online registration: Monday, October 5, 2020", "Mail-in registration: postmarked by Monday, October 5, 2020", "In-person registration: Monday, October 5, 2020", "All registered voters receive mail-in ballot for November 3 election" ,"Early voting: Tuesday, October 20, 2020 to Monday, November 2, 2020", "In-person registration available on Election Day" , "Same-day registration available during early voting through Election day"],
       "trackingLink": "https://elections.hawaii.gov/",
       "pollingLocation": "https://olvr.hawaii.gov/altpollingplacesearch.aspx"
     },
@@ -131,9 +104,6 @@
       "idForms": ["ID NECESSARY!", "Acceptable forms include: Idaho driver's license or Idaho photo ID card; US passport or federal photo ID card; tribal photo ID; a current student photo ID issued by an Idaho high school, college, or technical school; or a license to carry a concealed weapon issued by a county sheriff in Idaho.","Voters without ID: If you are unable to provide ID, you will be given the option of signing the Personal Identification Affidavit in order to cast a ballot."],
       "ballotErrors": ["confusion between ballots and election postcards"],
       "deadlines": ["Online registration: Friday, October 9, 2020", "Mail-in registration: POSTMARKED by Friday, October 9, 2020", "In-person registration: Friday, October 9, 2020", "Mail-in ballot request: RECEIVED by Friday, October 23, 2020", "Early voting: Monday, October 19, 2020 to Friday, October 30, 2020", "In-person registration available on Election Day"],
-      "trackingLink": "",
-      "ballotErrors": "",
-      "deadlines": ["Online registration: Friday, October 9, 2020", "Mail-in registration: postmarked by Friday, October 9, 2020", "In-person registration: Friday, October 9, 2020", "Absentee ballot request: received by Friday, October 23, 2020", "Early voting: Monday, October 19, 2020 to Friday, October 30, 2020", "In-person registration available on Election Day"],
       "trackingLink": "https://adacounty.id.gov/elections/view-my-ballot/",
       "pollingLocation": "https://elections.sos.idaho.gov/ElectionLink/ElectionLink/ViewPollingLocation.aspx"
     },
@@ -143,9 +113,6 @@
       "idForms": ["If you're a first-time voter who registered by mail, and didn't provide proof of residence when registering, you will need to show proof of residence to vote. Acceptable forms include: a current and valid government-issued photo ID; or a current utility bill (does not include cell phone bill) issued within 90 days of Election Day, bank statement issued within 90 days of Election Day, government check issued within 90 days of Election Day, paycheck, lease or rental agreement, university housing or tuition bill, or another government document that shows your name and address.","Voters without ID: If you are unable to provide ID, you will be able to vote a special ballot. Must present ID within TWO DAYS to Board of Elections."],
       "ballotErrors": ["must postmark before deadline"],
       "deadlines": ["Mail-in registration: RECEIVED by Tuesday, October 13, 2020", "In-person registration: Tuesday, November 3, 2020", "All registered voters receive mail-in ballot for November 3 election", "Early voting: Tuesday, October 27, 2020 to Monday, November 2, 2020", "In-person registration available on Election Day"],
-      "trackingLink": "",
-      "ballotErrors": "",
-      "deadlines": ["Mail-in registration: received by Tuesday, October 13, 2020", "In-person registration: Tuesday, November 3, 2020", "All registered voters receive mail-in ballot for November 3 election", "Early voting: Tuesday, October 27, 2020 to Monday, November 2, 2020", "In-person registration available on Election Day"],
       "trackingLink": "https://www.dcboe.org/Voters/Absentee-Voting/Track-Absentee-Ballot",
       "pollingLocation": "https://www.dcboe.org/Voters/Where-to-Vote/Polling-Places"
     },
@@ -155,10 +122,6 @@
       "idForms": ["NO ID REQUIRED IF VOTED BEFORE!","First time voters: if registered by mail, and didn't provide your driver's license number, state ID number, last 4 digits of your Social Security number, or a copy of a current ID or government document that shows your name and address when you registered, you'll need to provide one of these when you vote. Examples: (i) a copy of a current and valid photo identification, (ii) a copy of a lease or contract for residence, student ID & mail addressed to your residence, or (iii) a copy of a current utility bill, bank statement, government check, paycheck, or other government document that shows your name and address.", "Voters without ID: If you are unable to provide ID, you will be able to vote a provisional ballot. After voting provisionally, you will be told how to submit additional proof of registration to the election authority. The additional information must be RECEIVED by the election authority no later than the close of business on the Tuesday following the election."],
       "ballotErrors": ["No particular errors. Happy voting!"],
       "deadlines": ["Online registration: Sunday, October 18, 2020", "Mail-in registration: POSTMARKED by Tuesday, October 6, 2020", "In-person registration: Tuesday, November 3, 2020; grace period after October 6, 2020", "Mail-in ballot request: RECEIVED by Thursday, October 29, 2020", "Early voting: Thursday, September 24, 2020 to Monday, November 2, 2020", "In-person registration available on Election Day"],
-      "trackingLink": "",
-      "idForms": ["NO ID REQUIRED IF VOTED BEFORE!","First time voters: if registered by mail, and didn't provide your driver's license number, state ID number, last 4 digits of your Social Security number, or a copy of a current ID or government document that shows your name and address when you registered, you'll need to provide one of these when you vote. Examples: (i) a copy of a current and valid photo identification, (ii) a copy of a lease or contract for residence, student ID & mail addressed to your residence, or (iii) a copy of a current utility bill, bank statement, government check, paycheck, or other government document that shows your name and address.", "Voters without ID: If you are unable to provide ID, you will be able to vote a provisional ballot. After voting provisionally, you will be told how to submit additional proof of registration to the election authority. The additional information must be received by the election authority no later than the close of business on the Tuesday following the election."],
-      "ballotErrors": "",
-      "deadlines": ["Online registration: Sunday, October 18, 2020", "Mail-in registration: postmarked by Tuesday, October 6, 2020", "In-person registration: Tuesday, November 3, 2020; grace period after October 6, 2020", "Absentee ballot request: received by Thursday, October 29, 2020", "Early voting: Thursday, September 24, 2020 to Monday, November 2, 2020", "In-person registration available on Election Day"],
       "trackingLink": "https://www.vote.org/absentee-ballot/illinois/",
       "pollingLocation": "https://ova.elections.il.gov/PollingPlaceLookup.aspx"
     },
@@ -168,9 +131,6 @@
       "idForms": ["ID NECESSARY!", "Must display name, an expiration date (can be current or expired sometime after Nov 6, 2018), and be issued by the State of Indiana or the US government. Acceptable forms include: Indiana driver's license or Indiana-issued photo ID card; military ID; or US Passport. A student ID from an Indiana State school may be used if it meets the above requirements. A student ID from a private institution MAY NOT be used for voting purposes.","First time voters: if you registered by mail, you will also need to provide proof of residence to vote. Acceptable forms include (must show current name and current address): Indiana driver's license or Indiana-issued ID card; any current and valid photo ID; or a current utility bill, bank statement, government check, paycheck, or other government document.","Voters without ID: If you are unable or unwilling to present ID meeting these requirements, you may cast a provisional ballot. If you cast a provisional ballot, you have until noon 10 days after the election to follow up with the county election board and either provide the necessary documentation or affirm one of the law's exemptions applies to you."],
       "ballotErrors": ["affidavit is insufficient", "mismatched signatures", "absentee voter has voted in person"],
       "deadlines": ["Online registration: Monday, October 5, 2020", "Mail-in registration: POSTMARKED by Monday, October 5, 2020", "In-person registration: Monday, October 5, 2020", "Mail-in ballot request: RECEIVED by Thursday, October 22, 2020", "Early voting: Tuesday, October 6, 2020 to Monday, November 2, 2020"],
-      "trackingLink": "",
-      "ballotErrors": "",
-      "deadlines": ["Online registration: Monday, October 5, 2020", "Mail-in registration: postmarked by Monday, October 5, 2020", "In-person registration: Monday, October 5, 2020", "Absentee ballot request: received by Thursday, October 22, 2020", "Early voting: Tuesday, October 6, 2020 to Monday, November 2, 2020"],
       "trackingLink": "https://indianavoters.in.gov/",
       "pollingLocation": "https://indianavoters.in.gov/"
     },
@@ -180,9 +140,6 @@
       "idForms": ["ID NECESSARY!", "Approved forms of ID for pre-registered voters include an Iowa driver's license or non-operator ID, US passport, tribal ID card/document, US military or veteran ID, or an Iowa voter ID card.","If you are registering to vote after the pre-registration deadline or at the polls on election day, you must provide a current and valid photo ID. Approved forms of identification for election day registrants include the items listed above, excluding the Iowa Voter ID Card. Additional acceptable forms of identification are an out-of-state driver's license or non-operator ID, employer-issued ID, or student ID issued by an Iowa high school or college.","Proof of residence: If your address has changed or you need to register after the pre-registration deadline or at the polls on election day, you will also be required to provide proof of residence. If your current address is on your current and valid ID, then it may also serve as proof of residence. Proof of residence documents must include the voter's name and address and be current within 45 days of presentation. These documents, except an ID, may be in electronic format, such as on a cell phone or tablet. Additional approved proof of residence documents are a residential lease, utility bill (including a cell phone bill), bank statement, paycheck, government check or other government document, or a property tax statement (current within 45 days of final payment date).","Voters without ID: A voter who is unable to provide an approved form of identification (or is unable to prove residence, if required) may 1) have their identity/residence attested to by another registered voter in the precinct, or 2) cast a provisional ballot and can provide ID up until 12:00 p.m. noon on Monday after election day."],
       "ballotErrors": ["not postmarked", "ballot received too late"],
       "deadlines": ["Online registration: Saturday, October 24, 2020 by 5:00pm", "Mail-in registration: RECEIVED by Saturday, October 24, 2020", "In-person registration: Saturday, October 24, 2020 by 5:00pm", "Mail-in ballot request: Saturday, October 24, 2020 by 5:00pm", "Early voting: Monday, October 5, 2020 to Monday, November 2, 2020", "In-person registration available on Election Day"],
-      "trackingLink": "",
-      "ballotErrors": "",
-      "deadlines": ["Online registration: Saturday, October 24, 2020 by 5:00pm", "Mail-in registration: received by Saturday, October 24, 2020", "In-person registration: Saturday, October 24, 2020 by 5:00pm", "Absentee ballot request: Saturday, October 24, 2020 by 5:00pm", "Early voting: Monday, October 5, 2020 to Monday, November 2, 2020", "In-person registration available on Election Day"],
       "trackingLink": "https://sos.iowa.gov/elections/absenteeballotstatus/absentee/search",
       "pollingLocation": "https://sos.iowa.gov/elections/voterreg/pollingplace/search.aspx"
     },
@@ -192,9 +149,6 @@
       "idForms": ["ID NECESSARY!", "Acceptable forms include: a driver's license or non-driver's ID card issued by Kansas or by another state; a concealed carry handgun license; US passport; government employee badge or ID; military ID; student ID from an accredited postsecondary institution of education in Kansas; government-issued public assistance ID; or Indian tribal ID. Persons age 65 or older may use expired photo ID documents.", "Voters without ID: If you are unable to provide ID, you will be able to vote a provisional ballot and provide your ID to the county prior to the county canvass (7-10 days after the election) in order for it to be counted."],
       "ballotErrors": ["Voting out of county", "not registered in the state"],
       "deadlines": ["Online registration: Tuesday, October 13, 2020", "Mail-in registration: POSTMARKED by Tuesday, October 13, 2020", "In-person registration: Tuesday, October 13, 2020", "Mail-in ballot request: RECEIVED by Tuesday, October 27, 2020", "Early voting: Wednesday, October 14, 2020 to Monday, November 2, 2020 by 12:00pm"],
-      "trackingLink": "",
-      "ballotErrors": "",
-      "deadlines": ["Online registration: Tuesday, October 13, 2020", "Mail-in registration: postmarked by Tuesday, October 13, 2020", "In-person registration: Tuesday, October 13, 2020", "Absentee ballot request: received by Tuesday, October 27, 2020", "Early voting: Wednesday, October 14, 2020 to Monday, November 2, 2020 by 12:00pm"],
       "trackingLink": "https://myvoteinfo.voteks.org/VoterView/Home.do",
       "pollingLocation": "https://myvoteinfo.voteks.org/VoterView/PollingPlaceSearch.do"
     },
@@ -204,9 +158,6 @@
       "idForms": ["ID NECESSARY!", "Acceptable forms include: driver's license; military ID; college ID; Kentucky government ID. If you don't have a photo ID, you may obtain a free photo ID card at your circuit clerk's office or one of the Kentucky Transportation Cabinet's regional offices.","If you cannot obtain a photo ID you may sign a ‘Reasonable Impediment Declaration’ and present one of the following non-photo IDs: Social Security Card; any ID issued by a county in KY that's been approved by the State Board of Elections and shows your name); any ID card with both the voter's photograph and name; any food stamp ID card, electronic benefit transfer card, or supplemental nutrition assistance card issued by KY that shows voter's name; or a credit or debit card that shows your name.","Voters without ID: If you are unable to provide ID, you will be able to vote a provisional ballot."],
       "ballotErrors": ["voter signature missing", "postmarked after deadline", "inner flap not signed"],
       "deadlines": ["Online registration: Monday, October 5, 2020", "Mail-in registration: POSTMARKED by Monday, October 5, 2020", "In-person registration: Monday, October 5, 2020", "Mail-in ballot request: RECEIVED by Friday, October 9, 2020", "Early voting: Tuesday, October 13, 2020 to Monday, November 2, 2020"],
-      "trackingLink": "",
-      "ballotErrors": "",
-      "deadlines": ["Online registration: Monday, October 5, 2020", "Mail-in registration: postmarked by Monday, October 5, 2020", "In-person registration: Monday, October 5, 2020", "Absentee ballot request: received by Friday, October 9, 2020", "Early voting: Tuesday, October 13, 2020 to Monday, November 2, 2020"],
       "trackingLink": "https://vrsws.sos.ky.gov/vic/",
       "pollingLocation": "https://vrsws.sos.ky.gov/vic/"
     },
@@ -216,9 +167,6 @@
       "idForms": ["ID NECESSARY!", "Acceptable forms of photo ID include: a Louisiana driver's license or special ID card; LA Wallet digital driver's license; a United States military identification card that contains the applicant's name and picture; or some other generally recognized picture ID that contains your name and signature." ,"Voters without ID: If you are unable to provide ID, you may still cast your vote by signature on a voter affidavit."],
       "ballotErrors": ["Must have ONE witness signature on ballot envelopes"],
       "deadlines": ["Online registration: Tuesday, October 13, 2020", "Mail-in registration: POSTMARKED by Monday, October 5, 2020", "In-person registration: Monday, October 5, 2020", "Mail-in ballot request: RECEIVED by Friday, October 30, 2020", "Early voting: Tuesday, October 20, 2020 to Tuesday, October 27, 2020"],
-      "trackingLink": "",
-      "ballotErrors": "",
-      "deadlines": ["Online registration: Tuesday, October 13, 2020", "Mail-in registration: postmarked by Monday, October 5, 2020", "In-person registration: Monday, October 5, 2020", "Absentee ballot request: received by Friday, October 30, 2020", "Early voting: Tuesday, October 20, 2020 to Tuesday, October 27, 2020"],
       "trackingLink": "https://voterportal.sos.la.gov/",
       "pollingLocation": "https://voterportal.sos.la.gov/"
     },
@@ -228,9 +176,6 @@
       "idForms": ["NO ID REQUIRED IF VOTED BEFORE!", "If you're a first-time voter that registered by mail, and didn't provide a copy of your Maine driver's license, Maine state ID card, or a current utility bill, bank statement, government check, paycheck, or government document that shows your name and address when you registered, you may need to show one of these documents to vote.", "Voters without ID: If you don't have ID or proof of residence, you can cast a challenged ballot. You may be asked to provide ID after the election for your ballot to count."],
       "ballotErrors": ["No particular errors. Happy voting!"],
       "deadlines": ["Mail-in registration: RECEIVED by Monday, October 19, 2020", "In-person registration: Tuesday, November 3, 2020", "Mail-in ballot request: RECEIVED by Thursday, October 29, 2020", "Early voting: Monday, October 5, 2020 to Friday, October 30, 2020", "In-person registration available on Election Day"],
-      "trackingLink": "",
-      "ballotErrors": "",
-      "deadlines": ["Mail-in registration: received by Monday, October 19, 2020", "In-person registration: Tuesday, November 3, 2020", "Absentee ballot request: received by Thursday, October 29, 2020", "Early voting: Monday, October 5, 2020 to Friday, October 30, 2020", "In-person registration available on Election Day"],
       "trackingLink": "https://apps.web.maine.gov/cgi-bin/online/AbsenteeBallot/ballot-status.pl",
       "pollingLocation": "https://www1.maine.gov/portal/government/edemocracy/voter_lookup.php"
     },
@@ -240,9 +185,6 @@
       "idForms": ["NO ID REQUIRED IF VOTED BEFORE!", "If you're a first-time voter who registered by mail, and didn't provide a copy of your Maryland driver's license, state or federal ID card, MVA ID card, student, employee, or military ID, or a current utility bill, bank statement, government check, paycheck, or government document that shows your name and address when you registered, you may need to show one of these documents to vote.", "Voters without ID: If you are unable to provide ID, you will be able to vote a provisional ballot. For your ballot to count, you must provide ID to your local board of elections before 10 am on the 2nd Wednesday after election day."],
       "ballotErrors": ["postmarked too late", "missing signature", "unsealed envelope"],
       "deadlines": ["Online registration: Tuesday, October 13, 2020", "Mail-in registration: POSTMARKED by Tuesday, October 13, 2020", "In-person registration: Tuesday, October 13, 2020", "Mail-in ballot request: RECEIVED by Tuesday, October 20, 2020", "Early voting: Monday, October 26, 2020 to Monday, November 2, 2020", "In-person registration available on Election Day"],
-      "trackingLink": "",
-      "ballotErrors": "",
-      "deadlines": ["Online registration: Tuesday, October 13, 2020", "Mail-in registration: postmarked by Tuesday, October 13, 2020", "In-person registration: Tuesday, October 13, 2020", "Absentee ballot request: received by Tuesday, October 20, 2020", "Early voting: Monday, October 26, 2020 to Monday, November 2, 2020", "In-person registration available on Election Day"],
       "trackingLink": "https://voterservices.elections.maryland.gov/VoterSearch",
       "pollingLocation": "https://elections.maryland.gov/voting/where.html"
     },
@@ -252,9 +194,6 @@
       "idForms": ["ID MAY BE REQUIRED!", "Acceptable forms include (must show your name and address at which you are registered to vote): a MA driver's license or MA-issued ID card; recent utility bill; rent receipt; signed lease; a copy of a voter registration affidavit; or any other printed identification which contains the voter's name and address.", "Voters without ID: If you're a first-time voter who is unable to present ID when you check in, you may vote a provisional ballot and return with acceptable ID by close of polls. If you're asked for ID for any other reason, and are not able to present ID in such a situation, you must still be permitted to vote; however, your ballot must be challenged. Your ballot will be cast normally, and will only be re-examined in the case of a recount, court order, or audit."],
       "ballotErrors": ["No particular errors. Happy voting!"],
       "deadlines": ["Online registration: Saturday, October 24, 2020", "Mail-in registration: POSTMARKED by Saturday, October 24, 2020", "In-person registration: Saturday, October 24, 2020", "Mail-in ballot request: Wednesday, October 28, 2020 by 5:00pm", "Early voting: Saturday, October 17, 2020 to Friday, October 30, 2020"],
-      "trackingLink": "",
-      "ballotErrors": "",
-      "deadlines": ["Online registration: Saturday, October 24, 2020", "Mail-in registration: postmarked by Saturday, October 24, 2020", "In-person registration: Saturday, October 24, 2020", "Absentee ballot request: Wednesday, October 28, 2020 by 5:00pm", "Early voting: Saturday, October 17, 2020 to Friday, October 30, 2020"],
       "trackingLink": "https://www.sec.state.ma.us/wheredoivotema//track/trackmyballot.aspx",
       "pollingLocation": "https://www.sec.state.ma.us/wheredoivotema/bal/MyElectionInfo.aspx"
     },
@@ -264,9 +203,6 @@
       "idForms": ["ID NECESSARY!", "Acceptable forms include: Michigan driver's license or state ID card; current (non-expired) driver's license or personal ID card issued by another state; federal or state government-issued photo ID; US passport; military ID card with a photo; tribal ID card with a photo; or a student ID with a photo from a high school or an accredited institution of higher education.", "Voters without ID: If you are unable to provide ID, you can vote like any other voter by signing an affidavit."],
       "ballotErrors": ["wrong address","mismatched signatures","inner envelope was not returned or signed","unconfirmed ID", "Arriving late to ballot counting center"],
       "deadlines": ["Online registration: Monday, October 19, 2020", "Mail-in registration: POSTMARKED by Monday, October 19, 2020", "In-person registration: Tuesday, November 3, 2020", "Mail-in ballot request: RECEIVED by Friday, October 30, 2020 at 5:00pm", "Early voting period: Thursday, September 24, 2020 to Monday, November 2, 2020", "In-person registration available on Election Day at designated locations"],
-      "trackingLink": "",
-      "ballotErrors": "",
-      "deadlines": ["Online registration: Monday, October 19, 2020", "Mail-in registration: postmarked by Monday, October 19, 2020", "In-person registration: Tuesday, November 3, 2020", "Mail-in ballot request: received by Friday, October 30, 2020 at 5:00pm", "Early voting period: Thursday, September 24, 2020 to Monday, November 2, 2020", "In-person registration available on Election Day at designated locations"],
       "trackingLink": "https://vote.michigan.gov/mvic/",
       "pollingLocation": "https://mvic.sos.state.mi.us/"
     },
@@ -276,9 +212,6 @@
       "idForms": ["If voter registration current and active, ID not required.", "First timers: will have to show ID to vote if registered by mail and ID number could not be verified by the state, or if registering to vote on Election Day. Acceptable forms include: a valid ID with current name and address, which can be expired (e.g. driver's license, Minnesota ID card, learner's permit, US passport, student ID from a Minnesota high school, college, or technical school, U.S. military or veteran ID, or a tribal ID card with name, address, photo and signature); a photo ID and a document with current name and address, which can be shown on an electronic device (e.g. utility bill, bank or credit card statement, mortgage or lease); a registered voter from your precinct who can confirm your name and address; notice of late registration; valid registration in the same precinct; college student ID (if a student housing list is provided); or a staff person of a residential facility."],
       "ballotErrors": ["No particular errors. Happy voting!"],
       "deadlines": ["Online registration: Tuesday, October 13, 2020", "Mail-in registration: RECEIVED by Tuesday, October 13, 2020", "In-person registration: Tuesday, November 3, 2020", "Mail-in ballot request: RECEIVED by Monday, November 2, 2020", "Early voting: Friday, September 18, 2020 to Monday, November 2, 2020", "In-person registration available on Election Day"],
-      "trackingLink": "",
-      "ballotErrors": "",
-      "deadlines": ["Online registration: Tuesday, October 13, 2020", "Mail-in registration: received by Tuesday, October 13, 2020", "In-person registration: Tuesday, November 3, 2020", "Absentee ballot request: received by Monday, November 2, 2020", "Early voting: Friday, September 18, 2020 to Monday, November 2, 2020", "In-person registration available on Election Day"],
       "trackingLink": "https://mnvotes.sos.state.mn.us/AbsenteeBallotStatus.aspx",
       "pollingLocation": "https://pollfinder.sos.state.mn.us/"
     },
@@ -297,9 +230,6 @@
       "idForms": ["ID NECESSARY!", "Acceptable forms of ID include: a driver's license; non-driver's license; US passport; or military ID. If you do not have a government-issued photo ID, you can also show one of the following forms of ID: a voter registration card; ID from a Missouri university, college, vocational or technical school; a copy of a current utility bill, bank statement, paycheck, government check or other government document that contains your name and address.","Voters without ID: If you are unable to provide ID, you will be able to cast a provisional ballot. Your ballot will count if your signature matches the signature in the voter registry or if you return to your polling place and show a photo ID."],
       "ballotErrors": ["Arriving late to ballot counting center","envelopes must be notarized"],
       "deadlines": ["Mail-in registration: POSTMARKED by Monday, October 5, 2020", "In-person registration: Monday, October 5, 2020", "Mail-in ballot request: No deadline"],
-      "trackingLink": "",
-      "ballotErrors": "",
-      "deadlines": ["Mail-in registration: postmarked by Monday, October 5, 2020", "In-person registration: Monday, October 5, 2020", "Mail-in ballot request: No deadline"],
       "trackingLink": "https://www.momilitaryvote.com/",
       "pollingLocation": "https://voteroutreach.sos.mo.gov/PRD/VoterOutreach/VOSearch.aspx"
     },
@@ -309,10 +239,6 @@
       "idForms": ["ID NECESSARY!", "Acceptable forms include: a current photo ID showing name; or a current utility bill, bank statement, paycheck, voter registration confirmation, government check or other government document showing your current name and address.", "Voters without ID: If you are unable to provide ID, you can still vote by requesting and filling out a ‘Polling Place Elector ID’ form. Or, you can vote a provisional ballot. Your provisional ballot will be counted if you provide one of the items on the list to the county election office by 5:00 p.m. the day after the election, or mail it to the county election office POSTMARKED by the day after the election."],
       "ballotErrors": ["No particular errors. Happy voting!"],
       "deadlines": ["Online registration: Monday, October 26, 2020", "Mail-in registration: POSTMARKED by Tuesday, November 3, 2020", "In-person registration: Monday, November 2, 2020", "Mail-in ballot request: RECEIVED by Monday, November 2, 2020", "Early voting: Monday, October 5, 2020 to Monday, November 2, 2020"],
-      "trackingLink": "",
-      "idForms": ["ID NECESSARY!", "Acceptable forms include: a current photo ID showing name; or a current utility bill, bank statement, paycheck, voter registration confirmation, government check or other government document showing your current name and address.", "Voters without ID: If you are unable to provide ID, you can still vote by requesting and filling out a ‘Polling Place Elector ID’ form. Or, you can vote a provisional ballot. Your provisional ballot will be counted if you provide one of the items on the list to the county election office by 5:00 p.m. the day after the election, or mail it to the county election office postmarked by the day after the election."],
-      "ballotErrors": "",
-      "deadlines": ["Online registration: Monday, October 26, 2020", "Mail-in registration: postmarked by Tuesday, November 3, 2020", "In-person registration: Monday, November 2, 2020", "Absentee ballot request: received by Monday, November 2, 2020", "Early voting: Monday, October 5, 2020 to Monday, November 2, 2020"],
       "trackingLink": "https://app.mt.gov/voterinfo/",
       "pollingLocation": "https://app.mt.gov/voterinfo/"
     },
@@ -322,9 +248,6 @@
       "idForms": ["NO ID REQUIRED IF VOTED BEFORE!", "If you're a first-time voter who registered to vote by mail, and didn't include a copy of your ID when you registered, you'll need to show ID to vote. Acceptable forms include: any current photo ID; or a current utility bill, bank statement, government check, paycheck, or other government document that shows your name and address." ,"Voters without ID: If you are unable to provide ID, you will be able to vote a provisional ballot.", "EXCEPTION: The deadline to return a voter registration form with an early voting ballot in person is Election Day."],
       "ballotErrors": ["missing signature on envelopes","missing signature on voters' oath"],
       "deadlines": ["Online registration: Friday, October 16, 2020", "Mail-in registration: POSTMARKED by Friday, October 16, 2020", "In-person registration: Friday, October 16, 2020", "Mail-in ballot request: RECEIVED by Friday, October 23, 2020", "Early voting: Monday, October 5, 2020 to Monday, November 2, 2020", "EXCEPTION: The deadline to return a voter registration form with an early voting ballot in person is Election Day."],
-      "trackingLink": "",
-      "ballotErrors": "",
-      "deadlines": ["Online registration: Friday, October 16, 2020", "Mail-in registration: postmarked by Friday, October 16, 2020", "In-person registration: Friday, October 16, 2020", "Absentee ballot request: received by Friday, October 23, 2020", "Early voting: Monday, October 5, 2020 to Monday, November 2, 2020", "EXCEPTION: The deadline to return a voter registration form with an early voting ballot in person is Election Day."],
       "trackingLink": "https://www.votercheck.necvr.ne.gov/VoterView",
       "pollingLocation": "https://www.votercheck.necvr.ne.gov/VoterView/PollingPlaceSearch.do"
     },
@@ -333,9 +256,6 @@
       "registerLink": "https://www.registertovotenv.gov/",
       "idForms": ["No ID required if name and signature match Nevada registry.", "If you're a first-time voter, you may need to show ID to vote. Acceptable forms include: the card issued to the voter at the time he or she registered to vote; a driver's license; an identification card issued by the Department of Motor Vehicles; a military identification card; or any other form of identification issued by a governmental agency which contains the voter's signature and physical description or picture." ,"Voters without ID: If you are unable to provide ID, you will be able to vote a provisional ballot."],
       "ballotErrors": ["Mismatched signatures","missing signature"],
-      "deadlines": ["Online registration: Thursday, October 29, 2020", "Mail-in registration: POSTMARKED by Tuesday, October 6, 2020", "In-person registration: Tuesday, October 6, 2020", "All registered voters receive mail-in ballot before Election Day", "Early voting: Sunday, October 17, 2020 to Friday, October 30, 2020", "In-person registration available on Election Day"],
-      "trackingLink": "",
-      "ballotErrors": "",
       "deadlines": ["Online registration: Thursday, October 29, 2020", "Mail-in registration: postmarked by Tuesday, October 6, 2020", "In-person registration: Tuesday, October 6, 2020", "All registered voters receive mail-in ballot before Election Day", "Early voting: Sunday, October 17, 2020 to Friday, October 30, 2020", "In-person registration available on Election Day"],
       "trackingLink": "https://nvsos.gov/votersearch/",
       "pollingLocation": "https://www.nvsos.gov/votersearch/"
@@ -346,7 +266,7 @@
       "idForms": ["ID NECESSARY!", "If you do not have a photo ID, you can prove your identity, age, and/or citizenship, by signing a Qualified Voter Affidavit, under oath, in front of an authorized election official. New Hampshire law only allows a Moderator, clerk of a town/ward/city, or Supervisor of the Checklist to verify identity. Acceptable forms of ID include (the name on the ID must be substantially similar to the voter registration record and the expiration date cannot exceed five years, except that a voter 65 years of age or older may use an otherwise qualified form of identification without regard to expiration date): a driver's license from any state; a non-driver's ID issued by the motor vehicle agency of any state; a photo ID card for 'voting identification only' issued by NH DMV; a US armed services ID card; a student ID from an accredited college, university, or career school in New Hampshire, a New Hampshire public high school, an accredited private high school in New Hampshire, Dartmouth College, and any college or university operated by the university or community college systems of New Hampshire; or a US passport or passcard.", "If you are registering to vote at the polls on election day, you will also need to provide evidence, in paper or electronic form, establishing identity, age, citizenship and domicile. An applicant who does not possess or did not bring evidence with them can fulfill this requirement with an affidavit(s). Election officials at the polling place will have the affidavits and can answer any questions regarding completing the affidavits. For proof of citizenship, you can show a birth certificate, US passport or passcard, or naturalization documents, or you can sign an affidavit. You cannot use your New Hampshire driver's license as proof of citizenship. For proof of domicile, you must show an official document that includes your name and address. Acceptable documents include: a driver's license or non-driver's ID, a document from your school, a note signed by a school official or RA, a residential lease, a deed or property tax bill, a motor vehicle registration, a voter photo ID, a public school enrollment, a tax form or other official government form, a form from the US Postal Service (your address cannot be a PO Box), a utility bill, a note from a homeless shelter that confirms they will receive mail sent to you at their address, or a note from the person who owns or supervises the property where you live (applicants in this circumstance may be directed to complete a domicile affidavit).", "Voters without ID: If you are unable to provide ID, you can either have your identity verified by a voting official at your voting location, or sign an affidavit and be photographed by a voting official at your voting location before you vote (if you object to being photographed for religious reasons, you can sign an additional affidavit of religious exemption instead). New Hampshire law only allows a Moderator, Clerk, or Supervisor of the Checklist to verify identity. If you are registering to vote on election day and do not have a proof of domicile, you can sign an affidavit."],
       "ballotErrors": ["mismatched signatures"],
       "deadlines": ["Mail-in registration: Wednesday, October 21, 2020", "In-person registration available on Election Day"],
-      "trackingLink": "",
+      "trackingLink": "No tracking link available",
       "pollingLocation": "https://app.sos.nh.gov/Public/PollingPlaceSearch.aspx"
     },
     {
@@ -355,9 +275,6 @@
       "idForms": ["NO ID REQUIRED IF VOTED BEFORE!", "If you're voting for the first-time in your county, registered to vote by mail, and didn't provide an ID number or copy of ID when you registered, you must show ID to vote. Acceptable forms include: NJ driver's license, with or without a photo; military or other government ID; student ID; employee ID; store membership card; US passport; or bank statement, car registration, government check or document, rent receipt, sample ballot, utility bill, or any other official document.", "Voters without ID: If you are unable to provide ID, you will be able to vote a provisional ballot."],
       "ballotErrors": ["Mismatched signatures","ballot received too late","certificate missing","voter registration ID missing"],
       "deadlines": ["Online registration: Tuesday, October 13, 2020", "Mail-in registration: POSTMARKED by Tuesday, October 13, 2020", "In-person registration: Tuesday, October 13, 2020", "All registered voters receive mail-in ballot for General Election", "Early voting: Saturday, September 19, 2020 to Monday, November 2, 2020"],
-      "trackingLink": "",
-      "ballotErrors": "",
-      "deadlines": ["Online registration: Tuesday, October 13, 2020", "Mail-in registration: postmarked by Tuesday, October 13, 2020", "In-person registration: Tuesday, October 13, 2020", "All registered voters receive mail-in ballot for General Election", "Early voting: Saturday, September 19, 2020 to Monday, November 2, 2020"],
       "trackingLink": "https://voter.svrs.nj.gov/auth/sign-in",
       "pollingLocation": "https://voter.svrs.nj.gov/polling-place-search"
     },
@@ -367,9 +284,6 @@
       "idForms": ["NO ID REQUIRED IF VOTED BEFORE!", "If you're a first-time voter who registered by mail, and didn't include a copy of ID when you registered, you will need to show ID to vote. Acceptable forms include: photo ID; student ID card; ID issued by an Indian nation, tribe or pueblo; or a copy of a utility bill, bank statement, government check, paycheck, or other government document that shows your name and current address.", "Voters without ID: If you are unable to provide ID, you will be able to vote a provisional ballot."],
       "ballotErrors": ["No particular errors. Happy voting!"],
       "deadlines": ["Online registration: Tuesday, October 6, 2020", "Mail-in registration: POSTMARKED by Tuesday, October 6, 2020", "In-person registration: Tuesday, October 13, 2020", "Mail-in ballot request: RECEIVED by Tuesday, October 20, 2020 at 5:00pm", "Early voting: Saturday, October 17, 2020 to Saturday, October 31, 2020"],
-      "trackingLink": "",
-      "ballotErrors": "",
-      "deadlines": ["Online registration: Tuesday, October 6, 2020", "Mail-in registration: postmarked by Tuesday, October 6, 2020", "In-person registration: Tuesday, October 13, 2020", "Absentee ballot request: received by Tuesday, October 20, 2020 at 5:00pm", "Early voting: Saturday, October 17, 2020 to Saturday, October 31, 2020"],
       "trackingLink": "https://www.sos.state.nm.us/voting-and-elections/voter-information-portal/",
       "pollingLocation": "https://voterportal.servis.sos.state.nm.us/WhereToVoteAddress.aspx"
     },
@@ -379,9 +293,6 @@
       "idForms": ["NO ID REQUIRED IF VOTED BEFORE!", "If you're a first-time voter who registered by mail, and didn't provide a copy of your ID with your registration, you may need to show ID to vote. Acceptable forms include: a current and valid photo ID; or a copy of a current utility bill, bank statement, government check, paycheck, or other government document that shows your name and address." ,"Voters without ID: If you are unable to provide ID, you will be able to vote an affidavit ballot."],
       "ballotErrors": ["ballot received too late","postmark missing","missing signature"],
       "deadlines": ["Online registration: Friday, October 9, 2020", "Mail-in registration: POSTMARKED by Friday, October 9, 2020", "In-person registration: Friday, October 9, 2020", "Mail-in ballot request: RECEIVED by Tuesday, October 27, 2020", "Early voting: Saturday, October 24, 2020 to Sunday, November 1, 2020"],
-      "trackingLink": "",
-      "ballotErrors": "",
-      "deadlines": ["Online registration: Friday, October 9, 2020", "Mail-in registration: postmarked by Friday, October 9, 2020", "In-person registration: Friday, October 9, 2020", "Absentee ballot request: received by Tuesday, October 27, 2020", "Early voting: Saturday, October 24, 2020 to Sunday, November 1, 2020"],
       "trackingLink": "https://nysballot.elections.ny.gov/TrackMyBallot/Search",
       "pollingLocation": "https://voterlookup.elections.ny.gov/"
     },
@@ -391,9 +302,6 @@
       "idForms": ["NO ID REQUIRED IF VOTED BEFORE!", "If you're a first-time voter who registered by mail, and didn't provide your driver's license number or the last 4 digits of your Social Security number on your registration form, you will need to show ID to vote. Acceptable forms include: a driver's license or state ID; US Passport; employee ID; student ID; military ID; or a copy of a utility bill, bank statement or paycheck.", "Voters without ID: If you are unable to provide ID, you will still be able to vote a provisional ballot and can bring one of these documents to the board of elections prior to canvass."],
       "ballotErrors": ["must have ONE witness signature on ballot envelopes"],
       "deadlines": ["Online registration: Friday, October 9, 2020", "Mail-in registration: POSTMARKED by Friday, October 9, 2020", "In-person registration: Friday, October 9, 2020", "Mail-in ballot request: RECEIVED by Tuesday, October 27, 2020", "Early voting: Thursday, October 15, 2020 to Saturday, October 31, 2020", "One-stop registration/voting available during early voting period"],
-      "trackingLink": "",
-      "ballotErrors": "",
-      "deadlines": ["Online registration: Friday, October 9, 2020", "Mail-in registration: postmarked by Friday, October 9, 2020", "In-person registration: Friday, October 9, 2020", "Absentee ballot request: received by Tuesday, October 27, 2020", "Early voting: Thursday, October 15, 2020 to Saturday, October 31, 2020", "One-stop registration/voting available during early voting period"],
       "trackingLink": "https://vt.ncsbe.gov/RegLkup/",
       "pollingLocation": "https://vt.ncsbe.gov/PPLkup/"
     },
@@ -403,10 +311,7 @@
       "idForms": ["ID NECESSARY! Must include name, current address, and date of birth." , "Acceptable forms include: a current driver's license or non-driver's ID card; tribal-government-issued ID card; or a long-term care certificate (provided by ND facility). If your identification does not include a North Dakota residential address or date of birth, or the North Dakota residential address is not current, you may supplement the identification with a current utility bill; a current bank statement; a check or a document issued by a federal, state, local, or tribal government (including those issued by the BIA for a tribe located in North Dakota, any other tribal agency or entity, or any other document that sets forth the tribal member's name, date of birth, and current North Dakota residential address); or a paycheck.", "Voters without ID: If you're not able to show a valid form of identification you may mark a ballot that will be securely set aside. When you provide valid identification to the proper election official prior to the meeting of the canvassing board, the set aside ballot will be presented to the canvassing board for proper inclusion in the tally."],
       "ballotErrors": ["mismatched signatures", "ballot received too late"],
       "deadlines": ["Mail-in ballot request: RECEIVED by Monday, November 2, 2020", "early voting: Monday, October 19, 2020 to Monday, November 2, 2020"],
-      "trackingLink": "",
-      "ballotErrors": "",
-      "deadlines": ["Mail-in ballot request: received by Monday, November 2, 2020", "early voting: Monday, October 19, 2020 to Monday, November 2, 2020"],
-      "trackingLink": "https://vip.sos.nd.gov/AbsenteeTracker.aspx",
+     "trackingLink": "https://vip.sos.nd.gov/AbsenteeTracker.aspx",
       "pollingLocation": "https://vip.sos.nd.gov/wheretovote.aspx"
     },
     {
@@ -415,9 +320,6 @@
       "idForms": ["ID NECESSARY!", "Acceptable forms include: an unexpired Ohio driver's license or state ID card; a military ID; a photo ID issued by the US government or the State of Ohio, that contains your name and current address and that has an expiration date that has not passed; or a current (within the last 12 months) utility bill, bank statement, government check, paycheck, or other government document (other than a notice of voter registration mailed by a board of elections) that shows your name and current address.", "Voters without ID: If you do not have any of the above forms of identification you may provide either your Ohio driver's license or state identification number (which begins with two letters followed by six numbers) or the last four digits of your Social Security number and cast a provisional ballot. Once the information is reviewed and verified by the board of elections, your ballot will be counted." , "If you do not provide one of the above documents or your driver's license/state identification number or the last four digits of your Social Security number at the precinct, you will still be able to vote using a provisional ballot. However, in order for that ballot to be counted, you must return to the board of elections no later than SEVEN days following Election Day to provide a qualifying form of identification."],
       "ballotErrors": ["Not requesting mail-in ballot in time"],
       "deadlines": ["Online registration: Monday, October 5, 2020", "Mail-in registration: POSTMARKED by Monday, October 5, 2020", "In-person registration: Monday, October 5, 2020", "Mail-in ballot request: RECEIVED by Saturday, October 31, 2020", "Early voting: Tuesday, October 6, 2020 to Monday, November 2, 2020"],
-      "trackingLink": "",
-      "ballotErrors": "",
-      "deadlines": ["Online registration: Monday, October 5, 2020", "Mail-in registration: postmarked by Monday, October 5, 2020", "In-person registration: Monday, October 5, 2020", "Absentee ballot request: received by Saturday, October 31, 2020", "Early voting: Tuesday, October 6, 2020 to Monday, November 2, 2020"],
       "trackingLink": "https://www.sos.state.oh.us/elections/voters/toolkit/ballot-tracking/",
       "pollingLocation": "https://voterlookup.ohiosos.gov/VoterLookup.aspx"
     },
@@ -427,9 +329,6 @@
       "idForms": ["ID NECESSARY!", "Acceptable forms include: Oklahoma driver's license; Oklahoma ID Card; US passport; tribal ID; or US military ID; Voter Identification card issued to by your County Election Board; any document issued by the United States, the State of Oklahoma, or a federally recognized tribal government if it includes name (must substantially match name in the precinct registry), a photo, and an expiration date that is later than the election in which you are voting." ,"Voters without ID: If you are unable to provide ID, you will be able to vote a provisional ballot and prove your identity by signing a sworn affidavit."],
       "ballotErrors": ["Ballot must be notarized", "ballot received too late", "not verified by witnesses"],
       "deadlines": ["Mail-in registration: POSTMARKED by Friday, October 9, 2020", "In-person registration: Friday, October 9, 2020", "Mail-in ballot request: RECEIVED by Tuesday, October 27, 2020 at 5:00pm", "Early voting: Thursday, October 29, 2020 to Saturday, October 31, 2020"],
-      "trackingLink": "",
-      "ballotErrors": "",
-      "deadlines": ["Mail-in registration: postmarked by Friday, October 9, 2020", "In-person registration: Friday, October 9, 2020", "Absentee ballot request: received by Tuesday, October 27, 2020 at 5:00pm", "Early voting: Thursday, October 29, 2020 to Saturday, October 31, 2020"],
       "trackingLink": "https://okvoterportal.okelections.us/",
       "pollingLocation": "https://okvoterportal.okelections.us/"
     },
@@ -439,9 +338,6 @@
       "idForms": ["IN-PERSON VOTING NOT AVAILABLE. To register to vote online you will need an Oregon driver's license, permit or ID card number issued by the Oregon Driver and Motor Vehicle Services Division (DMV).", "If you do not have an Oregon driver's license, permit or ID card, you can still use the online voter registration application. The information you enter will display on a voter registration card (PDF document) that you will need to print, sign and deliver to your county elections office to complete your registration."],
       "ballotErrors": ["mismatched signatures", "postmarked after deadline"],
       "deadlines": ["Online registration: Tuesday, October 13, 2020", "Mail-in registration: POSTMARKED by Tuesday, October 13, 2020", "In-person registration: Tuesday, October 13, 2020", "All registered voters receive a ballot a few weeks before the General Election", "Early voting: by mail only; Ballot drop box sites are open 18-20 days before Election Day, depending on your area. Wednesday, October 28, 2020 is the last day ballots can be mailed. After this date, ballots must be put into a drop box."],
-      "trackingLink": "",
-      "ballotErrors": "",
-      "deadlines": ["Online registration: Tuesday, October 13, 2020", "Mail-in registration: postmarked by Tuesday, October 13, 2020", "In-person registration: Tuesday, October 13, 2020", "All registered voters receive a ballot a few weeks before the General Election", "Early voting: by mail only; Ballot drop box sites are open 18-20 days before Election Day, depending on your area. Wednesday, October 28, 2020 is the last day ballots can be mailed. After this date, ballots must be put into a drop box."],
       "trackingLink": "https://okvoterportal.okelections.us/",
       "pollingLocation": "https://sos.oregon.gov/voting/Pages/drop-box-locator.aspx"
     },
@@ -451,9 +347,6 @@
       "idForms": ["No ID required if voting at SAME POLLING PLACE", "If you're a first-time voter, or if you moved within Pennsylvania and are voting for the first time at a new polling place, you must show ID to vote. Acceptable forms include: Pennsylvania driver's license or PennDOT ID card; ID issued by Pennsylvania or the US government; US passport; US military ID; student ID; employee ID; a confirmation issued by the County Voter Registration Office; non-photo ID issued by Pennsylvania or the US government; firearm permit; or a copy of a current utility bill, bank statement, paycheck, or a government check that includes your name and address.", "Voters without ID: If you are unable to provide ID, you will be able to vote a provisional ballot."],
       "ballotErrors": ["mismatched signatures","postmarked too late"],
       "deadlines": ["Online registration: Monday, October 19, 2020", "Mail-in registration: POSTMARKED by Monday, October 19, 2020", "In-person registration: Monday, October 19, 2020", "Mail-in ballot request: RECEIVED by Tuesday, October 27, 2020", "Early voting period: Monday, September 14, 2020 to Tuesday, October 27, 2020"],
-      "trackingLink": "",
-      "ballotErrors": "",
-      "deadlines": ["Online registration: Monday, October 19, 2020", "Mail-in registration: postmarked by Monday, October 19, 2020", "In-person registration: Monday, October 19, 2020", "Mail-in ballot request: received by Tuesday, October 27, 2020", "Early voting period: Monday, September 14, 2020 to Tuesday, October 27, 2020"],
       "trackingLink": "https://www.pavoterservices.pa.gov/pages/ballottracking.aspx",
       "pollingLocation": "https://www.pavoterservices.pa.gov/Pages/PollingPlaceInfo.aspx"
     },
@@ -463,9 +356,6 @@
       "idForms": ["ID NECESSARY!", "Acceptable forms ID include: Rhode Island driver's license; Rhode Island voter ID card; US passport; ID issued by a school or college in the US; US military ID; ID issued by the US government or State of Rhode Island; tribal ID; or a government-issued medical card." , "Voters without ID: If you are unable to provide ID, you will be able to vote a provisional ballot. The voter has until the close of business the day after the election to provide information to the Board of Canvassers to help qualify their ballot."],
       "ballotErrors": ["No particular errors. Happy voting!"],
       "deadlines": ["Online registration: Sunday, October 4, 2020", "Mail-in registration: POSTMARKED by Sunday, October 4, 2020", "In-person registration: Sunday, October 4, 2020", "Mail-in ballot request: RECEIVED by Tuesday, October 13, 2020", "Early voting period: Wednesday, October 14, 2020 to Monday, November 2, 2020"],
-      "trackingLink": "",
-      "ballotErrors": "",
-      "deadlines": ["Online registration: Sunday, October 4, 2020", "Mail-in registration: postmarked by Sunday, October 4, 2020", "In-person registration: Sunday, October 4, 2020", "Absentee ballot request: received by Tuesday, October 13, 2020", "Early voting period: Wednesday, October 14, 2020 to Monday, November 2, 2020"],
       "trackingLink": "https://vote.sos.ri.gov/Home/UpdateVoterRecord?ActiveFlag=3",
       "pollingLocation": "https://vote.sos.ri.gov/Home/PollingPlaces?ActiveFlag=2"
     },
@@ -475,9 +365,6 @@
       "idForms": [ "ID NECESSARY!", "Acceptable forms include: South Carolina driver's license or South Carolina Department of Motor Vehicles ID Card (includes standard license and REAL ID); South Carolina Concealed Weapons Permit; South Carolina voter registration card with photo; US military ID (Includes all Department of Defense Photo IDs and Veterans Affairs Benefits Card); or US passport (Includes US Passport ID Card)." ,"Voters without ID: If you have a reasonable impediment to obtaining photo ID, you may vote a provisional ballot after showing your non-photo voter registration card. If you do not have photo ID and do not have a reasonable impediment to obtaining one, or you simply forgot to bring it with you to the polls, you may still vote a provisional ballot. However, for your vote to be counted, you must provide one of the photo IDs to the election commission prior to certification of the election (usually Thursday or Friday after the election)."],
       "ballotErrors": ["Must have ONE witness signature on ballot envelopes","mismatched signatures","ballot received too late"],
       "deadlines": ["Online registration: Sunday, October 4, 2020", "Mail-in registration: POSTMARKED by Monday, October 5, 2020", "In-person registration: Friday, October 2, 2020", "Mail-in ballot request: RECEIVED by Friday, October 30, 2020"],
-      "trackingLink": "",
-      "ballotErrors": "",
-      "deadlines": ["Online registration: Sunday, October 4, 2020", "Mail-in registration: postmarked by Monday, October 5, 2020", "In-person registration: Friday, October 2, 2020", "Absentee ballot request: received by Friday, October 30, 2020"],
       "trackingLink": "https://info.scvotes.sc.gov/Eng/candidate/selectelection.aspx",
       "pollingLocation": "https://info.scvotes.sc.gov/eng/voterinquiry/VoterInformationRequest.aspx?PageMode=VoterInfo"
     },
@@ -487,9 +374,6 @@
       "idForms": ["ID NECESSARY!", "Acceptable forms include: South Dakota driver's license or non-driver's ID card; US government photo ID (including a passport); US armed forces ID; current student photo ID from a South Dakota high school or South Dakota accredited institution of higher education; or a tribal photo ID.", "Voters without ID: If you are unable to provide ID, you can sign a personal identification affidavit and still be allowed to vote a regular ballot."],
       "ballotErrors": ["No particular errors. Happy voting!"],
       "deadlines": ["Mail-in registration: RECEIVED by Monday, October 19, 2020", "In-person registration: Monday, October 19, 2020", "Mail-in ballot request: RECEIVED by Monday, November 2, 2020","Early voting period: Monday, October 5, 2020 to Monday, November 2, 2020"],
-      "trackingLink": "",
-      "ballotErrors": "",
-      "deadlines": ["Mail-in registration: received by Monday, October 19, 2020", "In-person registration: Monday, October 19, 2020", "Mail-in ballot request: received by Monday, November 2, 2020","Early voting period: Monday, October 5, 2020 to Monday, November 2, 2020"],
       "trackingLink": "https://vip.sdsos.gov/VIPLogin.aspx",
       "pollingLocation": "https://vip.sdsos.gov/viplogin.aspx"
     },
@@ -499,9 +383,6 @@
       "idForms": ["ID NECESSARY!", "Acceptable forms include (can be expired): Tennessee driver's license; US passport; photo ID issued by the Tennessee Department of Safety and Homeland Security; photo ID issued by the federal or Tennessee state government; US military photo ID; or Tennessee handgun carry permit with your photo. College student IDs are NOT ACCEPTABLE." , "If you're a first-time voter who registered by mail, you will also need to show proof of residence to vote. Acceptable forms include: a current photo ID (unexpired); or a copy of a current utility bill, bank statement, government check, paycheck or other government document that shows your name and address." ,"Voters without ID: If you are unable to provide ID, you will be able to vote a provisional ballot. You will then have two (2) business days after Election Day to return to the election commission office to show a valid photo ID. Upon returning to the election commission office, the voter will sign an affidavit and a copy of the voter's photo ID will be made to be reviewed by the counting board."],
       "ballotErrors": ["No particular errors. Happy voting!"],
       "deadlines": ["Online registration: Monday, October 5, 2020", "Mail-in registration: POSTMARKED by Monday, October 5, 2020", "In-person registration: Monday, October 5, 2020", "Mail-in ballot request: RECEIVED by Tuesday, October 27, 2020", "Early voting period: Wednesday, October 14, 2020 to Thursday, October 29, 2020"],
-      "trackingLink": "",
-      "ballotErrors": "",
-      "deadlines": ["Online registration: Monday, October 5, 2020", "Mail-in registration: postmarked by Monday, October 5, 2020", "In-person registration: Monday, October 5, 2020", "Absentee ballot request: received by Tuesday, October 27, 2020", "Early voting period: Wednesday, October 14, 2020 to Thursday, October 29, 2020"],
       "trackingLink": "https://www.vote.org/absentee-ballot/tennessee/",
       "pollingLocation": "https://web.go-vote-tn.elections.tn.gov/"
     },
@@ -511,9 +392,6 @@
       "idForms": ["ID NECESSARY!", "Acceptable forms include: Texas driver's license; Texas election ID certificate; Texas personal ID card; Texas handgun license; US military ID with photo; US citizenship certificate with photograph (doesn't need to be current); or a US passport. Forms must be current or expired less than four years. For voters aged 70 or older, the acceptable form of photo identification may be expired for any length of time if the identification is otherwise valid.", "Voters without ID: If you don't have ID and cannot obtain one due to a reasonable impediment, you'll need to sign a sworn statement that there is a reason why you don't have any of the accepted IDs, and present one of the following: certified birth certificate; valid voter registration certificate; or a current utility bill, government check, bank statement or paycheck, or government document with your name and an address. If you meet these requirements and are eligible to vote, you may vote in the election.", "If you don't have ID and do not have a reasonable impediment to obtaining one or did not bring ID to the polling place, you may cast a provisional ballot. In order to have the provisional ballot counted, you will be required to visit the voter registrar's office within SIX calendar days of the date of the election to either present one of the forms of photo ID or submit a temporary affidavit, or, if applicable, qualify for the disability exemption, in the presence of the county voter registrar while attesting to the fact that you do not have any of the required photo IDs."],
       "ballotErrors": ["mismatched signatures","incorrect form of voter ID"],
       "deadlines": ["Mail-in registration: POSTMARKED by Monday, October 5, 2020", "In-person registration: Monday, October 5, 2020", "Mail-in ballot request: RECEIVED by Friday, October 23, 2020", "Early voting period: Tuesday, October 13, 2020 to Friday, October 30, 2020"],
-      "trackingLink": "",
-      "ballotErrors": "",
-      "deadlines": ["Mail-in registration: postmarked by Monday, October 5, 2020", "In-person registration: Monday, October 5, 2020", "Absentee ballot request: received by Friday, October 23, 2020", "Early voting period: Tuesday, October 13, 2020 to Friday, October 30, 2020"],
       "trackingLink": "https://www.tarrantcounty.com/en/elections/Early-Voting-Information/Military-and-Overseas-Voting/Tracking-your-Voted-Ballot.html",
       "pollingLocation": "https://teamrv-mvp.sos.texas.gov/MVP/mvp.do"
     },
@@ -523,9 +401,6 @@
       "idForms": ["ID NECESSARY! You can show either ONE photo ID or TWO non-photo IDs.", "Acceptable forms of photo ID include: Utah driver's license; ID card issued by the state or a branch, department, or agency of the United States; Utah permit to carry a concealed weapon; US passport; or a tribal ID card (doesn't need photo).", "Non-photo IDs should should show your name and address. Acceptable forms include: current utility bill dated within 90 days before the election; bank or other financial account statement; certified birth certificate; Social Security card; a check issued by the state or federal government; Utah hunting or fishing license; US military ID card; certified naturalization documents, but not a green card; a certified copy of court records showing your adoption or name change; Bureau of Indian Affairs card; a tribal treaty card; Medicaid or Medicare or Electronic Benefits Transfer card; ID card issued by a local government within Utah; ID card issued by your employer; ID card issued by a college, university, technical school or professional school within Utah; or a current Utah vehicle registration.", "If you are registering to vote at the polls on election day, you must provide a current and valid photo ID as well as proof of residency.", "Voters without ID: If you are unable to provide ID, you will be able to vote a provisional ballot and must bring an ID to the elections office by the close of normal office hours on Monday after the date of the election."],
       "ballotErrors": ["postmarked after deadline","missing signatures","cast by dead people (?)"],
       "deadlines": ["Online registration: Friday, October 23, 2020 by 5:00pm", "Mail-in registration: RECEIVED by Friday, October 23, 2020", "All ACTIVE registered voters RECEIVED ballot for General Election", "In-person registration: Monday, October 5, 2020", "Early voting period: Tuesday, October 20, 2020 to Friday, October 30, 2020", "In-person registration available  on Election Day"],
-      "trackingLink": "",
-      "ballotErrors": "",
-      "deadlines": ["Online registration: Friday, October 23, 2020 by 5:00pm", "Mail-in registration: received by Friday, October 23, 2020", "All ACTIVE registered voters received ballot for General Election", "In-person registration: Monday, October 5, 2020", "Early voting period: Tuesday, October 20, 2020 to Friday, October 30, 2020", "In-person registration available  on Election Day"],
       "trackingLink": "https://votesearch.utah.gov/voter-search/search/search-by-voter/track-mail-ballot",
       "pollingLocation": "https://votesearch.utah.gov/voter-search/search/search-by-address/how-and-where-can-i-vote"
     },
@@ -535,9 +410,6 @@
       "idForms": ["If you've voted in Vermont before, or if you registered for the first time in person at your clerk's office, you do not need to show ID to vote.", "If you're a first-time voter in the municipality who registered by mail or online, and didn't provide ID when you registered, you will need to show ID to vote. Acceptable forms include: a valid photo ID; or a copy of a current utility bill, bank statement, government check, paycheck, or any other government document that shows your current name and address.", "Voters without ID: If you are unable to provide ID, you may register in person at the polls and will simply need to provide your VT driver's license number or the last four digits of your social security number."],
       "ballotErrors": ["Filling out more than one party ballot","failed to return unvoted ballots"],
       "deadlines": ["Mail-in registration: RECEIVED by Monday, November 2, 2020", "All ACTIVE registered voters receive ballot for General Election", "Early voting: Monday, September 21, 2020 to Monday, November 2, 2020", "You can also register and vote on Election Day", "No deadline to register online"],
-      "trackingLink": "",
-      "ballotErrors": "",
-      "deadlines": ["Mail-in registration: received by Monday, November 2, 2020", "All ACTIVE registered voters receive ballot for General Election", "Early voting: Monday, September 21, 2020 to Monday, November 2, 2020", "You can also register and vote on Election Day", "No deadline to register online"],
       "trackingLink": "https://www.vote.org/absentee-ballot/vermont/",
       "pollingLocation": "https://mvp.sec.state.vt.us/"
     },
@@ -547,9 +419,6 @@
       "idForms": ["ID NECESSARY!", "Acceptable forms of valid ID include: voter registration confirmation documents; a valid Virginia driver's license (expired or unexpired), a valid United States passport, or any other identification issued by the the state of Virginia, one of its political subdivisions, or the United States; any valid student identification card issued by any institution of higher education located in any state or territory of the United States; any valid employee identification card containing a photograph of the voter and issued by an employer of the voter in the ordinary course of the employer's business; tribal enrollment or other tribal photo ID; Virginia Voter Photo ID card; or a copy of a current utility bill, bank statement, government check, paycheck, or other government document that shows the name and address of the voter.", "Voters without ID: If you are unable to provide ID, you are required to sign a statement that you are the registered voter you claim to be in order to cast a ballot. A voter who does not show one of the required forms of identification and does not complete or sign the statement shall be offered a provisional ballot. After completing the provisional ballot, you will be given written instructions from the election officials on how to submit a copy of your ID so that your vote can be counted. You will have until NOON ON THE FRIDAY FOLLOWING THE ELECTION to deliver a copy of the ID to the local electoral board."],
       "ballotErrors": ["Must have ONE witness signature on ballot envelopes","ballot received too late"],
       "deadlines": ["Online registration: Tuesday, October 13, 2020", "Mail-in registration: POSTMARKED by Tuesday, October 13, 2020", "In-person registration: Tuesday, October 13, 2020", "Mail-in ballot request: RECEIVED by Friday, October 23, 2020", "Early voting: Friday, September 18, 2020 to Saturday, October 31, 2020"],
-      "trackingLink": "",
-      "ballotErrors": "",
-      "deadlines": ["Online registration: Tuesday, October 13, 2020", "Mail-in registration: postmarked by Tuesday, October 13, 2020", "In-person registration: Tuesday, October 13, 2020", "Absentee ballot request: received by Friday, October 23, 2020", "Early voting: Friday, September 18, 2020 to Saturday, October 31, 2020"],
       "trackingLink": "https://vote.arlingtonva.us/track-your-ballot/",
       "pollingLocation": "https://www.elections.virginia.gov/citizen-portal/index.html"
     },
@@ -559,9 +428,6 @@
       "idForms": ["If you choose to appear in person to vote in Washington, it can be helpful to bring your driver's license or state ID. If you do not have either, you can use the last four digits of your social security number to register or update your registration."],
       "ballotErrors": ["fail to select party", "must sign statement in envelope acknowledging that one party was voted for"],
       "deadlines": ["Online registration: Monday, October 26, 2020", "Mail-in registration: RECEIVED by Monday, October 26, 2020", "In-person registration: Tuesday, November 3, 2020", "Update existing voter registration with new name and address: Monday, October 26, 2020", "All registered voters receive mail-in ballot for General Election", "Early voting period: Monday, October 19, 2020 to Monday, November 2, 2020", "In person registration available on Election Day"],
-      "trackingLink": "",
-      "ballotErrors": "",
-      "deadlines": ["Online registration: Monday, October 26, 2020", "Mail-in registration: received by Monday, October 26, 2020", "In-person registration: Tuesday, November 3, 2020", "Update existing voter registration with new name and address: Monday, October 26, 2020", "All registered voters receive mail-in ballot for General Election", "Early voting period: Monday, October 19, 2020 to Monday, November 2, 2020", "In person registration available on Election Day"],
       "trackingLink": "https://voter.votewa.gov/WhereToVote.aspx#/login",
       "pollingLocation": "https://www.sos.wa.gov/elections/auditors/"
     },
@@ -571,9 +437,6 @@
       "idForms": ["NON-EXPIRED ID NECESSARY!", "Acceptable forms include: voter registration card; WV driver's license or other WV ID issued by the DMV; driver's license issued by another state; US passport or passport card; Military ID card issued by the US government; US or WV government employee ID; Student ID; concealed carry permit; bank or debit card; utility bill or bank statement issued within 6 months of the date of the election; health insurance card; Medicare card; Social Security card; birth certificate; WV hunting or fishing license; WV SNAP ID card; WV TANF program ID card; WV Medicaid ID card, or other current government document that shows your name.", "If you're a first-time voter who registered to vote by mail, you'll need to show proof of residence to vote. Acceptable forms include: photo ID; or a current utility bill, bank statement, government check, paycheck, or other current government document that shows your name and address.", "Voters without ID: If you are unable to provide ID, you will be able to vote a provisional ballot. You may be able to vote a regular ballot if: a poll worker has known you for at least six months prior to the election; an adult accompanying you signs an affidavit certifying your identity; or you are a resident of a licensed state care facility and your polling place is in that facility."],
       "ballotErrors": ["ballot received too late","mismatched signatures"],
       "deadlines": ["Online registration: Tuesday, October 13, 2020", "Mail-in registration: POSTMARKED by Tuesday, October 13, 2020", "In-person registration: Tuesday, October 13, 2020", "Mail-in ballot request: RECEIVED by Wednesday, October 28, 2020", "Early voting: Wednesday, October 21, 2020 to Saturday, October 31, 2020", "EXCEPTION: authorized late voter registration from certain uniformed and overseas voters accepted from Wednesday, October 14, 2020 to Monday, November 2, 2020"],
-      "trackingLink": "",
-      "ballotErrors": "",
-      "deadlines": ["Online registration: Tuesday, October 13, 2020", "Mail-in registration: postmarked by Tuesday, October 13, 2020", "In-person registration: Tuesday, October 13, 2020", "Absentee ballot request: received by Wednesday, October 28, 2020", "Early voting: Wednesday, October 21, 2020 to Saturday, October 31, 2020", "EXCEPTION: authorized late voter registration from certain uniformed and overseas voters accepted from Wednesday, October 14, 2020 to Monday, November 2, 2020"],
       "trackingLink": "https://services.sos.wv.gov/Elections/Voter/AbsenteeBallotTracking",
       "pollingLocation": "https://services.sos.wv.gov/Elections/Voter/FindMyPollingPlace"
     },
@@ -583,9 +446,6 @@
       "idForms": ["ID NECESSARY!", "Acceptable photo ID not required to contain a current address.", "These photo IDs are acceptable and can be UNEXPIRED OR EXPIRED AFTER November 6, 2018: Wisconsin DOT-issued driver license, even if driving privileges are revoked or suspended; a Wisconsin DOT-issued identification card; military ID card issued by a U.S. uniformed service; U.S. passport; an identification card issued by a federally recognized Indian tribe in Wisconsin", "The following photo ID is also acceptable for voting purposes, and CAN BE EXPIRED AFTER November 6, 2018: a photo identification card issued by a Wisconsin accredited university or college that contains date of issuance, expiration date no later than two years after issuance, and signature of student (must be accompanied by a separate document that proves enrollment).", "The following photo IDs are also acceptable for voting purposes, but must be UNEXPIRED: a veteran's photo identification card issued by the Veterans Health Administration of the federal Department of Veterans Affairs; a certificate of naturalization that was issued not earlier than two years before the date of an election at which it is presented; a driving receipt issued by Wisconsin DOT (valid for 45 days); an identification card receipt issued by Wisconsin DOT (valid for 45 days).", "Voters without ID: If you are unable to provide photo ID, you will be able to vote a provisional ballot. Your provisional ballot will not count unless you provide an acceptable photo ID to your municipal clerk in person by 4:00 p.m. the Friday after the election."],
       "ballotErrors": ["Must have ONE witness signature on ballot envelopes","Missing self-signatures", "ballot received too late"],
       "deadlines": ["Online registration: Wednesday, October 14, 2020", "Mail-in registration: POSTMARKED by Wednesday, October 14, 2020", "In-person registration: Friday, October 30, 2020", "Mail-in ballot request: RECEIVED by Thursday, October 29, 2020", "Early voting: Tuesday, October 20, 2020 to Sunday, November 1, 2020", "In-person registration available on Election Day"],
-      "trackingLink": "",
-      "ballotErrors": "",
-      "deadlines": ["Online registration: Wednesday, October 14, 2020", "Mail-in registration: postmarked by Wednesday, October 14, 2020", "In-person registration: Friday, October 30, 2020", "Absentee ballot request: received by Thursday, October 29, 2020", "Early voting: Tuesday, October 20, 2020 to Sunday, November 1, 2020", "In-person registration available on Election Day"],
       "trackingLink": "https://myvote.wi.gov/en-US/MyVoterInfo",
       "pollingLocation": "https://myvote.wi.gov/en-US/FindMyPollingPlace"
     },
@@ -594,10 +454,6 @@
       "registerLink": "by-mail or in-person only",
       "idForms": ["NO ID REQUIRED IF VOTED BEFORE!", "If you're a first-time voter who registered by mail, you will need to show ID to vote. Acceptable forms include: Wyoming driver's license or Wyoming-issued ID card; or a current utility bill, bank statement, government check, paycheck, or government document that shows your name and address." , "Voters without ID: If you are unable to provide ID, you will be able to vote a provisional ballot. Your ballot will be counted if you are able to provide ID to your election office before the close of business ONE day after the election."],
       "ballotErrors": ["No particular errors. Happy voting!"],
-      "deadlines": ["Mail-in registration: RECEIVED by Monday, October 19, 2020", "In-person registration: Monday, November 2, 2020", "Mail-in ballot request: RECEIVED by Monday, November 2, 2020", "Early voting: Friday, September 18, 2020 to Monday, November 2, 2020", "In-person registration available on Election Day"],
-      "trackingLink": "",
-      "ballotErrors": "",
-      "deadlines": ["Mail-in registration: received by Monday, October 19, 2020", "In-person registration: Monday, November 2, 2020", "Absentee ballot request: received by Monday, November 2, 2020", "Early voting: Friday, September 18, 2020 to Monday, November 2, 2020", "In-person registration available on Election Day"],
       "trackingLink": "https://sos.wyo.gov/Elections/Docs/2020/2020_Primary_MOVE.pdf",
       "pollingLocation": "https://soswy.state.wy.us/Elections/PollPlace/Default.aspx"
     }
