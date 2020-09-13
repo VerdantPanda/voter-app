@@ -23,6 +23,8 @@ export default class VoterSuppression extends Component {
     ));
     this.handleChange = this.handleChange.bind(this);
     this.handleChangeState = this.handleChangeState.bind(this);
+    this.getStateCode = this.getStateCode.bind(this);
+
     this.onClick = this.onClick.bind(this);
     this.state = {
       state: "Alabama",
@@ -37,8 +39,6 @@ export default class VoterSuppression extends Component {
 
   onClick(event) {
     console.log("here");
-    var url1 =
-      "https://news.google.com/rss/search?q=Voter%20Suppression%20Georgia&hl=en-PK&gl=PK&ceid=PK:en";
     axios
       .get("http://localhost:3001/api/state/news?state=" + this.state.state)
       .then((resp) => {
@@ -59,6 +59,7 @@ export default class VoterSuppression extends Component {
 
           curr = curr.substring(last + 7);
         }
+        arrLink.shift(); arrLink.shift(); arrTitle.shift(); arrTitle.shift();
         this.setState({ newsLink: arrLink, newsTitle: arrTitle });
         console.log(arrLink);
 
@@ -142,7 +143,7 @@ export default class VoterSuppression extends Component {
         <br></br>
         <h3>Census Demographics </h3>
         <Iframe
-          url="https://data.census.gov/cedsci/profile?g=0400000US42"
+          url="https://data.census.gov/cedsci/profile?g=0400000US01"
           width="100%"
           height="450px"
           id="food"
@@ -159,7 +160,94 @@ export default class VoterSuppression extends Component {
   handleChangeState(event) {
     console.log(event.target.value);
     this.setState({ state: event.target.value });
+    var code = this.getStateCode(event.target.value);
+    var el = document.getElementById('food');
+    el.src = "https://data.census.gov/cedsci/profile?g=0400000US"+code;
   }
+
+  getStateCode(state){
+    console.log("hhh");
+    switch(state){
+      case "Alabama":
+        console.log("hala");
+        return '01';
+      case "Connecticut":
+        console.log("coh");
+        return '09';
+      case "Maine":
+        return '23';
+      case "Massachusetts":
+        return '25'; 
+      case "New Hampshire":
+        return '33';
+      case "Rhode Island":
+        return '44';
+      case "Vermont":
+        return '50';
+      case "New Jersey":
+        return '34';
+      case "New York":
+        return '36';
+      case 'Pennsylvania':
+        return '42';
+      case 'Indiana':
+        return '18';
+      case 'Illinois':
+        return '17';
+      case 'Michigan':
+        return '26';
+      case 'Ohio':
+        return '39';
+      case 'Wisconsin':
+        return '55';
+      case 'Iowa':
+        return '19';
+      case 'Kansas':
+        return '20';
+      case 'Minnesota':
+        return '27';
+      case 'Missouri':
+        return '29';
+      case 'Nebraska':
+        return '31';
+      case 'North Dakota':
+        return '38';
+      case 'South Dakota':
+        return '46';
+      case 'Delaware': return	'10';
+      case 'District of Columbia': return '11';
+      case 'Florida': return	'12';
+      case 'Georgia': return	'13';
+      case 'Maryland': return	'24';
+      case 'North Carolina': return	'37';
+      case 'South Carolina': return	'45';
+      case 'Virginia': return	'51';
+      case 'West Virginia': return	'54';
+      
+      case 'Kentucky': return	'21';
+      case 'Mississippi': return	'28';
+      case 'Tennessee': return	'47'; 
+        case 'Arkansas': return	'05';
+        case 'Louisiana': return	'22';
+        case 'Oklahoma': return	'40';
+        case 'Texas': return	'48';   
+        case 'Arizona': return	'04';
+        case 'Colorado': return	'08';
+        case 'Idaho': return	'16';
+        case 'New Mexico': return	'35';
+        case 'Montana': return	'30';
+        case 'Utah': return	'49';
+        case 'Nevada': return	'32';
+        case 'Wyoming': return	'56'; 
+        case 'Alaska': return	'02';
+        case 'California': return	'06';
+        case 'Hawaii': return	'15';
+        case 'Oregon': return	'41';
+        case 'Washington': return	'53';      
+
+    }
+  }
+
 }
 
 /*
