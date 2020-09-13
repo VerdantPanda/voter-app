@@ -14,7 +14,8 @@ const LocationsToVote  = () => {
   const getState = async () => {
     try {
     const {data} = await axios.get("https://voterapppennapps.herokuapp.com/api/state/getstate/" + state) ;
-    window.location.href = data.locationLink;
+    
+    if (data.locationLink) window.open(data.locationLink, "_blank");
     
       } catch (error) {
         console.log(error);
@@ -26,7 +27,6 @@ const LocationsToVote  = () => {
   }
   return ( 
     <div>
-        <p>You are on the LocationsToVote component!</p>
         <Form>
           <Form.Group controlId="stateSelector">
             <Form.Label>Example select</Form.Label>
@@ -43,7 +43,7 @@ const LocationsToVote  = () => {
         target="_blank"
         color="primary"
       >
-        Register to Vote in {state ?? "your state"}!
+        Find your voting location in {state ?? "your state"}!
       </Button>
 
       </div>

@@ -60,6 +60,25 @@ router.get("/linkregister/:state", (req, res) => {
     });
   });
 
+router.post("/", async (req, res) => {
+  const newState = await Object.assign(new State(), req.body);
+  newState.save((err, docs) => {
+    if (err) {
+      console.log("An error occured saving the new state data");
+      res.status(400).send(err);
+    } else {
+      res.send(docs).status(200);
+    }
+  });
+});
+
+router.put("/:id", async (req, res) => {
+    
+  const state = await State.findByIdAndUpdate(req.params.id, req.body, {new: true});
+  console.log(state);
+  res.send(state).status(200)
+});
+
 router.post("/", (req, res) => {
   const newState = Object.assign(new State(), req.body);
   newState.save((err, docs) => {
@@ -72,25 +91,6 @@ router.post("/", (req, res) => {
   });
 });
 
-router.put("/:id", (req, res) => {
-  const oldState = State.findByIdAndUpdate(req.params.id, req.body);
-});
-
-router.post("/", (req, res) => {
-  const newState = Object.assign(new State(), req.body);
-  newState.save((err, docs) => {
-    if (err) {
-      console.log("An error occured saving the new state data");
-      res.status(400).send(err);
-    } else {
-      res.send(docs).status(200);
-    }
-  });
-});
-
-router.put("/:id", (req, res) => {
-  const oldState = State.findByIdAndUpdate(req.params.id, req.body);
-});
 
 router.use("/news", (req, res) => {
   

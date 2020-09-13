@@ -17,7 +17,8 @@ export default class RegisterToVote extends Component {
     console.log(this.currState)
     try {
     const {data} = await axios.get("https://voterapppennapps.herokuapp.com/api/state/linkregister/" + this.state.currState) ;
-  window.location.href = data;
+  
+  if (data) window.open(data, "_blank");
   this.setState({ link: data, foundLink: true});
     } catch (error) {
       console.log(error);
@@ -33,7 +34,7 @@ export default class RegisterToVote extends Component {
   render() {
     return (
       <div>
-        <p>You are on the RegisterToVote component!</p>
+       
         {/*TODO: Consider replacing whith AutoComplete from Material UI instead(has already been imported via npm install.)  */}
         <Form>
           <Form.Group controlId="stateSelector">
