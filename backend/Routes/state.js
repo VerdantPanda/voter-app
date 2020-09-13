@@ -8,6 +8,10 @@ const cors = require('cors');
 const axios = require('axios');
 router.use(cors({ origin: true }));
 
+
+
+
+
 router.get("/", (req, res) => {
   State.find((err, docs) => {
     if (err) {
