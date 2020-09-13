@@ -125,7 +125,7 @@ export default class VoterSuppression extends Component {
           </Button>
         </Form>
 
-        <ListGroup>
+        <ListGroup style={{ overflow: "scroll", maxHeight: 300 }}>
           {Array.from(Array(this.state.newsLink.length).keys()).map((num) => {
             console.log();
             return (
@@ -139,6 +139,8 @@ export default class VoterSuppression extends Component {
             );
           })}
         </ListGroup>
+        <br></br>
+        <br></br>
       </div>
     );
   }
