@@ -15,7 +15,7 @@ const LocationsToVote  = () => {
     try {
     const {data} = await axios.get("https://voterapppennapps.herokuapp.com/api/state/getstate/" + state) ;
     
-    if (data.locationLink) window.open(data.locationLink, "_blank");
+    if (data.pollingLocation) window.open(data.pollingLocation, "_blank");
     
       } catch (error) {
         console.log(error);
