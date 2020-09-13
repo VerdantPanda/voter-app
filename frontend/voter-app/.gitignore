@@ -12,6 +12,7 @@
 /build
 
 # misc
+frontend/voter-app/src/components/ApiKeyLink.js
 .DS_Store
 .env.local
 .env.development.local
