@@ -70,7 +70,7 @@ function App() {
         </Nav.Link>
         <Container maxWidth="lg">
           <Fade top>
-            <NavbarBootStrap variant="dark">
+            <NavbarBootStrap variant="dark" style={{ overflowX: "scroll" }}>
               {" "}
               <Nav className="mx-auto">
                 {routes.map((route) => (
