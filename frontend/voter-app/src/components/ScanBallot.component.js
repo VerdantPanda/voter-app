@@ -43,12 +43,16 @@ export default class ScanBallot extends Component {
     // // make request POST to backend.
   }
 
-  onSubmit(event) {
+  async onSubmit(event) {
     event.preventDefault();
     console.log("Submit button hit!!");
     const form = document.querySelector("#myform");
     const formData = new FormData(form);
     // form.submit();
+
+    
+
+
     axios
       .post("http://localhost:3001/api/state/detectState", formData, {
         headers: {
@@ -56,9 +60,11 @@ export default class ScanBallot extends Component {
         },
       })
       .then((res) => {
-        console.log("axios form submit");
-        console.log("res.data:");
-        console.log(res.data);
+        const {idForms, ballotErrors, deadlines} = res.data;
+        console.log("deadlines");
+        console.log(deadlines);
+        console.log("idForms");
+        console.log(idForms);
       })
       .catch((err) => {
         console.log(err);
