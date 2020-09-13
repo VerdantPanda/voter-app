@@ -42,11 +42,20 @@ export default class AddressVerification extends Component {
   render() {
     return (
       <div>
+        <h4>Address Verification </h4>
         <p>
           Incorrectly formatted address information on voter registration is one
           of the most common grounds for appication rejection.{" "}
         </p>
-        <p>Enter Your Address</p>
+        <p>
+          Avoid this by verifying that your address is correctly formatted in
+          the form below.
+        </p>
+        <br></br>
+        <br></br>
+        <p>
+          <b>Enter Your Address:</b>
+        </p>
 
         <Form>
           <Form.Group controlId="formGridAddress1">
