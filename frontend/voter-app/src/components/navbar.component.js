@@ -40,11 +40,11 @@ export default class Navbar extends Component {
               </Link>
             </li>
 
-            <li className="navbar-item">
+         /*   <li className="navbar-item">
               <Link to="/News" className="nav-link">
                 News
               </Link>
-            </li>
+            </li> */
 
             <li className="navbar-item">
               <Link to="/AddressVerification" className="nav-link">
