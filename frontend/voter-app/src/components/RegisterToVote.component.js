@@ -38,7 +38,7 @@ export default class RegisterToVote extends Component {
         {/*TODO: Consider replacing whith AutoComplete from Material UI instead(has already been imported via npm install.)  */}
         <Form>
           <Form.Group controlId="stateSelector">
-            <Form.Label>Example select</Form.Label>
+            <Form.Label>Select your state:</Form.Label>
             <Form.Control as="select" size="lg" onChange={this.handleChange}>
               {list}
             </Form.Control>

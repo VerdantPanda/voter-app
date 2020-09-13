@@ -34,7 +34,7 @@ export default class AddressVerification extends Component {
   render() {
     return (
       <div>
-        <p>Enter Your Address</p>
+        <p>Enter Your Address:</p>
         {/*TODO: Consider replacing whith AutoComplete from Material UI instead(has already been imported via npm install.)  */}
         <Form>
         <Form.Group controlId="formGridAddress1">
