@@ -75,7 +75,7 @@ export default class ScanBallot extends Component {
     return (
       <div>
         <p>You are in the ScanBallot component!</p>
-        <p>Try using from your mobile device!</p>
+        <small>Try using from your mobile device!</small>
         {/* <ImageUploader
           withPreview={true}
           withIcon={true}
