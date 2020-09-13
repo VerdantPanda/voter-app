@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Form } from "react-bootstrap/";
 import states_names from "../static_data/states_names";
- import axios from "axios";
+import axios from "axios";
 import Button from "@material-ui/core/Button";
 // import ResponsiveEmbed
 // import Iframe from "react-iframe";
@@ -13,18 +13,19 @@ export default class RegisterToVote extends Component {
     this.state = { currState: null, link: "#", foundLink: false };
   }
 
-  async getState () {
-    console.log(this.currState)
+  async getState() {
+    console.log(this.currState);
     try {
-    const {data} = await axios.get("https://voterapppennapps.herokuapp.com/api/state/linkregister/" + this.state.currState) ;
-  
-  if (data) window.open(data, "_blank");
-  this.setState({ link: data, foundLink: true});
+      const { data } = await axios.get(
+        "https://voterapppennapps.herokuapp.com/api/state/linkregister/" +
+          this.state.currState
+      );
+
+      if (data) window.open(data, "_blank");
+      this.setState({ link: data, foundLink: true });
     } catch (error) {
       console.log(error);
     }
-  
-  
   }
 
   handleChange(event) {
@@ -34,7 +35,12 @@ export default class RegisterToVote extends Component {
   render() {
     return (
       <div>
-       
+        <h2>Register To Vote</h2>
+        <p>
+          At the very core of our democratic process, voting ensures that each
+          individual member of society has thier voice heard. Register to vote
+          below, and poise yourself to shape the fabric of the American story.
+        </p>
         {/*TODO: Consider replacing whith AutoComplete from Material UI instead(has already been imported via npm install.)  */}
         <Form>
           <Form.Group controlId="stateSelector">
@@ -48,7 +54,7 @@ export default class RegisterToVote extends Component {
           variant="contained"
           onClick={() => {
             const stateLink = this.getState();
-            
+
             return null;
           }}
           target="_blank"
