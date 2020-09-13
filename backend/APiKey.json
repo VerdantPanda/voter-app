@@ -1,13 +1,12 @@
 {
-    "type": "service_account",
-    "project_id": "voter-app-project",
-    "private_key_id": "7ce9b3a990d6a9f779415d0028b69cf561db6f82",
-    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC7YL3VM/h59b9M\nv9B8fSTEtG430G5bdfwh4QeXayV7Mx6b+L3dgHod0AVInf+PsFD1oPCdvEDLdyjX\nPfUfe+sPnvF15bILrrzo04Ef3YVB1lmxoTEkpLJZPLxwSmDvOR6Cl5VmgcCdFTqJ\nL6FHXys1eQ1gtSJwLkWwLLyB9RWfsy8Wx8u741C4VfO6PP81+I1LqTPi7xggFt/f\noIFMVbuDjThFndeKyjyM6OgQlsHT122OUjNF0jC5GgAM4EXBCYi3M6tjdEQpNYqA\ndf33sfERZm7HOnn32UpKQ+fincC8qk2Fz4rdt12Du80eVG1kzRtFLVO78IfJ8Q5d\n8ufFfmyLAgMBAAECggEAOT/gED1+PAkVB0aN1RNJQh5clIoGxcQBInrGHoHapE8k\nmYQAwqXn6abujlbTx9uXiMzA53imlWPVYxonhBSQ56do39wrr30Wc853Y7yDY++x\nXN/Ci48UfMZdTrOy9TRO+ZiFyZl4N6ZOSa73SD6wDXjsWPFO0daZbS/l8pDmp/GJ\n5/VsmqmJOQmPYwthUhssV3znBBls0FGxCIy/CYZAiyoGF95BxhQHivYw6pO4A/dN\nZ3jnJkT0/Ia450FDpKflyce985+QO+5pKpUtxB1wfYqWPyEKNcmnohNmQXZ9rYlZ\nyK1wkrOk8xiBSy/83XDqU0prctqTcokLF5XSVk5IjQKBgQDdpFpPw0n5yKj8//LA\nKKsCI5aZ2TmQuLMHOYOgnPEaoQjbax3DoHSZrQEgJSDpWKoJk1qtk1S2FICSg7EW\nJjPEXyiMbSnGBnqEVwov4LrOal8E5I+lmZPwiYsRbfS8ayDmGo/MskJXhzPPn1oF\n+DF1OgPONCpIzRpiWa4shU7EfQKBgQDYbKaqDa37f0Q5TDiCROekPrfXUpwbazgU\nLDK0+EbLOS3c1sM6pKcLA8iPw8SETXD+Jp+n65/2mZUYPBuh9GZQjFB+47U0ULW6\n1tUG/49R6zQwdx9v38cu3NeYGUbE1zqX4UoyoFWo7y8spQDio/ATwvtBj9qsLsbc\nl2/9i6xrpwKBgCWaj9P+jxt45urdxeLCQ5k+TnvVtgWOwJkWMfXbCrD451bKyqb5\nHy8/gfRhOD8+0sKDJJxUZcfqnJG/FBls69WCS4/fqXm2eazgU5Mh7q+8rlhXKuPu\ntYHW5ChV3nLlPhSsJv+UstrEzo6IO67NmB6KdEDU6uOlILfU/U8CYwXFAoGALl4w\n4vQlV2Gv4zrCTJ6oplbNmnNXgMRa8m95ua4LtNSeT9cvYqwOId0AplSCEPpqf/kU\ncayYzAOhntyZ6vvqw80cHeN5WikElnAamfI86Ycj2lJbSOO/z/l+s1aPA/M82Xdq\nJyiU0anVCJKdevE2qXU30ZcZeZRYBMDpPIAlQ7cCgYEAyR3ZY/RfR4naCD5gIF+w\n+ajQTIOdzhwrnOQQye0YWkQyZ7GtTnmTyY6UY4afenNKyNTNyCmXkeiEpuS1Q1zw\nwKYnVbu0R4ocNj0mmaUEg9z8dffPp/6VghH08tmPKj0DkvLX0BI+cWJnMwlbQePy\na6FOZdJILstkvKZxbLOeOZU=\n-----END PRIVATE KEY-----\n",
-    "client_email": "id-020fall-voterapp@voter-app-project.iam.gserviceaccount.com",
-    "client_id": "108962400422351843048",
-    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-    "token_uri": "https://oauth2.googleapis.com/token",
-    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/id-020fall-voterapp%40voter-app-project.iam.gserviceaccount.com"
-  }
-  
+  "type": "service_account",
+  "project_id": "voter-app-project",
+  "private_key_id": "314c24d044d203c42d77bab4b53f92cd5c244e74",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDySjf0n3KnuBBs\nHNZBUG2yhNXfl3/U6V8bLSa8bRDqp4fkLentDSUHKp+9SG59zGuf+1OLS68ayhW7\nFCuNDdMJ51evFz4CYZabvbCtNkWaqwW5liFaZoafJLgCK2+Vr2K4UsHQ4WDRWIbc\ngKtLAwLk6LnszidWKV1egOoDhQn0HWwTgiljsBZw2vlEZ3KdDd614j5OXK2wbUa/\nsZk/X87xt/7766jcXVo+0lTvw2zQgFkNz1/30ZIsWkecukVtXoSMOQ6HQfoDWJp0\nMNWqBOlQr5NGJKEtsRspAhUnqPcITuy6E8bh0MD/CxqPDGjxYEMzs2wtP8pqCOpM\ny8brOkxpAgMBAAECggEAGW7Pqi6akHRydNwfZBfB4WgEM0Y/NZA8WtPwfv2hNaCE\nU+AQmsDdztTF6SPompfnVucWK/Gz3cdcue3cwcpeXr8ZUIMguotCjfKUJc/Omp+y\nfXqpjEhlf+BmLa7K4Gwv8VKZObM5ayrfF9eseLabin/LacocuEn7R7zsfkDBfLhC\n+LElCuv3JTjNRP7BGEYT+KNuT0G1yZAkWdlywfYiByOforZBtWxk82VflCUEELqL\nPNB5NkLpeigwCTlVj4PysiypyeKXHeLcw2FQQs2mtGfred56rO8nZPM2Tti2eEx1\nuaIOiOxHBs4sRqqD4iK1qM3JiqkPFg6syH056iR2qQKBgQD6L6vRWOpXYNN2xSdV\nBPO1Tjq+eJvC0ni05lpsyfPSbYgBmWGGTAP8eUhMSYfHwIFPdltMfU3/0Wvgcje9\nvH0XOFU2Psa4OczjV+aNe9vr6hI8MZBc3jjj44U1nj2afQPpwfdZ1bdFX6yDMa3v\nIu1eHtffkDEEI2fMbIlLZFnGUwKBgQD365LAFj8CIC6D8Yr1tpkSzWqoftkqjY2k\nW0VJ9AlfYYSboGQ2OWQeitR5EzhJrVWlQ8KLc1CZiOOnV88cHTA8cz9EFLd0enTq\ntBD8yFlPfYoRea0HxkJxhKcZqUKtD10+usrS/71LxqvaycDSTKDMY+TD5S3FF9lm\npV0cqE4S0wKBgQCdJIw7NiobMAois7r8v9uDqdtj/8V2HVUL6xQo+MBZD8s5lemX\nvO9UCanLoPPUF6ohCypVZO81G4kytQsl9dpsV0nOhKe01zlGItQBUibUi3VgsZEH\ng90f5qyo/PecraFjlh2TI5W10V4+GVoytjF5yM228o6XFtX/pLynyiRJWQKBgQC5\nrCn5xi9mLifoFSwXHavCkylAC9AkuGLOJrTbz/J9BpHD4/lpSs4auaqrCqPrOe+c\nmATJX5GLiyPEHlU0HwATJdTJ7iH/D/8kD7txNbL9f2257MCTw/3a+pgS9drDtXAG\nHOrt3y4r5Bys/NB2L4F10ZJwy+DdbSEaaNo1Li9alQKBgQCnRymu+wj9ULqJ9zyY\nhqE9kl9PYppHEeqQ6zb6dEULB6N85d6V6PbZ/juX9aA7HTzRBNjGhVjTsh0mriCx\njqJ32vx7t/9Wm9VXZ9JBv3U7EJyksw2GwhsUht1slJpoqoc85MEsGQcCQEUL4kIX\nktN6Lv+OW9LgP/mJqau/Cb1lNw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "id-020fall-voterapp@voter-app-project.iam.gserviceaccount.com",
+  "client_id": "108962400422351843048",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/id-020fall-voterapp%40voter-app-project.iam.gserviceaccount.com"
+}
