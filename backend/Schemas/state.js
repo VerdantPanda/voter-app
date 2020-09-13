@@ -3,7 +3,7 @@ const mongoose = require ("mongoose");
 const stateSchema = new mongoose.Schema({
     name : String,
     abv : String,
-    registerlink: String,
+    registerLink: String,
     demographics : {
         ethnicity: [String],
         gender : [String],

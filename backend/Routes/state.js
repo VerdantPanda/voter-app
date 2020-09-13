@@ -41,7 +41,7 @@ router.get("/registerlink/:state", (req, res) => {
       res.status(404).send(err);
     } else {
       if (docs) {
-        res.status(200).send(docs.registerlink);
+        res.status(200).send(docs.registerLink);
       } else {
         res.status(400).end();
       }
