@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { CountdownCircleTimer } from "react-countdown-circle-timer";
 import Iframe from "react-iframe";
-import { ListGroup, Col, Row, Form, Alert } from "react-bootstrap/";
+import { ListGroup, Col, Row, Form, Image} from "react-bootstrap/";
 import axios from "axios";
 import Button from "@material-ui/core/Button";
 import states_names from "../static_data/states_names";

@@ -29,6 +29,7 @@ import Container from "@material-ui/core/Container";
 import Gradient from "./components/Gradient";
 import { Fade, Slide, Zoom } from "react-reveal";
 
+
 const routes = [
   //{ path: "/", name: "", Component: "" },
   { path: "/Home", name: "", Component: Home },
